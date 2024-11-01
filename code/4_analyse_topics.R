@@ -21,14 +21,12 @@ lapply(mypackages, require, character.only = TRUE)
 
 ## load model with dow-jones newswires data set
 
-#load("../data/models/dynamic_50_s_1_1.rds")
-#load("../data/models/dynamic111.rds")
-load("../data/models/dynamic_s_7.rds") # or 4
-#load("../data/models/dynamic_30_gov_pan.rds") # Current!
+
+load("../data/models/dynamic.rds")
+
 djn_model <- dynamic
 rm(dynamic)
 
-load("../data/models/dynamic_final_10.rds") 
 
 load("../data/models/dynamic_w.rds") 
 wsj_model <- dynamic
@@ -42,7 +40,6 @@ djn_model$keywords_raw
 load("../data/datatable/dj_news.rds")
 
 load("../data/datatable/dj_news_inf_w.rds")
-#wsj_data <- read.csv(file = "../data/datatable/dj_news_inf_w.csv")
 
 
 ## print words with highest probability of selection for both models
@@ -329,7 +326,7 @@ wsj_data <- wsj_data %>%
 
 
 # basic stream graph
-#library(ggstream)
+
 library(grDevices)
 
 # Define the number of colors in your custom palette
