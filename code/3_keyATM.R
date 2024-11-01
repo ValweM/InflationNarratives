@@ -45,19 +45,6 @@ debt <- c("debt", "public", "national", "federal", "deficit", "borrowing", "gove
 taxes <- c("tax", "raise", "reform", "legislation", "overhaul", "reduction")
 
 
-#energy <- c("crude_oil", "gas_price", "natural_gas", "fuel_gas", "energy_price")
-#war <- c("russian_invasion", "russia_invasion", "ukraine_war", "war_ukraine")
-#pandemic <- c("new_coronavirus", "covid-19_virus", "coronavirus_infection", "coronavirus_pandemic", "coronavirus_case")
-#labor_shortage <- c("unemployment_rate", "labor_market", "labor_shortage", "labour_market", "tight_labor", "job_market")
-#supply_chain <- c("chip_shortage", "supply_constraint", "chain_bottleneck", "supply_chain", "chain_disruption", "chip_maker")
-#monetary_policy <- c("monetary_policy", "quantitative_easing", "loose_monetary", "policy_easing", "policy_meeting", "rate_cut")
-#government_spending <-c("government_spending", "fiscal_stimulus", "fiscal_policy", "inflation_reduction", "reduction_act", "expansionary_fiscal")
-#pent_up_demand <- c("strong_consumer", "economic_recovery", "demand_recovery", "consumer_spending", "economic_growth")
-#demand_shift <- c("demand_shift", "consumption_trend", "spending_shift", "consumption_trend", "consumer_shift", "shift sharply")
-#profits <- c("profit_margin", "gross_profit", "wide_profit", "profit_growth", "revenue_growth")
-#politics <- c("political_party", "republican_party", "president_trump", "president_biden", "policy_failure")
-#debt <- c("public_debt", "government_debt", "sovereign_debt", "fiscal_deficit", "debt_crisis")
-#taxes <- c("tax_raise", "tax_reform", "tax_legislation", "tax_increase", "tax_rate")
 
 ## define list of keywords
 
@@ -201,7 +188,7 @@ dynamic <- keyATM(docs          = keyATM_docs,
                                            num_states = 4),              ## 4 Periods in observational period
                   options           = list(seed = 265720, verbose = TRUE,iterations = 5000))
 
-save(dynamic, file = "../data/models/dynamic_s_7.rds")
+save(dynamic, file = "../data/models/dynamic.rds")
 
 dynamic <- keyATM(docs          = keyATM_docs_w,                         
                   no_keyword_topics = 50,                                   
@@ -213,6 +200,6 @@ dynamic <- keyATM(docs          = keyATM_docs_w,
                   options           = list(seed = 265720, verbose = TRUE,iterations = 1000))
 
 
-save(dynamic, file = "../data/models/dynamic_w2.rds")
+save(dynamic, file = "../data/models/dynamic_w.rds")
 
 
