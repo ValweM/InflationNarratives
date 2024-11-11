@@ -1,0 +1,362 @@
+% !TeX spellcheck = en_US
+% Appendices
+\clearpage
+\appendix
+\pagenumbering{Roman}  % Change page numbering to Roman numerals
+\setcounter{page}{1}   % Start numbering from I
+\newpage
+\counterwithin{figure}{section} % Setzt den Figure-Zähler auf Abschnitt-Ebene zurück
+\counterwithin{table}{section} % Setzt den Figure-Zähler auf Abschnitt-Ebene zurück
+\section{Appendix - Going Viral: Inflation Narratives and the Macroeconomy}\label{sec:Appendix}
+
+\subsection{Supplementary Figures and Tables}\label{subsec:Supplements}
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+		%\node (p) at (-4,2) [circle,draw] {$\bm{P}$};
+		%\node (htd) at (0,2) [circle,draw] {$h_{t[d]}$};
+		\node (theta) at (0,0) [circle, draw] {$\theta$};
+		\node (z) at (0,-2) [circle, draw] {$z$};
+		\node (s) at (-2,-2) [circle, draw] {$s$};
+		\node (a) at (-4,0) [circle, draw] {$\alpha$};
+		\node (phi) at (-4,-1.7) [circle,draw] {$\phi$};
+		\node (w) at (-1,-4) [shade,circle,draw] {$w$};
+		\node (eta) at (-6,0) [circle,draw] {$\eta$};
+		\node (beta) at (-6,-1.7) [circle,draw] {$\beta$};
+		
+		\node (gamma) at (-6,-3.2) [circle,draw] {$\gamma$};
+		\node (pi) at (-4,-3.2) [circle,draw] {$\pi$};
+		
+		\node (tbeta) at (-6,-4.7) [circle,draw] {$\tilde{\beta}$};
+		\node (tphi) at (-4,-4.7) [circle,draw] {$\tilde{\phi}$};
+		
+		
+		%\draw[thick,->] (p.east) -- (htd.west);
+		\draw[thick,->] (a.east) -- (theta.west);
+		\draw[thick,->] (phi.east) -- (w.west);
+		\draw[thick,->] (z.west) -- (s.east);
+		\draw[thick,->] (s.south) -- (w.north);
+		\draw[thick,->] (eta.east) -- (a.west);
+		\draw[thick,->] (beta.east) -- (phi.west);
+		%&\draw[thick,->] (htd.south) -- (theta.north);
+		\draw[thick,->] (theta.south) -- (z.north);
+		
+		\draw[thick,->] (gamma.east) -- (pi.west);
+		\draw[thick,->] (tbeta.east) -- (tphi.west);
+		
+		\draw[thick,->] (pi.east) -- (s.west);
+		\draw[thick,->] (tphi.east) -- (w.west);
+		
+		\draw (-3,-5.8) rectangle (1.2,.6);
+		\draw (-2.5,-4.8) rectangle (0.6,-1.2);
+		\draw (-4.8,-2.6) rectangle (-3.2,.6);
+		
+		%\draw (-4.8,-2.6) rectangle (-3.2,-1.2);
+		\draw (-4.8,-5.8) rectangle (-3.2,-2.8);
+		
+		\node at (0.07,-4.4) {$N_d$};
+		
+		\node at (0.8,-5.4) {$D$};
+		
+		%\node at (-3.4,-0.6) {$R$};
+		\node at (-3.4,-2.4) {$K$};	
+		\node at (-3.4,-5.6) {$\tilde{K}$};
+		
+		
+		
+	\end{tikzpicture}
+	\caption{Graphical model of base keyATM}
+	\label{graph:basekeyatm}
+	\floatfoot{The shaded node ($w$) denotes observed variables, while other transparent nodes denote latent variables. Source: \cite[40]{Eshima.2020}}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tikzpicture}
+		\node (p) at (-4,2) [circle,draw] {$\bm{P}$};
+		\node (htd) at (0,2) [circle,draw] {$h_{t[d]}$};
+		\node (theta) at (0,0) [circle, draw] {$\theta$};
+		\node (z) at (0,-2) [circle, draw] {$z$};
+		\node (s) at (-2,-2) [circle, draw] {$s$};
+		\node (a) at (-4,0) [circle, draw] {$\alpha$};
+		\node (phi) at (-4,-1.7) [circle,draw] {$\phi$};
+		\node (w) at (-1,-4) [shade,circle,draw] {$w$};
+		\node (eta) at (-6,0) [circle,draw] {$\eta$};
+		\node (beta) at (-6,-1.7) [circle,draw] {$\beta$};
+		
+		\node (gamma) at (-6,-3.2) [circle,draw] {$\gamma$};
+		\node (pi) at (-4,-3.2) [circle,draw] {$\pi$};
+		
+		\node (tbeta) at (-6,-4.7) [circle,draw] {$\tilde{\beta}$};
+		\node (tphi) at (-4,-4.7) [circle,draw] {$\tilde{\phi}$};
+		
+		
+		\draw[thick,->] (p.east) -- (htd.west);
+		\draw[thick,->] (a.east) -- (theta.west);
+		\draw[thick,->] (phi.east) -- (w.west);
+		\draw[thick,->] (z.west) -- (s.east);
+		\draw[thick,->] (s.south) -- (w.north);
+		\draw[thick,->] (eta.east) -- (a.west);
+		\draw[thick,->] (beta.east) -- (phi.west);
+		\draw[thick,->] (htd.south) -- (theta.north);
+		\draw[thick,->] (theta.south) -- (z.north);
+		
+		\draw[thick,->] (gamma.east) -- (pi.west);
+		\draw[thick,->] (tbeta.east) -- (tphi.west);
+		
+		\draw[thick,->] (pi.east) -- (s.west);
+		\draw[thick,->] (tphi.east) -- (w.west);
+		
+		\draw (-3,-5.8) rectangle (1.2,3);
+		\draw (-2.5,-4.8) rectangle (0.6,-1.2);
+		\draw (-4.8,-0.8) rectangle (-3.2,0.6);
+		
+		\draw (-4.8,-2.6) rectangle (-3.2,-1.2);
+		\draw (-4.8,-5.8) rectangle (-3.2,-2.8);
+		
+		\node at (0.07,-4.4) {$N_d$};
+		
+		\node at (0.8,-5.4) {$D$};
+		
+		\node at (-3.4,-0.6) {$R$};
+		\node at (-3.4,-2.4) {$K$};	
+		\node at (-3.4,-5.6) {$\tilde{K}$};
+		
+	\end{tikzpicture}
+	\caption{Graphical model of dynamic \textsf{\textbf{keyATM}}}
+	\label{graph:dynamickeyatm}
+	\floatfoot{The shaded node ($w$) denotes observed variables, while other transparent nodes denote latent variables. Source: \cite[41]{Eshima.2020}}
+\end{figure}	
+
+
+%Modelfit Graphic
+\begin{figure}[H]
+	\includegraphics[width=1\linewidth]{figures/modelfit_djn_model.eps}
+	\caption{Modelfit}
+	\label{fig:modelfit}
+\end{figure}
+
+%Estimated Alpha
+ \begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1.0\linewidth]{figures/alpha_djn_model.eps}
+		\caption{Estimated alpha}
+		\label{fig:alpha}
+	\end{center}
+\end{figure}
+
+%Top-20 Words
+
+ %\input{keywords.tex}
+
+
+%Change in Mean
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth, angle = 270]{figures/plot_change.eps}
+	\caption{Change of mean proportions}
+	\label{fig:change}
+	\floatfoot{Note: The Figure shows the change in mean proportions since 2021 with the 95\% confidence intervals. To calculate the relative proportions only the topics with pre-specified keywords were considered, so that the sum of the proportions of all keyword topics equals 1. All other non-keyword topics were excluded. We organized the topics by following the code system provided by \cite{Andre.2023}.}
+\end{figure}
+
+
+
+
+\begin{sidewaysfigure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth, angle = 270]{figures/comparision.eps}
+	\caption{Change of mean proportions}
+	\label{fig:comparision}
+\end{sidewaysfigure}
+
+\input{tables/ers_results}
+
+
+\newpage
+
+
+%robustness Granger
+
+\input{output/granger/baseline/level/granger_level_base.tex}
+\newpage
+\input{output/granger/baseline/diff/granger_diff_base.tex}
+\newpage
+
+
+% heterogeneity
+
+\input{output/granger/income/granger_income_bHP.tex}
+
+\newpage
+
+\input{output/granger/education/granger_education_bHP.tex}
+
+\newpage
+
+\input{output/granger/age/granger_age_bHP.tex}
+
+\newpage
+\input{output/granger/numeracy/granger_numeracy_bHP.tex}
+
+
+
+% Irfs complete
+
+\input{irf_demand.tex}
+\input{irf_supply.tex}
+\input{irf_others.tex}
+\input{irf_others2.tex}
+
+
+\newpage
+
+%Robustness IRF
+
+
+\input{irf_level.tex}
+\input{irf_diff.tex}
+
+
+\subsection{Data preprocessing}\label{subsec:DataPrep}
+
+In this section we describe the data pre-processing steps prior to the keyATM estimation.
+The Dow Jones Newswire is stored in .nml data files, that contain Extensible Markup Language (XML) Files. The raw Dow Jones Newswire contains roughly eight million documents for the observation period. This amount of documents and terms alone makes it computationally challenging. Moreover, many of these documents may not be of interest for the underlying research question(s) of this paper. To shrink the data set and at the same time allows for a greater focus on economic news about inflation, we pre-filtered the raw corpus in two ways: first, by using the subject codes from Dow Jones Newswire, we only selected relevant news sources, see \ref{table:news sources}. This left us with approximately 350,000 documents. Additionally we explicitly removed articles that report tables, calendars, technical reports or press releases. Second, by applying a simple keyword filtering to generate a dataset only containing documents, which, in some way, report on inflation. The selected keywords are:  ``inflation'', ``deflation'', ``rising price[s]'', ``increasing price[s]'', ``price increase'', ``rise of prices'' and ``stagflation''. The final corpus includes 163030 documents. 
+
+
+\begin{table}[H]
+	\centering
+	\caption{Selected News Sources}
+	\begin{tabular}{ll}
+		\textbf{Subject Code} & \textbf{Description}                                              \\ \toprule
+		DJIB                  & Dow Jones Investment Banker                                        \\
+		DJG                   & Dow Jones Institutional News                                       \\
+		GPRW                  & Dow Jones Global Press Release Wire                                \\
+		DJAN                  & Dow Jones Australian/New Zealand   Report                          \\
+		AWSJ                  & Wall Street Journal Asia                                           \\
+		WSJE                  & Wall Street Journal Europe                                         \\
+		PREL                  & Press Release Wires                                                \\
+		NRG                   & Dow Jones Energy Service                                           \\
+		DJBN                  & Dow Jones Global News Select                                       \\
+		AWP                   & AWP News                                                           \\
+		BRNS                  & Barron's                                                           \\
+		JNL                   & Wall Street Journal - Online Versions   of Print Articles          \\
+		WAL                   & Wall Street Journal (domestic) stories   filed direct to Newswires \\
+		WLS                   & Wall Street Journal (all) on Newswires                             \\
+		WSJ                   & The Wall Street Journal - PB                                       \\
+	                                                             	
+	\label{table:news sources}
+	\end{tabular}
+\end{table}
+
+
+As customary when using text-as-data methods, we reduce the dimensionality of the dataset according to \cite{grimmer.2022} . Therefore, we first proceeded with an lemmatization. By lemmatization we mean a mapping process from words to lemmas, whereby a lemma is the canonical form of a set of by inflection related words \citep{grimmer.2022}. Accordingly, we used the Python package spaCy \citep{spacy.2017}. This was followed by removing all punctuation, numbers, symbols, separators and urls. After removing these characters, we filtered out stop words, i.e. common words which have little to none information relating an article's subject. Additionally, time marks were taken out, as well as corpus-specific terms, which are relatively frequent but contain no information about the subject of an article like ``quot'' or ``newswires''. Finally, very rare terms were removed, as we are not able to use those efficiently in our model. 
+
+
+%\subsection{Topic Modeling }\label{subsec:ToMo}
+%
+%A number of levelerent models are gathered under the topic model class. The common assumption of these models is that the content of documents can be represented by the frequency of the words they contain. This means that these models assume, that the concrete sentence structure in a document can be ignored. This makes such models computational efficient compared to other textual analytic approaches, which is achieved through a probabilistic dimension reduction \citep{Crain.2012}. A document is represented by it's containing words, whereby a latent content dimension is captured by a procedure similar to that of a cluster analysis \todo{hier Analogy zu PCA?}. Probably the best known topic model is Latent Dirichlet Allocation (LDA) by \cite{blei.2003}, which is part of the hierarchical models, builds on multinominal language models and assumes a particular data generating process, which supposes that when an author is writing a text, the author draws from a mixture of topics. Given this set of weights, the author creates the text by drawing first the word's topics and second, conditional on the topic, the author draws the actual word from a topic-specific distribution \citep{grimmer.2022}.  Since there is no separate learning step in an LDA, it is an unsupervised learning approach \citep{Benoit.2020}. The generative process of an LDA is shown in the plate diagram in figure \ref{graph:LDA}. It can be summarized as follows:
+%
+%\begin{enumerate}
+%	\item Draw a distribution for every topic topic $z$ over all words $w \sim \text{Dir}(\beta)$.
+%	
+%	\item For every document $d$,
+%	\begin{itemize}
+%		\item draw a vector $\theta$ über eine Topic-Verteilung [$\theta \sim \text{Dir}(\alpha)$]
+%		\item for every word $w$,
+%		\begin{itemize}
+%			\item Draw a topic [$z \sim \text{Multinomial}(1,\theta)$]
+%			\item Draw a word [$w \sim \text{Multinomial}(1,\phi z)$]
+%		\end{itemize}
+%	\end{itemize}
+%\end{enumerate}
+%
+%As \cite{grimmer.2022} notice, such models are of particular interest for exploration of documents while adding no additional information. For our research purpose, this is insufficient, as we are interested in observe existing concepts of topics defined as inflation narratives. For this reason, we have decided to use a levelerent topic model, that incorporates additional information in form of pre-specified keywords, a \textbf{keyATM} by \cite{Eshima.2023}. Such a model rests on two distributions: one with positive probabilities of selecting keywords and one with positive probabilities of all other words \citep[4]{Eshima.2023}. A detailed description of this model, including plate diagram, is given in \ref{sec:MethodsData}. The process can be summarized as follows:
+%
+%\begin{enumerate}
+%	\item Draw for each word the topic variable z [$z \sim \text{Categorical}(\theta)$]
+%	\item For every word $w$
+%	\begin{itemize}
+%		\item If topic is no-keyword topic, draw the word from [$w|z=k\sim\text{Categorical}(\phi)$]
+%		\item If topic is keywords topic, draw s from [$s|z=k\sim\text{Bernoulli}(\pi)$]
+%		\begin{itemize}
+%			\item If $s=0$ draw word from [$w|s,z=k\sim\text{Categorical}(\phi)$]
+%			\item If $s=1$ draw word from [$w|s,z=k\sim\text{Categorical}(\tilde{\phi})$]
+%		\end{itemize}
+%	\end{itemize}
+%\end{enumerate}
+%
+%Note that $\pi$ is drawn from a Beta-distribution and $\alpha$ from a Gamma-Distribution, while $\phi$, $\tilde{\phi}$ ,and $\theta$ have Dirichlet prior distributions. For our research purpose, we decided to use the dynamic version of the model to represent changes over time. Compared to the base \textbf{keyATM} this dynamic version allows the topic proportions $\theta$ to vary over time. This is achieved by letting $\alpha$ leveler between latent states. Therefore the prior distribution of $\alpha$ is now dependent on topic (k = 1,2, ..., K) as well as on the latent state (r = 1, 2, ..., R) \citep[12]{Eshima.2023} \todo{Brauchen wir was zu Sampling?}. As \cite{Eshima.2023} have shown in their paper, their model outperforms the comparable wLDA model \todo{Quelle zu wLDA?}.
+%
+%
+%\begin{figure}[!h]
+%	\begin{tikzpicture}
+%		%\node (p) at (-4,2) [circle,draw] {$\bm{P}$};
+%		%\node (htd) at (0,2) [circle,draw] {$h_{t[d]}$};
+%		\node (theta) at (0,0) [circle, draw] {$\theta$};
+%		\node (z) at (0,-2) [circle, draw] {$z$};
+%		%\node (s) at (-2,-2) [circle, draw] {$s$};
+%		\node (a) at (-4,0) [circle, draw] {$\alpha$};
+%		\node (phi) at (-4,-4) [circle,draw] {$\phi$};
+%		\node (w) at (-1,-4) [shade,circle,draw] {$w$};
+%		%\node (eta) at (-6,0) [circle,draw] {$\eta$};
+%		\node (beta) at (-6,-4) [circle,draw] {$\beta$};
+%		
+%
+%		
+%		
+%		%\draw[thick,->] (p.east) -- (htd.west);
+%		\draw[thick,->] (a.east) -- (theta.west);
+%		\draw[thick,->] (phi.east) -- (w.west);
+%		\draw[thick,->] (z.south) -- (w.east);
+%		%\draw[thick,->] (s.south) -- (w.north);
+%		%\draw[thick,->] (eta.east) -- (a.west);
+%		\draw[thick,->] (beta.east) -- (phi.west);
+%		%&\draw[thick,->] (htd.south) -- (theta.north);
+%		\draw[thick,->] (theta.south) -- (z.north);
+%		
+%		%\draw[thick,->] (gamma.east) -- (pi.west);
+%		%\draw[thick,->] (tbeta.east) -- (tphi.west);
+%		
+%		%\draw[thick,->] (pi.east) -- (s.west);
+%		%\draw[thick,->] (tphi.east) -- (w.west);
+%		
+%		\draw (-3,-5.8) rectangle (1.2,.6);
+%		\draw (-2.5,-4.8) rectangle (0.7,-1.2);
+%		%\draw (-4.8,-2.6) rectangle (-3.2,-1.6);
+%		
+%		%\draw (-4.8,-2.6) rectangle (-3.2,-1.2);
+%		\draw (-4.8,-5.8) rectangle (-3.2,-2.6);
+%		
+%		\node at (0.07,-4.4) {$N_d$};
+%		
+%		\node at (0.7,-5.4) {$D$};
+%		
+%		%\node at (-3.4,-0.7) {$R$};
+%		\node at (-3.5,-5.4) {$K$};	
+%		%\node at (-3.4,-5.6) {$\tilde{K}$};
+%		
+%		
+%		
+%	\end{tikzpicture}
+%	\caption{Graphical model of \textsf{\textbf{LDA}}}
+%	\label{graph:LDA}
+%	\floatfoot{The shaded node ($w$) denotes observed variables while other transparent nodes denote latent variables. Source: \cite[p. 997]{blei.2003}}
+%\end{figure}
+%
+%
+%\begin{tcolorbox}[enhanced,breakable,
+%	colback=blue!5!white,colframe=blue!75!black,
+%	title=To-Do]
+%	
+%	\begin{itemize}
+%		\item More information on stopword list
+%		\item Name all subject codes that were used for filtering
+%		\item Number of documents in raw dataset 
+%		\item more detail on lemma
+%		\item add wordcloud of corpus	
+%	\end{itemize}
+%	
+%\end{tcolorbox}
+%
+%
+%\subsection{Local Projections}\label{subsec:lopro}

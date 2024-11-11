@@ -1,0 +1,267 @@
+
+Time series regression with "ts" data:
+Start = 2018(2), End = 2022(12)
+
+Call:
+dynlm(formula = inflation_expectations_3y ~ L(inflation_expectations_3y, 
+    1:num_lags) + L(inflation_expectations_1y, 1:num_lags) + 
+    L(inflation, 1:num_lags) + L(economic_activity, 1:num_lags) + 
+    L(tsdata[, topic], 1:num_lags) + dummy + month, data = tsdata, 
+    start = c(2018, 1), end = c(2023, 1))
+
+Coefficients:
+                   Intercept  inflation_expectations_3y.l1  inflation_expectations_1y.l1                  inflation.l1  
+                    -0.14183                       0.02812                       0.08703                      -0.54187  
+        economic_activity.l1             pent_up_demand.l1                         dummy                        month1  
+                     0.19765                      -0.29856                      -0.02112                       0.18998  
+                      month2                        month3                        month4                        month5  
+                     0.14223                       0.21630                       0.24760                       0.07262  
+                      month6                        month7                        month8                        month9  
+                     0.10572                       0.18906                       0.14741                       0.19290  
+                     month10                       month11  
+                     0.11676                       0.20756  
+
+
+Time series regression with "ts" data:
+Start = 2018(2), End = 2022(12)
+
+Call:
+dynlm(formula = inflation_expectations_1y ~ L(inflation_expectations_1y, 
+    1:num_lags) + L(inflation_expectations_3y, 1:num_lags) + 
+    L(inflation, 1:num_lags) + L(economic_activity, 1:num_lags) + 
+    L(tsdata[, topic], 1:num_lags) + dummy + month, data = tsdata, 
+    start = c(2018, 1), end = c(2023, 1))
+
+Coefficients:
+                   Intercept  inflation_expectations_1y.l1  inflation_expectations_3y.l1                  inflation.l1  
+                    -0.14165                      -0.21711                       0.77257                       1.36155  
+        economic_activity.l1             pent_up_demand.l1                         dummy                        month1  
+                    -0.34878                      -0.20255                      -0.05328                       0.22971  
+                      month2                        month3                        month4                        month5  
+                     0.22797                       0.14365                       0.24146                       0.29702  
+                      month6                        month7                        month8                        month9  
+                     0.09340                       0.10564                       0.05927                       0.23001  
+                     month10                       month11  
+                     0.03677                       0.12556  
+
+
+Time series regression with "ts" data:
+Start = 2018(2), End = 2022(12)
+
+Call:
+dynlm(formula = inflation ~ L(inflation, 1:num_lags) + L(inflation_expectations_1y, 
+    1:num_lags) + L(inflation_expectations_3y, 1:num_lags) + 
+    L(economic_activity, 1:num_lags) + L(tsdata[, topic], 1:num_lags) + 
+    dummy + month, data = tsdata, start = c(2018, 1), end = c(2023, 
+    1))
+
+Coefficients:
+                   Intercept  inflation_expectations_1y.l1  inflation_expectations_3y.l1                  inflation.l1  
+                   0.0121268                     0.5959359                    -0.0133877                     0.0438668  
+        economic_activity.l1             pent_up_demand.l1                         dummy                        month1  
+                  -0.0157405                     0.2057612                    -0.0246134                     0.0167423  
+                      month2                        month3                        month4                        month5  
+                   0.0015382                     0.0005963                     0.0172606                     0.0286931  
+                      month6                        month7                        month8                        month9  
+                  -0.0136959                     0.0122143                     0.0022436                     0.0224642  
+                     month10                       month11  
+                  -0.0093329                     0.0138653  
+
+
+Time series regression with "ts" data:
+Start = 2018(2), End = 2022(12)
+
+Call:
+dynlm(formula = economic_activity ~ L(economic_activity, 1:num_lags) + 
+    L(inflation_expectations_1y, 1:num_lags) + L(inflation_expectations_3y, 
+    1:num_lags) + L(inflation, 1:num_lags) + L(tsdata[, topic], 
+    1:num_lags) + dummy + month, data = tsdata, start = c(2018, 
+    1), end = c(2023, 1))
+
+Coefficients:
+                   Intercept          economic_acticity.l1  inflation_expectations_1y.l1  inflation_expectations_3y.l1  
+                    0.058916                     -0.347391                      0.030437                     -0.007525  
+                inflation.l1             pent_up_demand.l1                         dummy                        month1  
+                    0.590637                      2.115744                     -0.054421                     -0.030548  
+                      month2                        month3                        month4                        month5  
+                   -0.061877                     -0.166640                     -0.028987                      0.006843  
+                      month6                        month7                        month8                        month9  
+                   -0.037401                      0.024269                     -0.001810                      0.002316  
+                     month10                       month11  
+                   -0.047432                     -0.021878  
+
+
+Time series regression with "ts" data:
+Start = 2018(2), End = 2022(12)
+
+Call:
+dynlm(formula = tsdata[, topic] ~ L(tsdata[, topic], 1:num_lags) + 
+    L(economic_activity, 1:num_lags) + L(inflation_expectations_1y, 
+    1:num_lags) + L(inflation_expectations_3y, 1:num_lags) + 
+    L(inflation, 1:num_lags) + dummy + month, data = tsdata, 
+    start = c(2018, 1), end = c(2023, 1))
+
+Coefficients:
+                   Intercept             pent_up_demand.l1          economic_activity.l1  inflation_expectations_1y.l1  
+                   0.0064083                     0.3197783                    -0.0460275                    -0.0209261  
+inflation_expectations_3y.l1                  inflation.l1                         dummy                        month1  
+                   0.0175802                     0.0879457                    -0.0001071                     0.0033918  
+                      month2                        month3                        month4                        month5  
+                  -0.0231081                    -0.0021990                    -0.0112416                    -0.0022882  
+                      month6                        month7                        month8                        month9  
+                  -0.0097679                    -0.0064370                    -0.0094150                    -0.0004040  
+                     month10                       month11  
+                  -0.0130991                    -0.0202741  
+
+[1] "diagnostics"
+[1] "heteroskedasticity"
+
+	ARCH (multivariate)
+
+data:  Residuals of VAR object model
+Chi-squared = 248.96, df = 225, p-value = 0.1308
+
+[1] "serial correlation"
+
+	Breusch-Godfrey LM test
+
+data:  Residuals of VAR object model
+Chi-squared = 196.58, df = 125, p-value = 4.582e-05
+
+[1] "inflation expectations_3y"
+Linear hypothesis test
+
+Hypothesis:
+pent_up_demand.l1 = 0
+
+Model 1: restricted model
+Model 2: inflation_expectations_3y ~ L(inflation_expectations_3y, 1:num_lags) + 
+    L(inflation_expectations_1y, 1:num_lags) + L(inflation, 1:num_lags) + 
+    L(economic_activity, 1:num_lags) + L(tsdata[, topic], 1:num_lags) + 
+    dummy + month
+
+Note: Coefficient covariance matrix supplied.
+
+  Res.Df Df      F Pr(>F)
+1     42                 
+2     41  1 0.0334 0.8558
+[1] "inflation expectations_1y"
+Linear hypothesis test
+
+Hypothesis:
+pent_up_demand.l1 = 0
+
+Model 1: restricted model
+Model 2: inflation_expectations_1y ~ L(inflation_expectations_1y, 1:num_lags) + 
+    L(inflation_expectations_3y, 1:num_lags) + L(inflation, 1:num_lags) + 
+    L(economic_activity, 1:num_lags) + L(tsdata[, topic], 1:num_lags) + 
+    dummy + month
+
+Note: Coefficient covariance matrix supplied.
+
+  Res.Df Df      F Pr(>F)
+1     42                 
+2     41  1 0.0115  0.915
+[1] "inflation"
+Linear hypothesis test
+
+Hypothesis:
+pent_up_demand.l1 = 0
+
+Model 1: restricted model
+Model 2: inflation ~ L(inflation, 1:num_lags) + L(inflation_expectations_1y, 
+    1:num_lags) + L(inflation_expectations_3y, 1:num_lags) + 
+    L(economic_activity, 1:num_lags) + L(tsdata[, topic], 1:num_lags) + 
+    dummy + month
+
+Note: Coefficient covariance matrix supplied.
+
+  Res.Df Df      F Pr(>F)
+1     42                 
+2     41  1 0.7963 0.3774
+[1] "economic_activity"
+Linear hypothesis test
+
+Hypothesis:
+pent_up_demand.l1 = 0
+
+Model 1: restricted model
+Model 2: economic_activity ~ L(economic_activity, 1:num_lags) + L(inflation_expectations_1y, 
+    1:num_lags) + L(inflation_expectations_3y, 1:num_lags) + 
+    L(inflation, 1:num_lags) + L(tsdata[, topic], 1:num_lags) + 
+    dummy + month
+
+Note: Coefficient covariance matrix supplied.
+
+  Res.Df Df      F Pr(>F)
+1     42                 
+2     41  1 2.6105 0.1138
+[1] "feedback effects"
+[1] "topic expectations 3y"
+Linear hypothesis test
+
+Hypothesis:
+inflation_expectations_3y.l1 = 0
+
+Model 1: restricted model
+Model 2: tsdata[, topic] ~ L(tsdata[, topic], 1:num_lags) + L(economic_activity, 
+    1:num_lags) + L(inflation_expectations_1y, 1:num_lags) + 
+    L(inflation_expectations_3y, 1:num_lags) + L(inflation, 1:num_lags) + 
+    dummy + month
+
+Note: Coefficient covariance matrix supplied.
+
+  Res.Df Df      F Pr(>F)
+1     42                 
+2     41  1 0.6164 0.4369
+[1] "topic expectations_1y"
+Linear hypothesis test
+
+Hypothesis:
+inflation_expectations_1y.l1 = 0
+
+Model 1: restricted model
+Model 2: tsdata[, topic] ~ L(tsdata[, topic], 1:num_lags) + L(economic_activity, 
+    1:num_lags) + L(inflation_expectations_1y, 1:num_lags) + 
+    L(inflation_expectations_3y, 1:num_lags) + L(inflation, 1:num_lags) + 
+    dummy + month
+
+Note: Coefficient covariance matrix supplied.
+
+  Res.Df Df    F Pr(>F)
+1     42               
+2     41  1 1.61 0.2117
+[1] "topic inflation"
+Linear hypothesis test
+
+Hypothesis:
+inflation.l1 = 0
+
+Model 1: restricted model
+Model 2: tsdata[, topic] ~ L(tsdata[, topic], 1:num_lags) + L(economic_activity, 
+    1:num_lags) + L(inflation_expectations_1y, 1:num_lags) + 
+    L(inflation_expectations_3y, 1:num_lags) + L(inflation, 1:num_lags) + 
+    dummy + month
+
+Note: Coefficient covariance matrix supplied.
+
+  Res.Df Df     F Pr(>F)
+1     42                
+2     41  1 1.078 0.3052
+[1] "topic activitiy"
+Linear hypothesis test
+
+Hypothesis:
+economic_activity.l1 = 0
+
+Model 1: restricted model
+Model 2: tsdata[, topic] ~ L(tsdata[, topic], 1:num_lags) + L(economic_activity, 
+    1:num_lags) + L(inflation_expectations_1y, 1:num_lags) + 
+    L(inflation_expectations_3y, 1:num_lags) + L(inflation, 1:num_lags) + 
+    dummy + month
+
+Note: Coefficient covariance matrix supplied.
+
+  Res.Df Df      F Pr(>F)
+1     42                 
+2     41  1 1.6916 0.2007

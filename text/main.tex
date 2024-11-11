@@ -1,0 +1,96 @@
+% !TeX spellcheck = en_US
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext}
+%\usepackage{easyReview}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+%\usepackage{noto}
+%\usepackage{notomath}
+%\usepackage{libertinus}
+\usepackage[a4paper,left=3cm,right=3cm,top=3cm,bottom=3cm,bindingoffset=5mm]{geometry} %page setting
+\usepackage[colorlinks, linkcolor = purple, citecolor = black, filecolor = blue, urlcolor = blue]{hyperref} %hyperref settings
+%\usepackage[colorlinks = false]{hyperref}
+%\usepackage[hidelinks]{hyperref}
+\usepackage{rotating}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[capposition=top]{floatrow}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{csquotes}
+\usepackage{todonotes}
+%\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{svg}
+\usepackage{amsmath}
+	\DeclareMathOperator*{\E}{\mathbb{E}}
+\usepackage{bm} %bold math symbols
+\usepackage{tikz}
+	\usetikzlibrary{bayesnet}
+\usepackage{chngcntr}
+
+%\usepackage{lmodern} % Use Latin Modern fonts
+
+\newenvironment{customabstract}
+{\begin{center}\begin{minipage}{0.85\textwidth}}
+		{\end{minipage}\end{center}}
+%\usepackage[capposition=top]{floatrow}
+\usepackage[most]{tcolorbox}
+\usepackage{float}
+\restylefloat{table}
+
+%\onehalfspace
+\begin{document}
+%\title{Going viral: How media coverage of inflation narratives affects the macroeconomy\\ \textit{\textcolor{purple}{Prelimininary and incomplete draft.\\ Please do not cite!}}}
+\title{Going Viral: Inflation Narratives and the Macroeconomy}
+\author{Max Weinig\footnote{\textbf{Corresponding author}. Universität Hamburg, email:  \href{mailto:max.weinig@uni-hamburg.de}{max.weinig@uni-hamburg.de}} \and Ulrich Fritsche\footnote{Universität Hamburg \&KOF ETH Zurich, email: \href{mailto:ulrich.fritsche@uni-hamburg.de}{ulrich.fritsche@uni-hamburg.de}}}
+\date{\today}
+
+\maketitle
+
+\begin{abstract}
+    \noindent In recent years, there has been increasing interest in the analysis of narratives in macroeconomic research. Our paper contributes to this research by proposing a way to identify and extract economic narratives from media reports. Therefore, this paper applies state-of-the-art text analysis methods to a large news corpus covering five years of news coverage in combination with results from a survey study on recent inflation narratives \citep{Andre.2023} in the US. This approach enables us to measure the prevalence and spread of inflation narratives over time and to examine the role of these narratives in aggregate macroeconomic expectations. Using Granger causality tests and local projections, we provide empirical evidence on the dynamics between inflation narratives and inflation expectations. Moreover, the paper highlights the vast heterogeneity across short-term and mid-term inflation expectations as well as socioeconomic groups. \\
+    \\
+    \textbf{JEL codes:} D84, E31, E32, E52, E71\\
+    \textbf{Keywords:} narratives, expectations, inflation, media, textual data, machine learning
+\end{abstract}
+\vspace{4cm}
+\begin{customabstract}
+ \footnotesize
+	 \noindent We thank Sami Diaf, Victoria Hünewaldt, and Lisa Wegner for their very helpful comments. Furthermore, we thank seminar audiences at the International Conference on Computational Statistics, the International Conference on Macroeconomic Analysis and International Finance, the Narrative Economics Alliance Ruhr, the University of Gießen, the KOF Swiss Economic Institute of the ETH Zürich, the Forum for Macroeconomics and Macroeconomic Policies, and the IMK Macroeconomic Policy Institute Workshop for their comments. 
+	
+\end{customabstract}
+
+
+
+
+% Hier Introduction (new page)
+\newpage
+
+\input{intro.tex}
+
+% Here: Methods and Data section
+\input{methodsdata.tex}
+
+% Here: Analysis section
+\input{analysis.tex}
+
+% Here: Conclusion
+\input{conclusion.tex}
+
+% References
+\newpage
+%\footnotesize
+	\bibliographystyle{aer}
+	\bibliography{./bibtex/literaturverzeichnis_inflation.bib,./bibtex/Masterarbeit.bib,./bibtex/biblio.bib,./bibtex/pub_uf.bib}
+\normalsize
+
+
+% Here: Appendix (new page)
+%\newpage
+\input{appendix.tex}
+
+\end{document}

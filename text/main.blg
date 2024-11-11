@@ -1,0 +1,170 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: aer.bst
+Reallocating 'name_of_file' (item size: 1) to 44 items.
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: ./bibtex/literaturverzeichnis_inflation.bib
+Database file #2: ./bibtex/Masterarbeit.bib
+Repeated entry---line 129 of file ./bibtex/Masterarbeit.bib
+ : @techreport{Macaulay.2022
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 199 of file ./bibtex/Masterarbeit.bib
+ : @article{Lucas.1979
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 773 of file ./bibtex/Masterarbeit.bib
+ : @article{Mankiw.2002
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1839 of file ./bibtex/Masterarbeit.bib
+ : @article{Shiller.2017
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2779 of file ./bibtex/Masterarbeit.bib
+ : @article{Larsen.2019
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2937 of file ./bibtex/Masterarbeit.bib
+ : @article{Bachmann.2015
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3063 of file ./bibtex/Masterarbeit.bib
+ : @article{Vellekoop.2019
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3277 of file ./bibtex/Masterarbeit.bib
+ : @article{Muth.1961
+ :                   ,
+I'm skipping whatever remains of this entry
+Database file #3: ./bibtex/biblio.bib
+Repeated entry---line 269 of file ./bibtex/biblio.bib
+ : @book{ecb.2021
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 393 of file ./bibtex/biblio.bib
+ : @techreport{fed.2019
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1343 of file ./bibtex/biblio.bib
+ : @article{Lucas.1972
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1373 of file ./bibtex/biblio.bib
+ : @article{Muth.1961
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1407 of file ./bibtex/biblio.bib
+ : @article{Lucas.1979
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1489 of file ./bibtex/biblio.bib
+ : @article{Sims.2003
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1535 of file ./bibtex/biblio.bib
+ : @techreport{Woodford.2001
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1705 of file ./bibtex/biblio.bib
+ : @article{Coibion.Gorodnichenko.2012
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1889 of file ./bibtex/biblio.bib
+ : @article{Gabaix.2014
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1919 of file ./bibtex/biblio.bib
+ : @article{Fuster.2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2209 of file ./bibtex/biblio.bib
+ : @article{Carroll.2003
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2587 of file ./bibtex/biblio.bib
+ : @article{Juster.1972
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2615 of file ./bibtex/biblio.bib
+ : @article{Burch.1975
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2691 of file ./bibtex/biblio.bib
+ : @article{Duca.2021
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2717 of file ./bibtex/biblio.bib
+ : @article{Vellekoop.2019
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2873 of file ./bibtex/biblio.bib
+ : @article{Acunto.2021
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2943 of file ./bibtex/biblio.bib
+ : @article{Bachmann.2015
+ :                       ,
+I'm skipping whatever remains of this entry
+Database file #4: ./bibtex/pub_uf.bib
+Warning--can't use both author and editor fields in BoydGraber.etal.2014
+"" is a string literal, not an integer, for entry BoydGraber.etal.2014
+while executing---line 1215 of file aer.bst
+"2014" is a string literal, not an integer, for entry BoydGraber.etal.2014
+while executing---line 1215 of file aer.bst
+You can't pop an empty literal stack for entry BoydGraber.etal.2014
+while executing---line 1215 of file aer.bst
+You can't pop an empty literal stack for entry BoydGraber.etal.2014
+while executing---line 1215 of file aer.bst
+You can't pop an empty literal stack for entry BoydGraber.etal.2014
+while executing---line 1215 of file aer.bst
+Warning--empty note in spacy.2017
+Warning--there's a number but no volume in Tuckett.2020
+You've used 88 entries,
+            2984 wiz_defined-function locations,
+            1207 strings with 18253 characters,
+and the built_in function-call counts, 74247 in all, are:
+= -- 11656
+> -- 4369
+< -- 1216
++ -- 1388
+- -- 785
+* -- 4716
+:= -- 16818
+add.period$ -- 95
+call.type$ -- 88
+change.case$ -- 619
+chr.to.int$ -- 86
+cite$ -- 91
+duplicate$ -- 982
+empty$ -- 2214
+format.name$ -- 2193
+if$ -- 18405
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 78
+newline$ -- 277
+num.names$ -- 1060
+pop$ -- 1329
+preamble$ -- 1
+purify$ -- 704
+quote$ -- 0
+skip$ -- 0
+stack$ -- 0
+substring$ -- 2049
+swap$ -- 302
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 328
+warning$ -- 3
+while$ -- 957
+width$ -- 0
+write$ -- 1428
+(There were 30 error messages)
