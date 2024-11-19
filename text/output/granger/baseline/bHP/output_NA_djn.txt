@@ -1,0 +1,128 @@
+           used  (Mb) gc trigger  (Mb)  max used   (Mb)
+Ncells  4655464 248.7    7147351 381.8   7147351  381.8
+Vcells 21046082 160.6  113964631 869.5 433576604 3308.0
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] TRUE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] FALSE
+
+[[13]]
+[1] TRUE
+
+$`1_energy`
+[1] "crude"    "gas"      "gasoline" "oil"      "crude"    "fuel"    
+
+$`2_war`
+[1] "russia"   "war"      "ukraine"  "invasion" "moscow"   "putin"    "military"
+
+$`3_pandemic`
+[1] "pandemic"    "covid-19"    "virus"       "coronavirus" "infection"   "outbreak"    "case"       
+
+$`4_labor_shortage`
+ [1] "worker"     "employment" "labor"      "wage"       "workforce"  "labour"     "job"        "strike"     "union"      "hire"      
+
+$`5_supply_chain`
+[1] "shortage"   "cost"       "disruption" "chain"      "shipping"   "delay"      "supply"     "pressure"  
+
+$`6_monetary_policy`
+[1] "fed"          "quantitative" "easing"       "loose"        "monetary"     "interest"    
+
+$`7_government_spending`
+[1] "infrastructure" "agreement"      "biden"          "spending"       "deficit"        "bipartisan"     "package"       
+[8] "stimulus"       "check"         
+
+$`8_demand`
+[1] "recover"     "reopen"      "pandemic"    "demand"      "grow"        "consumption" "growth"      "domestic"    "output"     
+
+$`9_demand_shift`
+ [1] "shift"      "trend"      "preference" "behavior"   "pandemic"   "sentiment"  "retail"     "restaurant" "online"     "service"   
+
+$`10_profits`
+[1] "margin"        "corporate"     "profitability" "profit"       
+
+$`11_politics`
+[1] "party"      "republican" "trump"      "congress"   "senate"     "president"  "biden"      "democrats"  "government"
+
+$`12_debt`
+[1] "debt"       "public"     "national"   "federal"    "deficit"    "borrowing"  "government" "balance"   
+
+$`13_taxes`
+[1] "tax"         "raise"       "reform"      "legislation" "overhaul"    "reduction"  
+
+$`14_supply`
+[1] "supply"     "production" "capacity"   "inventory"  "industry"  
+
+$`1_energy`
+[1] "crude"    "gas"      "gasoline" "oil"      "crude"    "fuel"    
+
+$`2_war`
+[1] "russia"   "war"      "ukraine"  "invasion" "moscow"   "putin"    "military"
+
+$`3_pandemic`
+[1] "pandemic"    "covid-19"    "virus"       "coronavirus" "infection"   "outbreak"    "case"       
+
+$`4_labor_shortage`
+[1] "worker"     "employment" "labor"      "wage"       "workforce"  "job"        "strike"     "union"      "hire"      
+
+$`5_supply_chain`
+[1] "shortage"   "cost"       "disruption" "chain"      "shipping"   "delay"      "supply"     "pressure"  
+
+$`6_monetary_policy`
+[1] "fed"          "quantitative" "easing"       "loose"        "monetary"     "interest"    
+
+$`7_government_spending`
+[1] "infrastructure" "agreement"      "biden"          "spending"       "deficit"        "bipartisan"     "package"       
+[8] "stimulus"       "check"         
+
+$`8_demand`
+[1] "recover"     "reopen"      "pandemic"    "demand"      "grow"        "consumption" "growth"      "domestic"    "output"     
+
+$`9_demand_shift`
+ [1] "shift"      "trend"      "preference" "behavior"   "pandemic"   "sentiment"  "retail"     "restaurant" "online"     "service"   
+
+$`10_profits`
+[1] "margin"        "corporate"     "profitability" "profit"       
+
+$`11_politics`
+[1] "party"      "republican" "trump"      "congress"   "senate"     "president"  "biden"      "democrats"  "government"
+
+$`12_debt`
+[1] "debt"       "public"     "national"   "federal"    "deficit"    "borrowing"  "government" "balance"   
+
+$`13_taxes`
+[1] "tax"         "raise"       "reform"      "legislation" "overhaul"    "reduction"  
+
+$`14_supply`
+[1] "supply"     "production" "capacity"   "inventory"  "industry"  
+

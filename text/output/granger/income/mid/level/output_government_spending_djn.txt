@@ -11,15 +11,15 @@ dynlm(formula = inflation_expectations_3y ~ L(inflation_expectations_3y,
 
 Coefficients:
                    Intercept  inflation_expectations_3y.l1  inflation_expectations_1y.l1                  inflation.l1  
-                    0.613657                      0.839165                     -0.022316                      0.969299  
+                   0.7009791                     0.8112360                    -0.0143489                     1.0620957  
         economic_activity.l1        government_spending.l1                         dummy                        month1  
-                   -0.036802                      8.828486                      0.054238                     -0.058626  
+                  -0.0290189                    11.7232624                     0.0370793                    -0.0758306  
                       month2                        month3                        month4                        month5  
-                   -0.123514                      0.029134                     -0.072737                      0.053557  
+                  -0.1693600                    -0.0067801                    -0.1118821                     0.0031076  
                       month6                        month7                        month8                        month9  
-                   -0.088435                     -0.069169                     -0.188078                      0.002709  
+                  -0.1136419                    -0.1049101                    -0.1894451                     0.0002887  
                      month10                       month11  
-                    0.228424                     -0.133186  
+                   0.2188400                    -0.1564481  
 
 
 Time series regression with "ts" data:
@@ -34,15 +34,15 @@ dynlm(formula = inflation_expectations_1y ~ L(inflation_expectations_1y,
 
 Coefficients:
                    Intercept  inflation_expectations_1y.l1  inflation_expectations_3y.l1                  inflation.l1  
-                     0.15727                       0.91182                       0.03808                       2.45286  
+                   0.2105334                     0.9187607                     0.0205145                     2.6280009  
         economic_activity.l1        government_spending.l1                         dummy                        month1  
-                    -0.55244                      11.52784                       0.05794                       0.02634  
+                  -0.5602196                    13.3255995                     0.0278450                    -0.0005389  
                       month2                        month3                        month4                        month5  
-                     0.07434                       0.26503                       0.01286                       0.11444  
+                   0.0249692                     0.2319432                    -0.0268814                     0.0603730  
                       month6                        month7                        month8                        month9  
-                     0.20990                      -0.03969                      -0.14925                       0.18911  
+                   0.1870715                    -0.0777485                    -0.1478467                     0.1851677  
                      month10                       month11  
-                     0.19448                       0.03143  
+                   0.1821562                     0.0051599  
 
 
 Time series regression with "ts" data:
@@ -57,15 +57,15 @@ dynlm(formula = inflation ~ L(inflation, 1:num_lags) + L(inflation_expectations_
 
 Coefficients:
                    Intercept  inflation_expectations_1y.l1  inflation_expectations_3y.l1                  inflation.l1  
-                  -0.0540307                     0.2535304                     0.0043667                     0.0229469  
+                   -0.063484                      0.261677                      0.003823                      0.025890  
         economic_activity.l1        government_spending.l1                         dummy                        month1  
-                   0.0268977                    -0.0130182                    -0.0254989                    -0.0087211  
+                    0.024133                     -0.321480                     -0.026653                     -0.009372  
                       month2                        month3                        month4                        month5  
-                   0.0006760                     0.0002403                    -0.0138098                     0.0133993  
+                    0.002354                      0.002412                     -0.012007                      0.015286  
                       month6                        month7                        month8                        month9  
-                   0.0179261                    -0.0236392                    -0.0041578                    -0.0046495  
+                    0.019511                     -0.022265                     -0.003666                     -0.004765  
                      month10                       month11  
-                   0.0138353                    -0.0171831  
+                    0.013879                     -0.016519  
 
 
 Time series regression with "ts" data:
@@ -80,15 +80,15 @@ dynlm(formula = economic_activity ~ L(economic_activity, 1:num_lags) +
 
 Coefficients:
                    Intercept          economic_acticity.l1  inflation_expectations_1y.l1  inflation_expectations_3y.l1  
-                  -0.0220161                    -0.2050488                    -0.0155602                     0.0309244  
+                   -0.074850                     -0.221029                     -0.018512                      0.047351  
                 inflation.l1        government_spending.l1                         dummy                        month1  
-                   0.9177255                     0.1850814                    -0.0428601                    -0.0003627  
+                    0.968234                     -1.537584                     -0.050137                     -0.004691  
                       month2                        month3                        month4                        month5  
-                   0.0008141                    -0.0173315                    -0.1607978                     0.0215998  
+                    0.009292                     -0.005660                     -0.151389                      0.031167  
                       month6                        month7                        month8                        month9  
-                   0.0385156                    -0.0081787                     0.0415128                     0.0271197  
+                    0.047061                     -0.001180                      0.044354                      0.026370  
                      month10                       month11  
-                   0.0283329                    -0.0089308  
+                    0.028307                     -0.005728  
 
 
 Time series regression with "ts" data:
@@ -103,15 +103,15 @@ dynlm(formula = tsdata[, topic] ~ L(tsdata[, topic], 1:num_lags) +
 
 Coefficients:
                    Intercept        government_spending.l1          economic_activity.l1  inflation_expectations_1y.l1  
-                  -0.0180346                     0.4955033                     0.0006528                    -0.0004301  
+                  -1.246e-02                     5.495e-01                     7.836e-04                    -5.996e-04  
 inflation_expectations_3y.l1                  inflation.l1                         dummy                        month1  
-                   0.0042391                    -0.0164562                    -0.0073357                     0.0070582  
+                   3.283e-03                    -1.233e-02                    -3.585e-03                     7.490e-03  
                       month2                        month3                        month4                        month5  
-                   0.0066635                     0.0066322                     0.0066306                     0.0078290  
+                   4.360e-03                     4.790e-03                     5.782e-03                     3.823e-03  
                       month6                        month7                        month8                        month9  
-                   0.0065842                     0.0034538                     0.0030616                     0.0022422  
+                   4.326e-03                    -7.489e-05                     1.395e-04                     1.135e-03  
                      month10                       month11  
-                   0.0097548                     0.0029978  
+                   7.275e-03                    -4.665e-04  
 
 [1] "diagnostics"
 [1] "heteroskedasticity"
@@ -119,14 +119,14 @@ inflation_expectations_3y.l1                  inflation.l1                      
 	ARCH (multivariate)
 
 data:  Residuals of VAR object model
-Chi-squared = 232.35, df = 225, p-value = 0.3542
+Chi-squared = 239.03, df = 225, p-value = 0.2484
 
 [1] "serial correlation"
 
 	Breusch-Godfrey LM test
 
 data:  Residuals of VAR object model
-Chi-squared = 205.24, df = 125, p-value = 8.056e-06
+Chi-squared = 198.59, df = 125, p-value = 3.094e-05
 
 [1] "inflation expectations_3y"
 Linear hypothesis test
@@ -144,7 +144,7 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df      F Pr(>F)
 1     43                 
-2     42  1 1.4049 0.2426
+2     42  1 2.5746 0.1161
 [1] "inflation expectations_1y"
 Linear hypothesis test
 
@@ -161,7 +161,7 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df      F Pr(>F)
 1     43                 
-2     42  1 1.4736 0.2316
+2     42  1 2.4766 0.1231
 [1] "inflation"
 Linear hypothesis test
 
@@ -178,7 +178,7 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df     F Pr(>F)
 1     43                
-2     42  1 3e-04 0.9853
+2     42  1 0.219 0.6423
 [1] "economic_activity"
 Linear hypothesis test
 
@@ -195,7 +195,7 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df      F Pr(>F)
 1     43                 
-2     42  1 0.0113  0.916
+2     42  1 0.8054 0.3746
 [1] "feedback effects"
 [1] "topic expectations 3y"
 Linear hypothesis test
@@ -213,7 +213,7 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df      F Pr(>F)
 1     43                 
-2     42  1 2.5501 0.1178
+2     42  1 1.6032 0.2124
 [1] "topic expectations_1y"
 Linear hypothesis test
 
@@ -230,7 +230,7 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df      F Pr(>F)
 1     43                 
-2     42  1 0.2418 0.6254
+2     42  1 0.4194 0.5208
 [1] "topic inflation"
 Linear hypothesis test
 
@@ -247,7 +247,7 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df      F Pr(>F)
 1     43                 
-2     42  1 0.3568 0.5535
+2     42  1 0.1918 0.6637
 [1] "topic activitiy"
 Linear hypothesis test
 
@@ -264,4 +264,4 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df      F Pr(>F)
 1     43                 
-2     42  1 0.0156 0.9011
+2     42  1 0.0157 0.9008

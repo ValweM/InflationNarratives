@@ -11,27 +11,27 @@ dynlm(formula = inflation_expectations_3y ~ L(inflation_expectations_3y,
 
 Coefficients:
                    Intercept  inflation_expectations_3y.l1  inflation_expectations_3y.l2  inflation_expectations_3y.l3  
-                    0.629387                      0.600208                      0.655224                     -0.579193  
+                    0.608080                      0.609631                      0.658151                     -0.642809  
 inflation_expectations_3y.l4  inflation_expectations_3y.l5  inflation_expectations_3y.l6  inflation_expectations_1y.l1  
-                    0.892563                     -0.167713                     -0.512629                      0.480085  
+                    0.936425                     -0.126966                     -0.578497                      0.481450  
 inflation_expectations_1y.l2  inflation_expectations_1y.l3  inflation_expectations_1y.l4  inflation_expectations_1y.l5  
-                   -0.509201                      0.198799                     -0.909516                      0.609335  
+                   -0.435383                      0.122284                     -0.868190                      0.578157  
 inflation_expectations_1y.l6                  inflation.l1                  inflation.l2                  inflation.l3  
-                   -0.005834                     -5.986291                      5.274981                     -6.482796  
+                    0.022717                     -5.921924                      5.161579                     -6.654523  
                 inflation.l4                  inflation.l5                  inflation.l6          economic_activity.l1  
-                   11.877677                     -0.850624                      6.626363                      0.321059  
+                   11.234403                     -0.603063                      5.556490                      0.242628  
         economic_activity.l2          economic_activity.l3          economic_activity.l4          economic_activity.l5  
-                   -0.862669                     -0.741902                     -2.335946                     -0.982220  
+                   -0.747735                     -0.421411                     -2.228869                     -0.921267  
         economic_activity.l6                   pandemic.l1                   pandemic.l2                   pandemic.l3  
-                   -0.992907                      1.637048                     -0.695682                      5.683420  
+                   -0.804009                      0.249357                      1.156295                      3.009954  
                  pandemic.l4                   pandemic.l5                   pandemic.l6                         dummy  
-                   -5.455738                     -1.286100                     -0.708723                     -0.297461  
+                   -3.961450                     -0.890449                     -0.464150                     -0.354210  
                       month1                        month2                        month3                        month4  
-                    0.248062                     -0.286533                      0.326950                      0.258487  
+                    0.279872                     -0.293925                      0.359847                      0.264874  
                       month5                        month6                        month7                        month8  
-                    0.612857                     -0.028259                     -0.032553                     -0.155541  
+                    0.656561                      0.007661                      0.012804                     -0.141748  
                       month9                       month10                       month11  
-                   -0.092567                      0.368887                      0.148721  
+                   -0.078104                      0.396803                      0.158821  
 
 
 Time series regression with "ts" data:
@@ -46,27 +46,27 @@ dynlm(formula = inflation_expectations_1y ~ L(inflation_expectations_1y,
 
 Coefficients:
                    Intercept  inflation_expectations_1y.l1  inflation_expectations_1y.l2  inflation_expectations_1y.l3  
-                    -1.38733                       0.57474                      -0.34319                       1.06302  
+                    -1.20254                       0.61721                      -0.30533                       1.00264  
 inflation_expectations_1y.l4  inflation_expectations_1y.l5  inflation_expectations_1y.l6  inflation_expectations_3y.l1  
-                    -0.62207                       0.29721                      -0.30133                       0.45061  
+                    -0.65010                       0.41177                      -0.35812                       0.51959  
 inflation_expectations_3y.l2  inflation_expectations_3y.l3  inflation_expectations_3y.l4  inflation_expectations_3y.l5  
-                     0.12498                      -0.36747                       0.27803                      -0.30179  
+                    -0.02363                      -0.37921                       0.31358                      -0.31231  
 inflation_expectations_3y.l6                  inflation.l1                  inflation.l2                  inflation.l3  
-                     0.65005                      -3.24529                       6.04150                      -6.38808  
+                     0.61660                      -2.47894                       5.38019                      -7.21610  
                 inflation.l4                  inflation.l5                  inflation.l6          economic_activity.l1  
-                    12.87229                      -7.57912                       7.12826                      -2.70697  
+                    12.42100                      -8.17869                       6.29102                      -2.58041  
         economic_activity.l2          economic_activity.l3          economic_activity.l4          economic_activity.l5  
-                    -4.70009                      -4.33304                      -1.82311                       0.16158  
+                    -3.57912                      -3.50356                      -1.47858                      -0.11192  
         economic_activity.l6                   pandemic.l1                   pandemic.l2                   pandemic.l3  
-                     1.53911                     -10.41949                      18.24620                       7.51232  
+                     1.80303                      -8.18215                      13.65639                       4.34565  
                  pandemic.l4                   pandemic.l5                   pandemic.l6                         dummy  
-                    -2.52967                     -16.03697                      -0.35246                      -0.42281  
+                    -0.98675                      -9.44394                      -2.00887                      -0.31351  
                       month1                        month2                        month3                        month4  
-                     0.10201                      -0.39413                       0.22196                      -0.41858  
+                     0.03598                      -0.39398                       0.08416                      -0.45861  
                       month5                        month6                        month7                        month8  
-                     0.39965                      -0.00687                       0.07313                      -0.08817  
+                     0.33406                       0.05102                       0.06107                      -0.10493  
                       month9                       month10                       month11  
-                    -0.03191                       0.20162                      -0.14893  
+                    -0.06746                       0.11535                      -0.30295  
 
 
 Time series regression with "ts" data:
@@ -81,27 +81,27 @@ dynlm(formula = inflation ~ L(inflation, 1:num_lags) + L(inflation_expectations_
 
 Coefficients:
                    Intercept  inflation_expectations_1y.l1  inflation_expectations_1y.l2  inflation_expectations_1y.l3  
-                  -0.1197956                     0.2066054                    -0.2713425                     0.1686081  
+                   -0.128234                      0.272222                     -0.281227                      0.138261  
 inflation_expectations_1y.l4  inflation_expectations_1y.l5  inflation_expectations_1y.l6  inflation_expectations_3y.l1  
-                  -0.1113545                    -0.2224328                    -0.0089875                    -0.0041809  
+                   -0.183398                     -0.214091                     -0.087612                     -0.008268  
 inflation_expectations_3y.l2  inflation_expectations_3y.l3  inflation_expectations_3y.l4  inflation_expectations_3y.l5  
-                  -0.0203460                     0.0481079                    -0.0084454                     0.0276482  
+                   -0.013665                      0.047623                     -0.001641                      0.017660  
 inflation_expectations_3y.l6                  inflation.l1                  inflation.l2                  inflation.l3  
-                  -0.0378098                     0.0426481                    -0.0216862                     0.0006919  
+                   -0.033839                      0.045422                     -0.023004                     -0.004159  
                 inflation.l4                  inflation.l5                  inflation.l6          economic_activity.l1  
-                  -0.0106719                    -0.0098012                     0.0523114                    -0.0824959  
+                   -0.007571                     -0.006722                      0.049313                     -0.108000  
         economic_activity.l2          economic_activity.l3          economic_activity.l4          economic_activity.l5  
-                  -0.1641952                    -0.0997598                    -0.0686716                     0.0653434  
+                   -0.183810                     -0.117647                     -0.073556                      0.073782  
         economic_activity.l6                   pandemic.l1                   pandemic.l2                   pandemic.l3  
-                   0.0445775                     0.2986766                     0.2174882                    -0.1334559  
+                    0.063435                      0.049659                      0.390334                     -0.187896  
                  pandemic.l4                   pandemic.l5                   pandemic.l6                         dummy  
-                  -0.2938969                     0.2784958                    -0.4469206                    -0.0276775  
+                   -0.107631                      0.137162                     -0.402765                     -0.040590  
                       month1                        month2                        month3                        month4  
-                  -0.0489344                    -0.0110772                    -0.0132473                    -0.0151589  
+                   -0.047154                     -0.006770                     -0.010194                     -0.016139  
                       month5                        month6                        month7                        month8  
-                  -0.0186875                    -0.0265956                    -0.0282733                    -0.0170178  
+                   -0.014800                     -0.023469                     -0.020734                     -0.012200  
                       month9                       month10                       month11  
-                  -0.0298456                    -0.0094874                    -0.0559327  
+                   -0.027649                     -0.005724                     -0.051055  
 
 
 Time series regression with "ts" data:
@@ -116,27 +116,27 @@ dynlm(formula = economic_activity ~ L(economic_activity, 1:num_lags) +
 
 Coefficients:
                    Intercept          economic_acticity.l1          economic_acticity.l2          economic_acticity.l3  
-                    0.477776                      0.207739                      0.726098                      0.790190  
+                    0.392955                      0.172008                      0.252602                      0.593313  
         economic_acticity.l4          economic_acticity.l5          economic_acticity.l6  inflation_expectations_1y.l1  
-                   -0.343160                     -0.134069                     -1.084082                      0.135498  
+                   -0.508158                     -0.020918                     -1.167414                      0.104317  
 inflation_expectations_1y.l2  inflation_expectations_1y.l3  inflation_expectations_1y.l4  inflation_expectations_1y.l5  
-                   -0.205725                     -0.028494                     -0.120457                      0.178342  
+                   -0.179240                     -0.039849                     -0.100723                      0.121775  
 inflation_expectations_1y.l6  inflation_expectations_3y.l1  inflation_expectations_3y.l2  inflation_expectations_3y.l3  
-                    0.005546                      0.083147                     -0.204803                      0.130805  
+                    0.049199                      0.067855                     -0.133160                      0.099102  
 inflation_expectations_3y.l4  inflation_expectations_3y.l5  inflation_expectations_3y.l6                  inflation.l1  
-                    0.177861                     -0.279902                     -0.014144                      0.794043  
+                    0.189985                     -0.261017                     -0.042966                      0.584144  
                 inflation.l2                  inflation.l3                  inflation.l4                  inflation.l5  
-                    0.280921                     -0.333312                      2.836429                     -0.930111  
+                    0.468602                      0.055352                      2.785496                     -0.341306  
                 inflation.l6                   pandemic.l1                   pandemic.l2                   pandemic.l3  
-                    1.676415                      8.023949                     -9.396264                     -0.080012  
+                    1.551090                      5.640859                     -6.234354                      0.095398  
                  pandemic.l4                   pandemic.l5                   pandemic.l6                         dummy  
-                   -1.365691                      5.104914                     -0.727073                      0.188539  
+                   -1.416883                      2.693450                      0.154748                      0.093849  
                       month1                        month2                        month3                        month4  
-                   -0.135063                     -0.001098                     -0.027403                     -0.163809  
+                   -0.073046                      0.003322                      0.064186                     -0.130599  
                       month5                        month6                        month7                        month8  
-                   -0.063438                     -0.093894                     -0.130062                     -0.153733  
+                    0.009083                     -0.085995                     -0.088352                     -0.136139  
                       month9                       month10                       month11  
-                   -0.071606                     -0.115644                     -0.179235  
+                   -0.052453                     -0.050137                     -0.102606  
 
 
 Time series regression with "ts" data:
@@ -151,27 +151,27 @@ dynlm(formula = tsdata[, topic] ~ L(tsdata[, topic], 1:num_lags) +
 
 Coefficients:
                    Intercept                   pandemic.l1                   pandemic.l2                   pandemic.l3  
-                  -0.1598960                     0.1723790                     1.2979577                    -0.2478704  
+                   -0.199818                      0.092568                      1.132648                     -0.129536  
                  pandemic.l4                   pandemic.l5                   pandemic.l6          economic_activity.l1  
-                  -0.1815957                    -1.0030801                     0.3610991                    -0.2104754  
+                   -0.008062                     -0.928188                      0.217920                     -0.220200  
         economic_activity.l2          economic_activity.l3          economic_activity.l4          economic_activity.l5  
-                  -0.2171802                     0.0610170                     0.1151292                     0.2885658  
+                   -0.206004                      0.101051                      0.127828                      0.339836  
         economic_activity.l6  inflation_expectations_1y.l1  inflation_expectations_1y.l2  inflation_expectations_1y.l3  
-                   0.0891467                     0.0130566                     0.0478832                     0.0036553  
+                    0.126631                      0.016602                      0.059146                      0.010712  
 inflation_expectations_1y.l4  inflation_expectations_1y.l5  inflation_expectations_1y.l6  inflation_expectations_3y.l1  
-                   0.0121235                    -0.0477223                     0.0053753                    -0.0076366  
+                    0.011043                     -0.051174                     -0.001220                     -0.008727  
 inflation_expectations_3y.l2  inflation_expectations_3y.l3  inflation_expectations_3y.l4  inflation_expectations_3y.l5  
-                   0.0081711                    -0.0264295                     0.0047005                     0.0488061  
+                    0.003694                     -0.035782                      0.005864                      0.067322  
 inflation_expectations_3y.l6                  inflation.l1                  inflation.l2                  inflation.l3  
-                   0.0005861                    -0.2193493                    -0.3177774                    -0.3438817  
+                    0.001572                     -0.255539                     -0.471115                     -0.503675  
                 inflation.l4                  inflation.l5                  inflation.l6                         dummy  
-                  -0.7698435                    -0.1340038                    -0.5839554                    -0.1082675  
+                   -1.014415                     -0.228771                     -0.724319                     -0.141034  
                       month1                        month2                        month3                        month4  
-                   0.0045277                    -0.0186697                    -0.0087718                     0.0185646  
+                    0.005271                     -0.027378                     -0.019089                      0.023061  
                       month5                        month6                        month7                        month8  
-                  -0.0024744                     0.0174909                     0.0265973                     0.0209040  
+                   -0.007057                      0.030722                      0.035120                      0.031263  
                       month9                       month10                       month11  
-                   0.0150228                     0.0127350                     0.0114702  
+                    0.013205                      0.009277                      0.011409  
 
 [1] "diagnostics"
 [1] "heteroskedasticity"
@@ -209,7 +209,7 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df      F  Pr(>F)  
 1     18                    
-2     12  6 2.9401 0.05288 .
+2     12  6 2.5549 0.07863 .
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 [1] "inflation expectations_1y"
@@ -233,7 +233,7 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df      F  Pr(>F)  
 1     18                    
-2     12  6 3.3999 0.03382 *
+2     12  6 3.7098 0.02542 *
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 [1] "inflation"
@@ -257,7 +257,7 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df      F  Pr(>F)  
 1     18                    
-2     12  6 3.1091 0.04472 *
+2     12  6 2.9243 0.05372 .
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 [1] "economic_activity"
@@ -281,7 +281,7 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df      F    Pr(>F)    
 1     18                        
-2     12  6 16.359 3.848e-05 ***
+2     12  6 9.0352 0.0007085 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 [1] "feedback effects"
@@ -306,7 +306,7 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df      F  Pr(>F)  
 1     18                    
-2     12  6 4.2862 0.01541 *
+2     12  6 4.3791 0.01426 *
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 [1] "topic expectations_1y"
@@ -328,9 +328,9 @@ Model 2: tsdata[, topic] ~ L(tsdata[, topic], 1:num_lags) + L(economic_activity,
 
 Note: Coefficient covariance matrix supplied.
 
-  Res.Df Df     F  Pr(>F)  
-1     18                   
-2     12  6 4.391 0.01412 *
+  Res.Df Df      F   Pr(>F)   
+1     18                      
+2     12  6 5.8665 0.004633 **
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 [1] "topic inflation"
@@ -352,9 +352,9 @@ Model 2: tsdata[, topic] ~ L(tsdata[, topic], 1:num_lags) + L(economic_activity,
 
 Note: Coefficient covariance matrix supplied.
 
-  Res.Df Df      F   Pr(>F)   
-1     18                      
-2     12  6 5.0265 0.008529 **
+  Res.Df Df      F  Pr(>F)  
+1     18                    
+2     12  6 4.6354 0.01158 *
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 [1] "topic activitiy"
@@ -378,6 +378,6 @@ Note: Coefficient covariance matrix supplied.
 
   Res.Df Df      F    Pr(>F)    
 1     18                        
-2     12  6 43.909 1.774e-07 ***
+2     12  6 32.975 8.854e-07 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
