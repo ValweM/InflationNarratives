@@ -1,31 +1,31 @@
 % latex table generated in R 4.4.1 by xtable 1.8-4 package
-% Mon Nov 11 17:17:47 2024
+% Mon Nov 18 14:42:12 2024
 \begin{table}[ht]
 \centering
-\begin{tabular}{rlllllllllllll}
+\begin{tabular}{rllllllllllllll}
   \hline
- & 1\_energy & 2\_war & 3\_pandemic & 4\_labor\_shortage & 5\_supply\_chain & 6\_monetary\_policy & 7\_government\_spending & 8\_pent\_up\_demand & 9\_demand\_shift & 10\_profits & 11\_politics & 12\_debt & 13\_taxes \\ 
+ & 1\_energy & 2\_war & 3\_pandemic & 4\_labor\_shortage & 5\_supply\_chain & 6\_monetary\_policy & 7\_government\_spending & 8\_demand & 9\_demand\_shift & 10\_profits & 11\_politics & 12\_debt & 13\_taxes & 14\_supply \\ 
   \hline
-1 & price & russia [✓] & coronavirus [✓] & job [✓] & company & fed [✓] & energy & price & company & share & president [✓] & bank & tax [✓] \\ 
-  2 & oil [✓] & ukraine [✓] & pandemic [✓] & labor [✓] & price & rate & tax [13] & inflation & sale & company & election & bond & income \\ 
-  3 & high & russian & covid-19 [✓] & worker [✓] & supply [✓] & inflation & bill & rise & quarter & expect & biden [✓] & rate & pay \\ 
-  4 & market & oil [1] & recovery [8] & wage [✓] & cost & bank & biden [✓] & economist & share & market & trump [✓] & market & people \\ 
-  5 & gas [✓] & price & economy & rate & vehicle [9] & policy & climate & consumer [9] & price & profit [✓] & party [✓] & debt [✓] & money \\ 
-  6 & week & war [✓] & economic & inflation & car & central & billion & growth [10] & billion & group & house & government [✓] & cost \\ 
-  7 & barrel & energy & china & rise & new & interest [✓] & plan & increase & revenue & rise & state & central & plan \\ 
-  8 & rise & gas [1] & new & high & chain [✓] & powell & house & rate & expect & revenue & government [✓] & dollar & time \\ 
-  9 & demand [8] & country & vaccine & economy & demand [8] & federal [12] & democrats [11] & expect & earning & million & vote & currency & work \\ 
-  10 & energy & sanction & case [✓] & increase & maker & economy & government [11] & high & consumer [✓] & price & democrats [✓] & interest [6] & new \\ 
-  11 & crude [✓] & europe & restriction & unemployment & production & market & spending [✓] & index & rise & growth [✓] & senate [✓] & investor & high \\ 
-  12 & future & supply [5] & lockdown & growth [10] & industry & reserve & infrastructure [✓] & quarter & high & analyst & political & yield & retirement \\ 
-  13 & production & china & variant & market & high & official & carbon & economy & million & quarter & administration & billion & rate \\ 
-  14 & low & european & country & price & auto & raise [13] & new & datum & increase & plc & new & economy & financial \\ 
-  15 & fall & global & stimulus & economist & electric & increase & trillion & fall & cost & high & country & high & million \\ 
-  16 & day & invasion [✓] & demand [8] & low & increase & point & senate [11] & survey & growth [10] & sale & people & inflation & accord \\ 
-  17 & supply [5] & official & week & early & sale & meeting & power & economic & analyst & penny & win & country & like \\ 
-  18 & expect & world & global & work & business & economic & include & bank & store & bank & leader & financial & inflation \\ 
-  19 & analyst & high & government [11] & department & shortage & monetary [✓] & change [9] & service [9] & profit [10] & fall & republicans & low & state \\ 
-  20 & increase & economy & bank & pandemic [3] & tesla & high & package [✓] & forecast & business & strong & support & economic & long \\ 
+1 & oil [✓] & russia [✓] & coronavirus [✓] & job [✓] & company & rate & biden [✓] & price & company & share & president [✓] & bank & tax [✓] & price \\ 
+  2 & price & ukraine [✓] & pandemic [✓] & labor [✓] & price & fed [✓] & democrats [11] & inflation & sale & company & election & bond & income & high \\ 
+  3 & energy & u.s & covid-19 [✓] & worker [✓] & sale & inflation & house & rise & quarter & expect & trump [✓] & rate & pay & future \\ 
+  4 & gas [✓] & russian & u.s & wage [✓] & cost [✓] & bank & bill & consumer & share & profit [✓] & state & debt [✓] & cost [5] & ton \\ 
+  5 & barrel & war [✓] & recovery & rate & quarter & policy & tax [13] & rate & price & market & government [✓] & market & plan & gold \\ 
+  6 & crude [✓] & oil [1] & economy & high & share & central & senate [11] & growth [✓] & revenue & group & u.s & government [✓] & financial & market \\ 
+  7 & high & price & economic & u.s & supply [✓] & interest [✓] & spending [✓] & economist & consumer & revenue & party [✓] & yield & new & demand [8] \\ 
+  8 & market & energy & china & rise & high & powell & president [11] & increase & billion & million & country & central & people & rise \\ 
+  9 & demand [8] & sanction & new & inflation & expect & market & administration & high & business & rise & house & investor & money & metal \\ 
+  10 & production [14] & country & vaccine & unemployment & increase & federal [12] & plan & expect & new & quarter & new & dollar & change & week \\ 
+  11 & rise & china & case [✓] & market & billion & economy & trillion & quarter & store & plc & political & interest [6] & work & commodity \\ 
+  12 & week & europe & restriction & economy & rise & reserve & republicans & economy & inc & growth [8] & people & currency & need & copper \\ 
+  13 & company & gas [1] & lockdown & increase & demand [8] & official & package [✓] & index & growth [8] & price & vote & u.s & time & production [✓] \\ 
+  14 & natural & supply [5] & variant & work & chain [✓] & raise [13] & u.s & datum & expect & analyst & biden [✓] & billion & state & low \\ 
+  15 & day & global & country & low & vehicle & increase & pass & fall & service [✓] & high & leader & inflation & retirement & oil [1] \\ 
+  16 & supply [5] & invasion [✓] & demand [8] & pandemic [3] & million & meeting & billion & economic & increase & sale & official & high & rate & fall \\ 
+  17 & u.s & european & global & people & car & point & congress [11] & survey & high & penny & include & economy & increase & trade \\ 
+  18 & fuel [✓] & world & government [11] & early & earning & monetary [✓] & federal [12] & u.s & executive & result & win & rise & insurance & china \\ 
+  19 & low & economy & business & growth [8] & new & economic & support & bank & million & strong & administration & low & account & expect \\ 
+  20 & increase & official & week & pay & maker & expect & budget & forecast & customer & fall & senate [✓] & country & benefit & corn \\ 
    \hline
 \end{tabular}
 \end{table}
