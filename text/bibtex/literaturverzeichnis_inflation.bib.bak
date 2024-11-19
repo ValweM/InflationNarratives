@@ -1,0 +1,1485 @@
+% Encoding: UTF-8
+
+﻿% This file was created with Citavi 6.3.0.0
+
+@book{Akerlof.2009,
+ author = {Akerlof, George A. and Shiller, Robert J.},
+ year = {2009},
+ title = {Animal Spirits: How Human Psychology Drives the Economy, and Why it Matters for Global Capitalism},
+ address = {Princeton, Woodstock},
+ publisher = {{Princeton University Press}}
+}
+
+
+@misc{Muller.2022,
+ abstract = {In this paper, we present a new indicator to measure the media coverage of inflation. Our Inflation Perception Indicator (IPI) for Germany is based on a corpus of three million articles published by broadsheet newspapers between January 2001 and February 2022. It is designed to detect thematic trends, thereby providing new insights into the dynamics of inflation perception over time. These results may prove particularly valuable at the current juncture, where massive uncertainty prevails due to geopolitical conflicts and the pandemic-related supply-chain jitters. Economists inspired by Shiller (2017; 2020) have called for analyses of economic narratives to complement econometric analyses. The IPI operationalizes such an approach by isolating inflation narratives circulating in the media. Methodically, the IPI makes use of RollingLDA (Rieger et al. 2021), a dynamic topic modeling approach refining the rather static original LDA (Blei et al. 2003) to allow for changes in the model's structure over time. By modeling the process of collective memory, where experiences of the past are partly overwritten and altered by new ones and partly sink into oblivion, RollingLDA is a potent tool to capture the evolution of economic narratives as social phenomena. In addition, it is suitable to produce stable time-series, to the effect that the IPI can be updated frequently. Our initial results show a narrative landscape in turmoil. Never in the past two decades has there been such a broad shift in inflation perception, and therefore, possibly, in inflation expectations. Also, second-round effects, such as significant wage demands, that have not played a major role in Germany for a long time, seem to be in the making. Towards the end of the time horizon, raw material prices are high on the agenda, too, triggered by the Russian war against Ukraine and the ensuing sanctions against the aggressor. We would like to encourage researchers to use our data and are happy to share it on request.},
+ author = {M{\"u}ller, Henrik and Schmidt, Tobias and Rieger, Jonas and Hufnagel, Lena Marie and Hornig, Nico},
+ date = {2022},
+ title = {A German inflation narrative. How the media frame price dynamics: Results from a RollingLDA analysis},
+ address = {Dortmund},
+ number = {9},
+ series = {DoCMA Working Paper},
+ institution = {{Dortmund Center for Data-based Media Analysis}}
+}
+
+
+@incollection{Mayring.2019,
+ author = {Mayring, Philipp and Fenzl, Thomas},
+ title = {Qualitative Inhaltsanalyse},
+ pages = {633--648},
+ volume = {3},
+ publisher = {{Springer Fachmedien Wiesbaden}},
+ editor = {Baur, Nina and Blasius, J{\"o}rg},
+ booktitle = {Handbuch Methoden der empirischen Sozialforschung},
+ year = {2019},
+ address = {Wiesbaden}
+}
+
+
+@article{Mavroeidis.2014,
+ author = {Mavroeidis, Sophocles and Plagborg-M{\o}ller, Mikkel and Stock, James H.},
+ year = {2014},
+ title = {Empirical Evidence on Inflation Expectations in the New Keynesian Phillips Curve},
+ pages = {124--188},
+ volume = {52},
+ number = {1},
+ issn = {0022-0515},
+ journal = {Journal of Economic Literature}
+}
+
+
+@misc{Marcinkiewicz.2016,
+ author = {Marcinkiewicz, Kamil and Peter, Sascha and Schnapp, Kai-Uwe},
+ date = {2016},
+ title = {Hamburg-BUS 2016. B{\"u}rgerumfrage der Sozialwissenschaften f{\"u}r Hamburg: Fragebogen},
+ url = {https://www.wiso.uni-hamburg.de/forschung/forschungslabor/archivfl/hamburg-bus/fragebogen-2016.pdf},
+ address = {Hamburg},
+ urldate = {10.01.2023},
+ institution = {{Universit{\"a}t Hamburg, Fakult{\"a}t f{\"u}r Wirtschaft und Sozialwissenschaften}}
+}
+
+
+@article{Mankiw.2003,
+ author = {Mankiw, N. Gregory and Reis, Ricardo and Wolfers, Justin},
+ year = {2003},
+ title = {Disagreement about Inflation Expectations},
+ pages = {209--248},
+ volume = {18},
+ issn = {0889-3365},
+ journal = {NBER Macroeconomics Annual}
+}
+
+
+@article{Mankiw.2002,
+ author = {Mankiw, N. Gregory and Reis, Ricardo},
+ year = {2002},
+ title = {Sticky Information versus Sticky Prices: A Proposal to Replace the New Keynesian Phillips Curve},
+ pages = {1295--1328},
+ volume = {117},
+ number = {4},
+ issn = {0033-5533},
+ journal = {The Quarterly Journal of Economics}
+}
+
+
+@article{Malmendier.2016,
+ author = {Malmendier, Ulrike and Nagel, Stefan},
+ year = {2016},
+ title = {Learning from Inflation Experiences},
+ pages = {53--87},
+ volume = {131},
+ number = {1},
+ issn = {0033-5533},
+ journal = {The Quarterly Journal of Economics}
+}
+
+
+@article{Macaulay.2022,
+ author = {Macaulay, Alistair and Song, Wenting},
+ year = {2022},
+ title = {Narrative-Driven Fluctuations in Sentiment: Evidence Linking Traditional and Social Media},
+ journal = {SSRN Electronic Journal}
+}
+
+
+@misc{Macaulay.2022b,
+ author = {Macaulay, Alistair},
+ date = {2022},
+ title = {Heterogeneous Information, Subjective Model Beliefs, and the Time-Varying Transmission of Shocks},
+ address = {M{\"u}nchen},
+ number = {9733},
+ series = {CESifo Working Papers},
+ institution = {CESifo}
+}
+
+
+@article{Muth.1961,
+ author = {Muth, John F.},
+ year = {1961},
+ title = {Rational Expectations and the Theory of Price Movements},
+ pages = {315--335},
+ volume = {29},
+ number = {3},
+ issn = {00129682},
+ journal = {Econometrica}
+}
+
+
+@article{Lusardi.2011,
+ abstract = {In an increasingly risky and globalized marketplace, people must be able to make well-informed financial decisions. Yet new international research demonstrates that financial illiteracy is widespread when financial markets are well developed as in Germany, the Netherlands, Sweden, Japan, Italy, New Zealand, and the United States, or when they are changing rapidly as in Russia. Further, across these countries, we show that the older population believes itself well informed, even though it is actually less well informed than average. Other common patterns are also evident: women are less financially literate than men and are aware of this shortfall. More educated people are more informed, yet education is far from a perfect proxy for literacy. There are also ethnic/racial and regional differences: city-dwellers in Russia are better informed than their rural counterparts, while in the U.S., African Americans and Hispanics are relatively less financially literate than others. Moreover, the more financially knowledgeable are also those most likely to plan for retirement. In fact, answering one additional financial question correctly is associated with a 3-4 percentage point higher chance of planning for retirement in countries as diverse as Germany, the U.S., Japan, and Sweden; in the Netherlands, it boosts planning by 10 percentage points. Finally, using instrumental variables, we show that these estimates probably underestimate the effects of financial literacy on retirement planning. In sum, around the world, financial literacy is critical to retirement security.},
+ author = {Lusardi, Annamaria and Mitchell, Olivia S.},
+ year = {2011},
+ title = {Financial literacy around the world: an overview},
+ pages = {497--508},
+ volume = {10},
+ number = {4},
+ issn = {1474-7472},
+ journal = {Journal of pension economics {\&} finance}
+}
+
+
+@article{Lucas.1979,
+ author = {Lucas, Robert E. and Sargent, Thomas J.},
+ year = {1979},
+ title = {After Keynesian macroeconomics},
+ volume = {3},
+ number = {2},
+ journal = {Federal Reserve Bank of Minneapolis Quarterly Review}
+}
+
+
+@article{Lucas.1977,
+ author = {Lucas, Robert E.},
+ year = {1977},
+ title = {Understanding business cycles},
+ pages = {7--29},
+ volume = {5},
+ issn = {01672231},
+ journal = {Carnegie-Rochester Conference Series on Public Policy}
+}
+
+
+@article{Lucas.1976,
+ author = {Lucas, Robert E.},
+ year = {1976},
+ title = {Econometric policy evaluation: A critique},
+ pages = {19--46},
+ volume = {1},
+ number = {2},
+ issn = {01672231},
+ journal = {Carnegie-Rochester Conference Series on Public Policy}
+}
+
+
+@article{Lombardelli.2003,
+ author = {Lombardelli, Clare and Saleheen, Jumana},
+ year = {2003},
+ title = {Public Expectations of UK Inflation},
+ pages = {281--290},
+ volume = {Autumn 2003},
+ journal = {Bank of England Quarterly Bulletin}
+}
+
+
+@misc{Larsen.2019,
+ author = {Larsen, Vegard H. and Thorsrud, Leif Anders},
+ date = {2019},
+ title = {Business Cycle Narratives},
+ address = {M{\"u}nchen},
+ number = {7468},
+ series = {CESifo Working Paper},
+ institution = {CESifo}
+}
+
+
+@book{Lamnek.2016,
+ abstract = {{\textquotedbl}Qualitative Sozialforschung{\textquotedbl} ist ein Klassiker der Methodenlehre in der Psychologie, Soziologie und Kommunikationswissenschaft. Es handelt sich um ein {\"U}berblickswerk, das verschiedenste qualitative Methoden auff{\"u}hrt, z.B. die Gruppendiskussion, das qualitative Interview oder die Inhaltsanalyse. Wie f{\"u}hre ich eine Gruppendiskussion? In welchen Situationen ist ein qualitatives Interview einem strukturierten Fragebogen {\"u}berlegen? Gibt es Besonderheiten bei der Anwendung der Methoden bei Kindern, Jugendlichen oder {\"a}lteren Menschen? All diese Fragen betreffen die qualitative Sozialforschung und werden im vorliegenden Lehrbuch beantwortet. Die {\"u}berarbeitete 6. Auflage bezieht au{\ss}erdem Themen wie Globalisierung, Fremdsprachen und Ethnografie und deren Einfluss auf qualitative Forschungsmethoden mit ein.},
+ author = {Lamnek, Siegfried and Krell, Claudia},
+ year = {2016},
+ title = {Qualitative Sozialforschung: Mit Online-Material},
+ address = {Weinheim},
+ edition = {6., vollst{\"a}ndig {\"u}berarbeitete Auflage},
+ publisher = {Beltz}
+}
+
+
+@incollection{Krebs.2019,
+ author = {Krebs, Dagmar and Menold, Natalja},
+ title = {G{\"u}tekriterien quantitativer Sozialforschung},
+ pages = {489--504},
+ volume = {16},
+ publisher = {{Springer Fachmedien Wiesbaden}},
+ editor = {Baur, Nina and Blasius, J{\"o}rg},
+ booktitle = {Handbuch Methoden der empirischen Sozialforschung},
+ year = {2019},
+ address = {Wiesbaden}
+}
+
+
+@book{Knight.1921,
+ author = {Knight, Frank H.},
+ year = {1921},
+ title = {Risk, Uncertainty and Profit},
+ address = {Bosten},
+ publisher = {{Houghton Mifflin Company}}
+}
+
+
+@book{Keynes.2006,
+ author = {Keynes, John Maynard},
+ year = {2006},
+ title = {Allgemeine Theorie der Besch{\"a}ftigung, des Zinses und des Geldes},
+ address = {Berlin},
+ edition = {10., verbesserte Auflage},
+ publisher = {{Duncker {\&} Humblot}},
+ file = {https://swbplus.bsz-bw.de/bsz258600853vlg-1.htm},
+ file = {https://swbplus.bsz-bw.de/bsz258600853vlg.htm}
+}
+
+
+@misc{Lusardi.2006,
+ author = {Lusardi, Annamaria and Mitchell, Olivia S.},
+ date = {2006},
+ title = {Financial Literacy and Planning: Implications for Retirement Wellbeing},
+ address = {Philadelphia},
+ number = {WP2006--01},
+ series = {Pension Research Council Working Paper},
+ institution = {{Pension Research Council at University of Pennsylvania}}
+}
+
+
+@misc{Kalamara.2020,
+ author = {Kalamara, Eleni and Turrell, Arthur and Redl, Chris and Kapetanios, George and Kapadia, Sujit},
+ date = {2020},
+ title = {Making text count: Economic forecasting using newspaper text},
+ address = {London},
+ number = {865},
+ series = {Staff Working Paper},
+ institution = {{Bank of England}}
+}
+
+
+@misc{Niehues.2022,
+ author = {Niehues, Judith and Stockhausen, Maximilian},
+ date = {2022},
+ title = {Einkommen im Vergleich},
+ url = {https://www.iwkoeln.de/presse/interaktive-grafiken/judith-niehues-maximilian-stockhausen-einkommen-im-vergleich.html},
+ urldate = {13.01.2023},
+ institution = {{IW K{\"o}ln}}
+}
+
+
+@misc{Pfajfar.2008,
+ author = {Pfajfar, Damjan and Santoro, Emiliano},
+ date = {2008},
+ title = {Asymmetries in Inflation Expectation Formation Across Demographic Groups},
+ address = {Cambridge},
+ number = {0824},
+ series = {Cambridge Working Papers in Economics},
+ institution = {{Faculty of Economics, University of Cambridge}}
+}
+
+
+@article{Xu.2016,
+ author = {Xu, Yingying and Chang, Hsu-Ling and Lobonţ, Oana-Ramona and Su, Chi-Wei},
+ year = {2016},
+ title = {Modeling heterogeneous inflation expectations: empirical evidence from demographic data?},
+ pages = {153--163},
+ volume = {57},
+ issn = {02649993},
+ journal = {Economic Modelling}
+}
+
+
+@misc{Weber.2022,
+ author = {Weber, Michael and Gorodnichenko, Yuriy and Coibion, Olivier},
+ date = {2022},
+ title = {The Expected, Perceived, and Realized Inflation of U.S. Households before and during the COVID19 Pandemic},
+ address = {Cambridge, Massachusetts},
+ number = {29640},
+ series = {NBER Working Paper},
+ institution = {{National Bureau of Economic Research}}
+}
+
+
+@misc{Vellekoop.2019,
+ author = {Vellekoop, Nathanael and Wiederholt, Mirko},
+ date = {2019},
+ title = {Inflation Expectations and Choices of Households},
+ address = {Frankfurt},
+ number = {250},
+ series = {SAFE Working Paper},
+ institution = {{Sustainable Architecture for Finance in Europe}}
+}
+
+
+@article{Tuckett.2017,
+ abstract = {We propose conviction narrative theory (CNT) to broaden decision-making theory in order to better understand and analyse how subjectively means-end rational actors cope in contexts in which the traditional assumptions in decision-making models fail to hold. Conviction narratives enable actors to draw on their beliefs, causal models, and rules of thumb to identify opportunities worth acting on, to simulate the future outcome of their actions, and to feel sufficiently convinced to act. The framework focuses on how narrative and emotion combine to allow actors to deliberate and to select actions that they think will produce the outcomes they desire. It specifies connections between particular emotions and deliberative thought, hypothesising that approach and avoidance emotions evoked during narrative simulation play a crucial role. Two mental states, Divided and Integrated, in which narratives can be formed or updated, are introduced and used to explain some familiar problems that traditional models cannot.},
+ author = {Tuckett, David and Nikolic, Milena},
+ year = {2017},
+ title = {The role of conviction and narrative in decision-making under radical uncertainty},
+ pages = {501--523},
+ volume = {27},
+ number = {4},
+ issn = {0959-3543},
+ journal = {Theory {\&} psychology}
+}
+
+
+@misc{Tilly.2021,
+ abstract = {This study presents a novel approach to incorporating news topics and their associated sentiment into predictions of breakeven inflation rate (BEIR) movements for eight countries with mature bond markets. We calibrate five classes of machine learning models including narrative-based features for each country, and find that they generally outperform corresponding benchmarks that do not include such features. We find Logistic Regression and XGBoost classifiers to deliver the best performance across countries. We complement these results with a feature importance analysis, showing that economic and financial topics are the key performance drivers in our predictions, with additional contributions from topics related to health and government. We examine cross-country spillover effects of news narrative on BEIR via Graphical Granger Causality and confirm their existence for the US and Germany, while five other countries considered in our study are only influenced by local narrative.},
+ author = {Tilly, Sonja and Livan, Giacomo},
+ date = {2021},
+ title = {Predicting market inflation expectations with news topics and sentiment},
+ url = {https://arxiv.org/pdf/2107.07155.pdf},
+ urldate = {10.01.2023}
+}
+
+
+@article{Svetlova.2022,
+ author = {Svetlova, Ekaterina},
+ year = {2022},
+ title = {AI meets narratives: the state and future of research on expectation formation in economics and sociology},
+ pages = {841--861},
+ volume = {20},
+ number = {2},
+ issn = {1475-1461},
+ journal = {Socio-Economic Review}
+}
+
+
+@misc{StatistischesBundesamt.2021,
+ author = {{Statistisches Bundesamt}},
+ date = {2021},
+ title = {Mikrozensus Glossar 2020},
+ url = {https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Haushalte-Familien/Methoden/Downloads/mikrozensus-glossar.pdf?__blob=publicationFile},
+ urldate = {02.01.2023}
+}
+
+
+@book{StatistischesBundesamt.2016,
+ author = {{Statistisches Bundesamt}},
+ year = {2016},
+ title = {Statistik und Wissenschaft: Demographische Standarts},
+ address = {Wiesbaden},
+ edition = {6. {\"u}berarbeitete Auflage},
+ volume = {17}
+}
+
+
+@misc{StatistischesBundesamt.2022a,
+ author = {{Statistisches Bundesamt}},
+ date = {2022a},
+ title = {Tabelle. Verbraucherpreisindex: Deutschland, Jahre},
+ url = {https://www-genesis.destatis.de/genesis/online?operation=previous&levelindex=1&step=1&titel=Ergebnis&levelid=1673113030565&acceptscookies=false#abreadcrumb},
+ urldate = {07.01.2022}
+}
+
+@Book{Pearl.2009,
+  author    = {Pearl, Judea},
+  publisher = {{Cambridge University Press}},
+  title     = {Causality: Models, reasoning, and inference},
+  year      = {2009},
+  address   = {Cambridge},
+  edition   = {2},
+}
+
+
+@misc{StatistischesBundesamt.2022b,
+ author = {{Statistisches Bundesamt}},
+ date = {2022b},
+ title = {Inflationsrate im Juni 2022 leicht abgeschw{\"a}cht bei +7,6 {\%}. Inflationsrate geht auch infolge des 9-Euro-Tickets und des Tankrabatts leicht zur{\"u}ck: Pressemitteilung Nr. 296 vom 13. Juli 2022},
+ url = {https://www.destatis.de/DE/Presse/Pressemitteilungen/2022/07/PD22_296_611.html#:~:text=Harmonisierter%20Verbraucherpreisindex%2C%20Juni%202022&text=WIESBADEN%20–%20Die%20Inflationsrate%20in%20Deutschland,bei%20%2B7%2C6%20%25.},
+ urldate = {07.01.2023}
+}
+
+
+@article{Shiller.2017,
+ author = {Shiller, Robert J.},
+ year = {2017},
+ title = {Narrative Economics},
+ pages = {967--1004},
+ volume = {107},
+ number = {4},
+ journal = {The American Economic Review}
+}
+
+
+@article{Rumler.2020,
+ author = {Rumler, Fabio and Valderrama, Mar{\'i}a Teresa},
+ year = {2020},
+ title = {Inflation literacy and inflation expectations: Evidence from Austrian household survey data},
+ pages = {8--23},
+ volume = {87},
+ number = {2},
+ issn = {02649993},
+ journal = {Economic Modelling}
+}
+
+
+@misc{Roos.2021,
+ author = {Roos, Michael W. M. and Reccius, Matthias},
+ date = {2021},
+ title = {Narratives in economics},
+ address = {Essen},
+ number = {922},
+ series = {Ruhr Economic Papers},
+ institution = {{RWI - Leibniz-Institut f{\"u}r Wirtschaftsforschung}}
+}
+
+
+@article{Romer.2010,
+ author = {Romer, Christina D. and Romer, David H.},
+ year = {2010},
+ title = {The Macroeconomic Effects of Tax Changes: Estimates Based on a New Measure of Fiscal Shocks},
+ pages = {763--801},
+ volume = {100},
+ number = {3},
+ issn = {0002-8282},
+ journal = {American Economic Review}
+}
+
+
+@article{Romer.2004,
+ author = {Romer, Christina D. and Romer, David H.},
+ year = {2004},
+ title = {A New Measure of Monetary Shocks: Derivation and Implications},
+ pages = {1055--1084},
+ volume = {94},
+ number = {4},
+ issn = {0002-8282},
+ journal = {American Economic Review}
+}
+
+
+@misc{Roberts.1998,
+ author = {Roberts, John M.},
+ date = {1998},
+ title = {Inflation Expectations and the Transmission of Monetary Policy},
+ address = {Washington, D.C.},
+ series = {Finance and Economics Discussion Series},
+ institution = {{Board of Governors of the Federal Reserve System}}
+}
+
+
+@misc{Reis.2022,
+ author = {Reis, Ricardo},
+ date = {2022},
+ title = {What can keep euro area inflation high? 76th Economic Policy Panel Meeting},
+ institution = {{CEPR, CESifo, Sciences Po}}
+}
+
+
+@book{Reinhart.2009,
+ author = {Reinhart, Carmen M. and Rogoff, Kenneth S.},
+ year = {2009},
+ title = {This Time Is Different: Eight Centuries of Financial Folly},
+ address = {Princeton, Woodstock},
+ publisher = {{Princeton University Press}}
+}
+
+
+@article{Pitschner.2020,
+ author = {Pitschner, Stefan},
+ year = {2020},
+ title = {How do firms set prices? Narrative evidence from corporate filings},
+ volume = {124},
+ issn = {00142921},
+ journal = {European Economic Review}
+}
+
+
+@book{Shiller.2020,
+ author = {Shiller, Robert J.},
+ year = {2020},
+ title = {Narrative Wirtschaft: Wie Geschichten die Wirtschaft beeinflussen - ein revolution{\"a}rer Erkl{\"a}rungsansatz},
+ address = {Kulmbach},
+ edition = {2. Auflage},
+ publisher = {{Plassen Verlag}}
+}
+
+
+@article{Jonung.1988,
+ author = {Jonung, Lars and Laidler, David},
+ year = {1988},
+ title = {Are Perceptions of Inflation Rational? Some Evidence for Sweden},
+ pages = {1080--1087},
+ volume = {78},
+ number = {5},
+ journal = {The American Economic Review}
+}
+
+
+@article{Jonung.1981,
+ author = {Jonung, Lars},
+ year = {1981},
+ title = {Perceived and Expected Rates of Inflation in Sweden},
+ pages = {961--968},
+ volume = {71},
+ number = {5},
+ journal = {The American Economic Review}
+}
+
+
+@misc{Johannsen.2014,
+ author = {Johannsen, Benjamin K.},
+ date = {2014},
+ title = {Inflation Experience and Inflation Expectations: Dispersion and Disagreement Within Demographic Groups},
+ address = {Washington, D.C.},
+ number = {2014-89},
+ series = {Finance and Economics Discussion Series},
+ institution = {{Board of Governors of the Federal Reserve System}}
+}
+
+
+@misc{Bryan.2001,
+ author = {Bryan, Michael F. and Venkatu, Guhan},
+ date = {2001},
+ title = {The Demographics of Inflation Opinion Surveys},
+ address = {Cleveland},
+ number = {10/15/2001},
+ series = {Economic Commentary},
+ institution = {{Federal Reserve Bank of Cleveland}}
+}
+
+
+@article{BruinedeBruin.2010,
+ author = {{Bruine de Bruin}, W{\"a}ndi and Vanderklaauw, Wilbert and Downs, Julie S. and Fischhoff, Baruch and Topa, Giorgio and Armantier, Olivier},
+ year = {2010},
+ title = {Expectations of Inflation: The Role of Demographic Variables, Expectation Formation, and Financial Literacy},
+ pages = {381--402},
+ volume = {44},
+ number = {2},
+ issn = {00220078},
+ journal = {Journal of Consumer Affairs}
+}
+
+
+@article{Borup.2022,
+ author = {Borup, Daniel and Hansen, Jorge and Liengaard, Benjamin and Sch{\"u}tte, Erik Christian Montes},
+ year = {2022},
+ title = {Tell Me a Story: Quantifying Economic Narratives and Their Role during COVID-19},
+ journal = {SSRN Electronic Journal}
+}
+
+
+@misc{Bock.2020,
+ author = {Bock, Olaf and Lohmann, Henning and Manderscheid, Katharina and Marcinkiewicz, Kamil and Peter, Sascha and Schnapp, Kai-Uwe},
+ date = {2020},
+ title = {Hamburg-BUS 2020. B{\"u}rgerumfrage der Sozialwissenschaften f{\"u}r Hamburg: Fragebogen},
+ url = {https://www.wiso.uni-hamburg.de/forschung/forschungslabor/archivfl/hhbus-fragebogen-2020.pdf},
+ address = {Hamburg},
+ urldate = {03.01.2023},
+ institution = {{Universit{\"a}t Hamburg, Fakult{\"a}t f{\"u}r Wirtschaft und Sozialwissenschaften}}
+}
+
+
+@misc{Blanchflower.2009,
+ author = {Blanchflower, David G. and MacCoille, Conall},
+ date = {2009},
+ title = {The formation of inflation expectations: an empirical analysis for the UK},
+ address = {Cambridge, Massachusetts},
+ number = {15388},
+ series = {NBER Working Paper},
+ institution = {{National Bureau of Economic Research}}
+}
+
+
+@article{Binder.2018,
+ author = {Binder, Carola and Rodrigue, Alex},
+ year = {2018},
+ title = {Household Informedness and Long-Run Inflation Expectations: Experimental Evidence},
+ pages = {580--598},
+ volume = {85},
+ number = {2},
+ issn = {00384038},
+ journal = {Southern Economic Journal}
+}
+
+
+@misc{Bernanke.2007,
+ author = {Bernanke, Ben S.},
+ date = {2007},
+ title = {Inflation Expectations and Inflation Forecasting: Rede beim Monetary Economics Workshop of the National Bureau of Economics Research Summer Institute, Cambridge, Massachusetts},
+ url = {https://www.federalreserve.gov/newsevents/speech/bernanke20070710a.htm},
+ urldate = {08.01.2023}
+}
+
+
+@article{Berlemann.2006,
+ author = {Berlemann, Michael and Elzemann, J{\"o}rg},
+ year = {2006},
+ title = {Are expectations on inflation and election outcomes connected? An empirical analysis},
+ pages = {354--359},
+ volume = {91},
+ number = {3},
+ issn = {01651765},
+ journal = {Economics Letters}
+}
+
+
+@misc{Benabou.2018,
+ author = {B{\'e}nabou, Roland and Falk, Armin and Tirole, Jean},
+ date = {2018},
+ title = {Narratives, Imperatives, and Moral Reasoning},
+ address = {Cambridge, Massachusetts},
+ number = {24798},
+ series = {NBER Working Paper},
+ institution = {{National Bureau of Economic Research}}
+}
+
+
+@article{Burke.2014,
+ author = {Burke, Mary A. and Manz, Michael},
+ year = {2014},
+ title = {Economic Literacy and Inflation Expectations: Evidence from a Laboratory Experiment},
+ pages = {1421--1456},
+ volume = {46},
+ number = {7},
+ journal = {Journal of Money, Credit and Banking}
+}
+
+
+@article{Beckert.2018,
+ author = {Beckert, Jens},
+ year = {2018},
+ title = {Woher kommen Erwartungen?},
+ pages = {507--523},
+ volume = {59},
+ number = {2},
+ journal = {Jahrbuch f{\"u}r Wirtschaftsgeschichte}
+}
+
+
+@book{Baur.2019,
+ year = {2019},
+ title = {Handbuch Methoden der empirischen Sozialforschung},
+ address = {Wiesbaden},
+ publisher = {{Springer Fachmedien Wiesbaden}},
+ editor = {Baur, Nina and Blasius, J{\"o}rg}
+}
+
+
+@article{Bachmann.2015,
+ author = {Bachmann, R{\"u}diger and Berg, Tim O. and Sims, Eric R.},
+ year = {2015},
+ title = {Inflation Expectations and Readiness to Spend: Cross-Sectional Evidence},
+ pages = {1--35},
+ volume = {7},
+ number = {1},
+ issn = {1945-7731},
+ journal = {American Economic Journal: Economic Policy}
+}
+
+
+@article{Bachmann.2021,
+ author = {Bachmann, Oliver and Gr{\"u}ndler, Klaus and Potrafke, Niklas and Seiberlich, Ruben},
+ year = {2021},
+ title = {Partisan bias in inflation expectations},
+ pages = {513--536},
+ volume = {186},
+ issn = {0048-5829},
+ journal = {Public Choice}
+}
+
+
+@article{Armantier.2016,
+ author = {Armantier, Olivier and Nelson, Scott and Topa, Giorgio and {van der Klaauw}, Wilbert and Zafar, Basit},
+ year = {2016},
+ title = {The Price Is Right: Updating Inflation Expectations in a Randomized Price Information Experiment},
+ pages = {503--523},
+ volume = {98},
+ number = {3},
+ issn = {0034-6535},
+ journal = {Review of Economics and Statistics}
+}
+
+
+@misc{Arioli.2017,
+ author = {Arioli, Rodolfo and Bates, Colm and Dieden, Heinz and Duca, Ioana and Friz, Roberta and Gayer, Christian and Kenny, Geoff and Meyler, Aidan and Pavlova, Iskra},
+ date = {2017},
+ title = {EU consumers' quantitative inflation EU consumers' quantitative inflation perceptions and expectations: an evaluation},
+ address = {Frankfurt},
+ number = {186},
+ series = {Occasional Paper Series},
+ institution = {{European Central Bank}}
+}
+
+
+@article{Antoci.2020,
+ author = {Antoci, Angelo and Ferilli, Guido and Russu, Paolo and Sacco, Pier Luigi},
+ year = {2020},
+ title = {Rational populists: the social consequences of shared narratives},
+ pages = {479--506},
+ volume = {30},
+ journal = {Journal of Evolutionary Economics}
+}
+
+
+@misc{Andre.2021,
+ author = {Andre, Peter and Haaland, Ingar and Roth, Christopher and Wohlfart, Johannes},
+ date = {2021},
+ title = {Inflation Narratives},
+ address = {Bonn, K{\"o}ln},
+ number = {127},
+ series = {ECONtribute Discussion Paper},
+ institution = {{Universit{\"a}t Bonn und Universit{\"a}t K{\"o}ln}}
+}
+
+@TechReport{Andre.2022a,
+  author      = {Andre, Peter and Haaland, Ingar and Roth, Christopher and Wohlfart, Johannes},
+  institution = {{Universit{\"a}t Bonn und Universit{\"a}t K{\"o}ln}},
+  title       = {Narratives about the Macroeconomy},
+  year        = {2022},
+  address     = {Bonn, K{\"o}ln},
+  number      = {127},
+  date        = {2022a},
+  series      = {ECONtribute Discussion Paper},
+}
+
+
+@misc{Andre.2022b,
+ author = {Andre, Peter and Haaland, Ingar and Roth, Christopher and Wohlfart, Johannes},
+ date = {2022b},
+ title = {Narratives about the Macroeconomy: Survey Instructions},
+ url = {https://osf.io/av48u},
+ urldate = {07.01.2023}
+}
+
+
+@book{Beckert.2018b,
+ author = {Beckert, Jens},
+ year = {2018},
+ title = {Imaginierte Zukunft: Fiktionale Erwartungen und die Dynamik des Kapitalismus},
+ address = {Berlin},
+ publisher = {Suhrkamp},
+ file = {https://content-select.com/portal/media/cover_image/5a96ee36-fcbc-40d5-b38e-376cb0dd2d03/500}
+}
+
+
+@article{Cavallo.2017,
+ author = {Cavallo, Alberto and Cruces, Guillermo and Perez-Truglia, Ricardo},
+ year = {2017},
+ title = {Inflation Expectations, Learning, and Supermarket Prices: Evidence from Survey Experiments},
+ pages = {1--35},
+ volume = {9},
+ number = {3},
+ issn = {1945-7707},
+ journal = {American Economic Journal: Macroeconomics}
+}
+
+
+@misc{Coibion.2020,
+ author = {Coibion, Oliver and Gorodnichenko, Yuriy and {Knotek II}, Edward S. and Schoenle, Raphael},
+ date = {2020},
+ title = {Average Inflation Targeting and Household Expectations},
+ address = {Cambridge, Massachusetts},
+ number = {27836},
+ series = {NBER Working Paper},
+ institution = {{National Bureau of Economic Research}}
+}
+
+
+@misc{Coibion.2019a,
+ author = {Coibion, Oliver and Gorodnichenko, Yuriy and Weber, Michael},
+ date = {2019a},
+ title = {Monetary Policy Communications and their Effects on Household Inflation Expectations},
+ address = {Cambridge, Massachusetts},
+ number = {25482},
+ series = {NBER Working Paper},
+ institution = {{National Bureau of Economic Research}}
+}
+
+
+@article{Jalil.2016,
+ author = {Jalil, Andrew J. and Rua, Gisela},
+ year = {2016},
+ title = {Inflation expectations and recovery in spring 1933},
+ pages = {26--50},
+ volume = {62},
+ issn = {00144983},
+ journal = {Explorations in Economic History}
+}
+
+
+@misc{Harrs.2021,
+ author = {Harrs, S{\"o}ren and M{\"u}ller, Lara Marie and Rockenbach, Bettina},
+ date = {2021},
+ title = {How Optimistic and Pessimistic Narratives About COVID-19 Impact Economic Behavior},
+ address = {Bonn, K{\"o}ln},
+ number = {91},
+ series = {ECONtribute Discussion Paper},
+ institution = {{Universit{\"a}t Bonn und Universit{\"a}t K{\"o}ln}}
+}
+
+
+@article{Gottfried.1998,
+ author = {Gottfried, Heidi and Hayashi-Kato, Nagisa},
+ year = {1998},
+ title = {Gendering Work: Deconstructing the Narrative of the Japanese Economic Miracle},
+ pages = {25--46},
+ volume = {12},
+ number = {1},
+ journal = {Work, Employment {\&} Society}
+}
+
+
+@article{GoldfaynFrank.2020,
+ author = {Goldfayn-Frank, Olga and Wohlfart, Johannes},
+ year = {2020},
+ title = {Expectation Formation in a New Environment: Evidence from the German Reunification},
+ pages = {301--320},
+ volume = {115},
+ journal = {Journal of Monetary Economics}
+}
+
+
+@misc{Goetzmann.2022,
+ author = {Goetzmann, William N. and Kim, Dasol and Shiller, Robert J.},
+ date = {2022},
+ title = {Crash Narratives},
+ address = {Cambridge, Massachusetts},
+ number = {30195},
+ series = {NBER Working Paper},
+ institution = {{National Bureau of Economic Research}}
+}
+
+
+@article{Gillitzer.2021,
+ author = {Gillitzer, Christian and Prasad, Nalini and Robinson, Tim},
+ year = {2021},
+ title = {Political Attitudes and Inflation Expectations: Evidence and Implications},
+ pages = {605--634},
+ volume = {53},
+ number = {4},
+ journal = {Journal of Money, Credit and Banking}
+}
+
+
+@article{Gil.2019,
+ author = {Gil, Paula and Mart{\'i}, Francisco and Morris, Richard and P{\'e}rez, Javier J. and Ramos, Roberto},
+ year = {2019},
+ title = {The output effects of tax changes: narrative evidence from Spain},
+ pages = {1--23},
+ volume = {10},
+ issn = {1869-4187},
+ journal = {SERIEs}
+}
+
+
+@article{Gennaioli.2010,
+ author = {Gennaioli, Nicola and Shleifer, Andrei},
+ year = {2010},
+ title = {What Comes to Mind},
+ pages = {1399--1433},
+ volume = {125},
+ number = {4},
+ issn = {0033-5533},
+ journal = {The Quarterly Journal of Economics}
+}
+
+
+@article{Eliaz.2020,
+ author = {Eliaz, Kfir and Spiegler, Ran},
+ year = {2020},
+ title = {A Model of Competing Narratives},
+ pages = {3786--3816},
+ volume = {110},
+ number = {12},
+ issn = {0002-8282},
+ journal = {American Economic Review}
+}
+
+
+@article{Diamond.2020,
+ author = {Diamond, Jess and Watanabe, Kota and Watanabe, Tsutomu},
+ year = {2020},
+ title = {The Formation of Consumer Inflation Expectations: New Evidence From Japan's Deflation Experience},
+ pages = {241--281},
+ volume = {61},
+ number = {1},
+ issn = {0020-6598},
+ journal = {International Economic Review}
+}
+
+
+@article{DAcunto.2021b,
+ abstract = {Expectations about economic variables vary systematically across genders. In the domain of inflation, women have persistently higher expectations than men. We argue that traditional gender roles are a significant factor in generating this gender expectations gap as they expose women and men to different economic signals in their daily lives. Using unique data on the participation of men and women in household grocery chores, their resulting exposure to price signals, and their inflation expectations, we document a tight link between the gender expectations gap and the distribution of grocery shopping duties. Because grocery prices are highly volatile, and consumers focus disproportionally on positive price changes, frequent exposure to grocery prices increases perceptions of current inflation and expectations of future inflation. The gender expectations gap is largest in households whose female heads are solely responsible for grocery shopping, whereas no gap arises in households that split grocery chores equally between men and women. Our results indicate that gender differences in inflation expectations arise due to social conditioning rather than through differences in innate abilities, skills, or preferences.},
+ author = {D'Acunto, Francesco and Malmendier, Ulrike and Weber, Michael},
+ year = {2021b},
+ title = {Gender roles produce divergent economic expectations},
+ pages = {1--10},
+ volume = {118},
+ number = {21},
+ journal = {Proceedings of the National Academy of Sciences of the United States of America (PNAS)}
+}
+
+
+@misc{DAcunto.2022,
+ author = {D'Acunto, Francesco and Malmendier, Ulrike and Weber, Michael},
+ date = {2022},
+ title = {What Do the Data Tell Us About Inflation Expectations?},
+ address = {Cambridge, Massachusetts},
+ number = {29825},
+ series = {NBER Working Paper},
+ institution = {{National Bureau of Economic Research}}
+}
+
+
+@article{DAcunto.2021a,
+ author = {D'Acunto, Francesco and Malmendier, Ulrike and Ospina, Juan and Weber, Michael},
+ year = {2021a},
+ title = {Exposure to Grocery Prices and Inflation Expectations},
+ pages = {1615--1639},
+ volume = {129},
+ number = {5},
+ issn = {0022-3808},
+ journal = {Journal of Political Economy}
+}
+
+
+@misc{DAcunto.2018,
+ author = {D'Acunto, Francesco and Hoang, Daniel and Weber, Michael},
+ date = {2018},
+ title = {The Effect of Unconventional Fiscal Policy on Consumption Expenditure},
+ address = {Chicago},
+ number = {2018-17},
+ series = {BFI Working Paper},
+ institution = {{Becker Friedmann Institute for Research in Economics}}
+}
+
+
+@misc{DAcunto.2019b,
+ author = {D'Acunto, Francesco and Hoang, Daniel and Paloviita, Maritta and Weber, Michael},
+ date = {2019b},
+ title = {IQ, Expectations, and Choice},
+ address = {Cambridge, Massachusetts},
+ number = {25496},
+ series = {NBER Working Paper},
+ institution = {{National Bureau of Economic Research}}
+}
+
+
+@article{DAcunto.2019a,
+ author = {D'Acunto, Francesco and Hoang, Daniel and Paloviita, Maritta and Weber, Michael},
+ year = {2019a},
+ title = {Cognitive Abilities and Inflation Expectations},
+ pages = {562--566},
+ volume = {109},
+ issn = {2574-0768},
+ journal = {AEA Papers and Proceedings}
+}
+
+
+@article{Collier.2021,
+ author = {Collier, Paul and Tuckett, David},
+ year = {2021},
+ title = {Narratives as a coordinating device for reversing regional disequilibrium},
+ pages = {97--112},
+ volume = {37},
+ number = {1},
+ issn = {0266-903X},
+ journal = {Oxford Review of Economic Policy}
+}
+
+
+@misc{Coleman.2022,
+ abstract = {We use a representative online survey to investigate the inflation expectations of German consumers and the credibility of the ECB's inflation target during the recent high inflation period. We find that credibility has trended downwards since summer 2021, reaching an all-time low in April 2022. The high correlation between inflation expectations and the actual rate of inflation strongly indicate that inflation expectations have been de-anchored from the inflation target. With increasing inflation, German consumers are more convinced that - in contrast to the ECB's inflation target - inflation will be well above 2{\%} over the medium term.},
+ author = {Coleman, Winnie and Nautz, Dieter},
+ date = {2022},
+ title = {Inflation Target Credibility in Times of High Inflation},
+ address = {Berlin},
+ number = {2022/5},
+ series = {Diskussionsbeitr{\"a}ge},
+ institution = {{Freie Universit{\"a}t Berlin, Fachbereich Wirtschaftswissenschaft}}
+}
+
+
+@article{Coibion.2018,
+ author = {Coibion, Olivier and Gorodnichenko, Yuriy and Kamdar, Rupal},
+ year = {2018},
+ title = {The Formation of Expectations, Inflation, and the Phillips Curve},
+ pages = {1447--1491},
+ volume = {56},
+ number = {4},
+ issn = {0022-0515},
+ journal = {Journal of Economic Literature}
+}
+
+
+@article{Coibion.2015,
+ author = {Coibion, Olivier and Gorodnichenko, Yuriy},
+ year = {2015},
+ title = {Is the Phillips Curve Alive and Well after All? Inflation Expectations and the Missing Disinflation},
+ pages = {197--232},
+ volume = {7},
+ number = {1},
+ issn = {1945-7707},
+ journal = {American Economic Journal: Macroeconomics}
+}
+
+
+@misc{Coibion.2019b,
+ author = {Coibion, Olivier and Georgarakos, Dimitris and Gorodnichenko, Yuriy and {van Rooij}, Maarten},
+ date = {2019b},
+ title = {How Does Consumption Respond to News about Inflation? Field Evidence from a Randomized Control Trial},
+ address = {Cambridge, Massachusetts},
+ number = {26106},
+ series = {NBER Working Paper},
+ institution = {{National Bureau of Economic Research}}
+}
+
+
+@misc{Yellen.2015,
+ author = {Yellen, Janet L.},
+ date = {2015},
+ title = {Inflation Dynamics and Monetary Policy: Rede bei der Philip Gamble Memorial Lecture, University of Massachusetts, Amherst},
+ url = {http://www.federalreserve.gov/newsevents/speech/yellen20150924a.htm},
+ urldate = {08.01.2023}
+}
+
+
+@incollection{Zull.2019,
+ author = {Z{\"u}ll, Cornelia and Menold, Natalja},
+ title = {Offene Fragen},
+ pages = {855--862},
+ publisher = {{Springer Fachmedien Wiesbaden}},
+ editor = {Baur, Nina and Blasius, J{\"o}rg},
+ booktitle = {Handbuch Methoden der empirischen Sozialforschung},
+ year = {2019},
+ address = {Wiesbaden}
+}
+
+@Manual{Brand.2020,
+  title  = {rdbnomics: Download DBnomics Data},
+  author = {Thomas Brand},
+  note   = {R package version 0.6.4},
+  year   = {2020},
+  url    = {https://CRAN.R-project.org/package=rdbnomics},
+}
+
+@Manual{RTeam.2022,
+  title        = {R: A Language and Environment for Statistical Computing},
+  address      = {Vienna, Austria},
+  author       = {{R Core Team}},
+  organization = {R Foundation for Statistical Computing},
+  year         = {2022},
+  url          = {https://www.R-project.org/},
+}
+
+@Article{Coibion.Gorodnichenko.2015a,
+  author    = {Olivier Coibion and Yuriy Gorodnichenko},
+  journal   = {The American Economic Review},
+  title     = {Information Rigidity and the Expectations Formation Process: A Simple Framework and New Facts},
+  year      = {2015},
+  issn      = {00028282},
+  number    = {8},
+  pages     = {2644--2678},
+  volume    = {105},
+  abstract  = {We propose a new approach to test the full-information rational expectations hypothesis which can identify whether rejections of the null arise from information rigidities. This approach quantifies the economic significance of departures from the null and the underlying degree of information rigidity. Applying this approach to US and international data of professional forecasters and other agents yields pervasive evidence consistent with the presence of information rigidities. These results therefore provide a set of stylized facts which can be used to calibrate imperfect information models. Finally, we document evidence of state-dependence in the expectations formation process.},
+  publisher = {American Economic Association},
+  url       = {http://www.jstor.org/stable/43821351},
+  urldate   = {2023-03-09},
+}
+
+@Article{Coibion.Gorodnichenko.2012,
+  author    = {Olivier Coibion and Yuriy Gorodnichenko},
+  journal   = {Journal of Political Economy},
+  title     = {What Can Survey Forecasts Tell Us about Information Rigidities?},
+  year      = {2012},
+  issn      = {00223808, 1537534X},
+  number    = {1},
+  pages     = {116--159},
+  volume    = {120},
+  abstract  = {A lot. We derive common and conflicting predictions from models in which agents face information constraints and then assess their validity using surveys of consumers, firms, central bankers, and professional forecasters. We document that mean forecasts fail to completely adjust on impact to shocks, leading to statistically and economically significant deviations from the null of full information. The dynamics of forecast errors after shocks are consistent with the predictions of models with information rigidities. The conditional responses of forecast errors and disagreement among agents can also be used to differentiate between some of the most prominent models of information rigidities.},
+  publisher = {The University of Chicago Press},
+  url       = {http://www.jstor.org/stable/10.1086/665662},
+  urldate   = {2023-03-09},
+}
+
+@Book{Bachmann.etal.2023,
+  editor    = {Rüdiger Bachmann and Giorgio Topa and Wilbert {van der Klaauw}},
+  publisher = {Elsevier},
+  title     = {Handbook of Economic Expectations},
+  year      = {2023},
+  doi       = {https://doi.org/10.1016/C2019-0-00128-8},
+}
+
+@Article{Coleman.Nautz.2023,
+  author   = {Winnie Coleman and Dieter Nautz},
+  journal  = {Economics Letters},
+  title    = {Inflation target credibility in times of high inflation},
+  year     = {2023},
+  issn     = {0165-1765},
+  pages    = {110930},
+  volume   = {222},
+  abstract = {We use a representative online survey to investigate the inflation expectations of German consumers and the credibility of the ECB’s inflation target during the recent high inflation period. We find that credibility has trended downwards since summer 2021, reaching an all-time low in April 2022. The high correlation between inflation expectations and the actual rate of inflation strongly indicate that inflation expectations have been de-anchored from the inflation target. With increasing inflation, German consumers are more convinced that – in contrast to the ECB’s inflation target – inflation will be well above 2% over the medium term.},
+  doi      = {https://doi.org/10.1016/j.econlet.2022.110930},
+  keywords = {Credibility of inflation targets, Household inflation expectations, Expectation formation},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0165176522004049},
+}
+
+@Article{Weber.etal.2022,
+  author  = {Weber, Michael and D'Acunto, Francesco and Gorodnichenko, Yuriy and Coibion, Olivier},
+  journal = {Journal of Economic Perspectives},
+  title   = {The Subjective Inflation Expectations of Households and Firms: Measurement, Determinants, and Implications},
+  year    = {2022},
+  month   = {August},
+  number  = {3},
+  pages   = {157-84},
+  volume  = {36},
+  doi     = {10.1257/jep.36.3.157},
+  url     = {https://www.aeaweb.org/articles?id=10.1257/jep.36.3.157},
+}
+
+@Misc{Powell.2021,
+  author = {Jerome Powell},
+  month  = sep,
+  title  = {Transcript of Chair Powell’s Press Conference, September 22, 2021},
+  year   = {2021},
+  url    = {https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20210922.pdf},
+}
+
+@Book{Beckert.2016,
+  author    = {Jens Beckert},
+  publisher = {Harvard University Press},
+  title     = {Imagined Futures. Fictional Expectations and Capitalist Dynamics},
+  year      = {2016},
+  address   = {Cambridge, MA},
+}
+
+@Misc{ECB.2021,
+  author    = {{European Central Bank}},
+  month     = jul,
+  title     = {An overview of the ECB's monetary policy strategy.},
+  year      = {2021},
+  timestamp = {2023-03-10},
+  url       = {https://www.ecb.europa.eu/home/search/review/html/ecb.strategyreview_monpol_strategy_overview.en.html},
+}
+
+@Article{DAcunto.2022a,
+  author   = {D’Acunto, Francesco and Hoang, Daniel and Weber, Michael},
+  journal  = {The Review of Financial Studies},
+  title    = {{Managing Households’ Expectations with Unconventional Policies}},
+  year     = {2021},
+  issn     = {0893-9454},
+  month    = {07},
+  number   = {4},
+  pages    = {1597-1642},
+  volume   = {35},
+  abstract = {{Binding lower bounds on interest rates and large government deficits limit the scope of fiscal and monetary policies to stimulate households’ spending through financial intermediaries and firms. Policy makers have thus been implementing unconventional policies that aim to increase households’ spending directly through managing their expectations. We first show theoretically and empirically that higher inflation expectations increase households’ consumption. We then design a difference-in-differences strategy to assess the effectiveness of unconventional fiscal policy and forward guidance, both of which aim to raise aggregate demand via managing expectations. Whereas unconventional fiscal policy increases households’ expectations and spending, forward guidance announcements do not}},
+  doi      = {10.1093/rfs/hhab083},
+  eprint   = {https://academic.oup.com/rfs/article-pdf/35/4/1597/42969999/hhab083\_supplementary\_data.pdf},
+  url      = {https://doi.org/10.1093/rfs/hhab083},
+}
+
+@Article{DAcunto.2022b,
+  author   = {D’Acunto, Francesco and Hoang, Daniel and Paloviita, Maritta and Weber, Michael},
+  journal  = {The Review of Economic Studies},
+  title    = {{IQ, Expectations, and Choice}},
+  year     = {2022},
+  issn     = {0034-6527},
+  month    = {10},
+  note     = {rdac075},
+  abstract = {{We use administrative and survey-based micro data to study the relationship between cognitive abilities (IQ), the formation of inflation expectations, and the consumption plans of a representative male population. High-IQ men display 50\\$\\\\%\\$ lower forecast errors for inflation than other men. High-IQ men, but not others, have consistent inflation expectations and perceptions over time. In terms of choice, only high-IQ men increase their consumption propensity when expecting higher inflation as the consumer Euler equation prescribes. Education levels, income, other expectations, and socio-economic status, although important, do not explain the variation in expectations and choice by IQ. Recent modelling attempts to incorporate boundedly rational agents into macro models do not fully capture all the facts we document. We discuss which dimensions of expectations formation and choice are important for heterogeneous-agents models of household consumption and for the transmission of fiscal and monetary policy.}},
+  doi      = {10.1093/restud/rdac075},
+  eprint   = {https://academic.oup.com/restud/advance-article-pdf/doi/10.1093/restud/rdac075/47785557/rdac075.pdf},
+  url      = {https://doi.org/10.1093/restud/rdac075},
+}
+
+@Article{Nautz.etal.2017,
+  author   = {Dieter Nautz and Laura Pagenhardt and Till Strohsal},
+  journal  = {The North American Journal of Economics and Finance},
+  title    = {The (de-)anchoring of inflation expectations: New evidence from the euro area},
+  year     = {2017},
+  issn     = {1062-9408},
+  pages    = {103-115},
+  volume   = {40},
+  abstract = {Well-anchored inflation expectations are a key factor for achieving economic stability. This paper provides new empirical results on the anchoring of long-term inflation expectations in the euro area. In line with earlier evidence, we find that euro area inflation expectations have been anchored until fall 2011. Since then, however, they respond significantly to macroeconomic news. Our results obtained from multiple endogenous break point tests suggest that euro area inflation expectations have remained de-anchored ever since.},
+  doi      = {https://doi.org/10.1016/j.najef.2017.02.002},
+  keywords = {Anchoring of inflation expectations, Break-even inflation rates, News-regressions, Multiple structural break tests},
+  url      = {https://www.sciencedirect.com/science/article/pii/S1062940817300505},
+}
+
+@Article{Strohsal.etal.2016,
+  author   = {Till Strohsal and Rafi Melnick and Dieter Nautz},
+  journal  = {Journal of Macroeconomics},
+  title    = {The time-varying degree of inflation expectations anchoring},
+  year     = {2016},
+  issn     = {0164-0704},
+  pages    = {62-71},
+  volume   = {48},
+  abstract = {Well-anchored inflation expectations have become a key indicator for the credibility of a central bank’s inflation target. Since the outbreak of the financial crisis, the (de-)anchoring of long-term U.S. inflation expectations has been under debate. We propose a time-varying parameter (TVP) model in order to explore gradual changes in central bank credibility and the corresponding degree of inflation expectations anchoring. Our results confirm that inflation expectations have been partially de-anchored during the financial crisis. However, the TVP model reveals that inflation expectations have been successfully re-anchored ever since.},
+  doi      = {https://doi.org/10.1016/j.jmacro.2016.02.002},
+  keywords = {Anchoring of inflation expectations, Financial crisis, Break-even inflation rates, Time-varying parameter},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0164070416000173},
+}
+
+@Article{Hachula.Nautz.2018,
+  author   = {Michael Hachula and Dieter Nautz},
+  journal  = {Economics Letters},
+  title    = {The dynamic impact of macroeconomic news on long-term inflation expectations},
+  year     = {2018},
+  issn     = {0165-1765},
+  pages    = {39-43},
+  volume   = {165},
+  abstract = {Well-anchored inflation expectations should not react to macroeconomic news. This paper analyzes the dynamics of inflation expectations in a proxy SVAR model, where macro news shocks are identified by their correlation with surprises from macroeconomic news announcements. Our results confirm that macro news shocks have no impact on U.S. long-term inflation expectations in the long run. In the short run, however, the degree of expectations de-anchoring is non-negligible.},
+  doi      = {https://doi.org/10.1016/j.econlet.2018.01.015},
+  keywords = {Dynamics of inflation expectations, Expectations anchoring, Macroeconomic news, Proxy SVAR},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0165176518300211},
+}
+
+@Article{Nautz.etal.2019,
+  author    = {Nautz, Dieter and Strohsal, Till and Netšunajev, Aleksei},
+  journal   = {Macroeconomic Dynamics},
+  title     = {The Anchoring of Inflation Expectations in the short and in the long run},
+  year      = {2019},
+  number    = {5},
+  pages     = {1959–1977},
+  volume    = {23},
+  doi       = {10.1017/S1365100517000517},
+  publisher = {Cambridge University Press},
+}
+
+@Article{Bauer.2015,
+  author   = {Bauer, Michael},
+  journal  = {International Journal of Central Banking},
+  title    = {Inflation Expectations and the News},
+  year     = {2015},
+  number   = {2},
+  pages    = {1-40},
+  volume   = {11},
+  abstract = {This paper provides new evidence on the importance of inflation expectations for variation in nominal interest rates, based on both market-based and survey-based measures of inflation expectations. Using the information in TIPS break-even rates and inflation swap rates, I document that movements in inflation compensation are important for explaining variation in long-term nominal interest rates, unconditionally as well as conditionally on macroeconomic data surprises. Daily changes in inflation compensation and changes in long-term nominal rates generally display a close statistical relationship. The sensitivity of inflation compensation to macroeconomic data surprises is substantial, and it explains a sizable share of the macro response of nominal rates. The paper also documents that survey expectations of inflation exhibit significant co-movement with variation in nominal interest rates, as well as significant responses to macroeconomic news.},
+  url      = {https://EconPapers.repec.org/RePEc:ijc:ijcjou:y:2015:q:2:a:1},
+}
+
+@Article{Gürkaynak.etal.2005,
+  author   = {Gürkaynak, Refet and Sack, Brian and Swanson, Eric},
+  journal  = {International Journal of Central Banking},
+  title    = {Do Actions Speak Louder Than Words? The Response of Asset Prices to Monetary Policy Actions and Statements},
+  year     = {2005},
+  number   = {1},
+  volume   = {1},
+  abstract = {We investigate the effects of U.S. monetary policy on asset prices using a high-frequency event-study analysis. We test whether these effects are adequately captured by a single factor-changes in the federal funds rate target - and find that they are not. Instead, we find that two factors are required. These factors have a structural interpretation as a "current federal funds rate target" factor and a "future path of policy" factor, with the latter closely associated with Federal Open Market Committee statements.We measure the effects of these two factors on bond yields and stock prices using a new intraday data set going back to 1990. According to our estimates, both monetary policy actions and statements have important but differing effects on asset prices, with statements having a much greater impact on longer-term Treasury yields.},
+  url      = {https://EconPapers.repec.org/RePEc:ijc:ijcjou:y:2005:q:2:a:2},
+}
+
+@Manual{R.2022,
+  title        = {R: A Language and Environment for Statistical Computing},
+  address      = {Vienna, Austria},
+  author       = {{R Core Team}},
+  organization = {R Foundation for Statistical Computing},
+  year         = {2022},
+  url          = {https://www.R-project.org/},
+}
+
+@Article{Rousseeuw.1987,
+  author   = {Peter J. Rousseeuw},
+  journal  = {Journal of Computational and Applied Mathematics},
+  title    = {Silhouettes: A graphical aid to the interpretation and validation of cluster analysis},
+  year     = {1987},
+  issn     = {0377-0427},
+  pages    = {53-65},
+  volume   = {20},
+  abstract = {A new graphical display is proposed for partitioning techniques. Each cluster is represented by a so-called silhouette, which is based on the comparison of its tightness and separation. This silhouette shows which objects lie well within their cluster, and which ones are merely somewhere in between clusters. The entire clustering is displayed by combining the silhouettes into a single plot, allowing an appreciation of the relative quality of the clusters and an overview of the data configuration. The average silhouette width provides an evaluation of clustering validity, and might be used to select an ‘appropriate’ number of clusters.},
+  doi      = {https://doi.org/10.1016/0377-0427(87)90125-7},
+  keywords = {Graphical display, cluster analysis, clustering validity, classification},
+  url      = {https://www.sciencedirect.com/science/article/pii/0377042787901257},
+}
+
+@Book{Hastie.etal.2013,
+  author    = {Gareth James and Daniela Witten andTrevor Hastie and Robert Tibshirani},
+  publisher = {Springer},
+  title     = {An Introduction to Statistical Learning with Applications in R},
+  year      = {2013},
+}
+
+@Article{Armantier.etal.2017,
+  author   = {Armantier, Olivier and Topa, Giorgio and van der Klaauw, Wilbert and Zafar, Basit},
+  journal  = {Economic Policy Review},
+  title    = {An overview of the Survey of Consumer Expectations},
+  year     = {2017},
+  number   = {23-2},
+  pages    = {51-72},
+  abstract = {The authors present an overview of the New York Fed?s Survey of Consumer Expectations, a monthly online survey of a rotating panel of household heads. The survey collects timely information on respondents? expectations and decisions on a broad variety of topics, including inflation, household finance, the labor market, and the housing market. It has three main goals: (1) measuring consumer expectations at a high frequency, (2) understanding how these expectations are formed, and (3) investigating the link between expectations and behavior. The authors discuss the origins of the survey, the questionnaire design, the implementation of the survey and the sample, and the computation of the various statistics released every month. They conclude with a discussion of how the results are disseminated and how the (micro) data may be accessed on the New York?s Fed?s Center for Microeconomic Data.},
+  keywords = {inflation; survey; expectations; measurement},
+  url      = {https://EconPapers.repec.org/RePEc:fip:fednep:00044},
+}
+
+@Article{Phelps.1967,
+  author    = {Edmund S. Phelps},
+  journal   = {Economica},
+  title     = {Phillips Curves, Expectations of Inflation and Optimal Unemployment over Time},
+  year      = {1967},
+  issn      = {00130427, 14680335},
+  number    = {135},
+  pages     = {254--281},
+  volume    = {34},
+  publisher = {[London School of Economics, Wiley, London School of Economics and Political Science, Suntory and Toyota International Centres for Economics and Related Disciplines]},
+  url       = {http://www.jstor.org/stable/2552025},
+  urldate   = {2023-03-30},
+}
+
+@InCollection{Carroll.2005,
+  author    = {Carroll, Christopher D.},
+  booktitle = {{The Economy as an Evolving Complex System, III: Current Perspectives and Future Directions}},
+  publisher = {Oxford University Press},
+  title     = {{The Epidemiology of Macroeconomic Expectations}},
+  year      = {2005},
+  isbn      = {9780195162592},
+  month     = {10},
+  abstract  = {{This chapter considers a model in which individual actors learn about properties of the macroeconomic via the diffusion of forecasts by a small set of agents, interpreted as professional forecasters. This type of expectational structure is shown to replicate observed patterns of unemployment and inflation expectations as measured in survey data.}},
+  doi       = {10.1093/acprof:oso/9780195162592.003.0002},
+  eprint    = {https://academic.oup.com/book/0/chapter/148497606/chapter-ag-pdf/49254845/book\_5551\_section\_148497606.ag.pdf},
+  url       = {https://doi.org/10.1093/acprof:oso/9780195162592.003.0002},
+}
+
+@InBook{BoydGraber.etal.2014,
+  author    = {Jordan Boyd-Graber and David Mimno and David Newman},
+  editor    = {Edoardo M. Airoldi and David Blei and Elena A. Erosheva and Stephen E. Fienberg},
+  publisher = {CRC Press},
+  title     = {Care and Feeding of Topic Models: Problems, Diagnostics, and Improvements},
+  year      = {2014},
+  address   = {Boca Raton, Florida},
+  series    = {CRC Handbooks of Modern Statistical Methods},
+  booktitle = {Handbook of Mixed Membership Models and Their Applications},
+  url       = {http://umiacs.umd.edu/~jbg//docs/2014_book_chapter_care_and_feeding.pdf},
+}
+
+@Article{Plagborg.2021,
+  author   = {Plagborg-Møller, Mikkel and Wolf, Christian K.},
+  journal  = {Econometrica},
+  title    = {Local Projections and VARs Estimate the Same Impulse Responses},
+  year     = {2021},
+  number   = {2},
+  pages    = {955-980},
+  volume   = {89},
+  abstract = {We prove that local projections (LPs) and Vector Autoregressions (VARs) estimate the same impulse responses. This nonparametric result only requires unrestricted lag structures. We discuss several implications: (i) LP and VAR estimators are not conceptually separate procedures; instead, they are simply two dimension reduction techniques with common estimand but different finite-sample properties. (ii) VAR-based structural identification—including short-run, long-run, or sign restrictions—can equivalently be performed using LPs, and vice versa. (iii) Structural estimation with an instrument (proxy) can be carried out by ordering the instrument first in a recursive VAR, even under noninvertibility. (iv) Linear VARs are as robust to nonlinearities as linear LPs.},
+  doi      = {https://doi.org/10.3982/ECTA17813},
+  eprint   = {https://onlinelibrary.wiley.com/doi/pdf/10.3982/ECTA17813},
+  keywords = {External instrument, impulse response function, local projection, proxy variable, structural vector autoregression},
+  url      = {https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA17813},
+}
+
+@Article{Engle.Granger.1987,
+  author    = {Robert F. Engle and C. W. J. Granger},
+  journal   = {Econometrica},
+  title     = {Co-Integration and Error Correction: Representation, Estimation, and Testing},
+  year      = {1987},
+  issn      = {00129682, 14680262},
+  number    = {2},
+  pages     = {251--276},
+  volume    = {55},
+  abstract  = {The relationship between co-integration and error correction models, first suggested in Granger (1981), is here extended and used to develop estimation procedures, tests, and empirical examples. If each element of a vector of time series xt first achieves stationarity after differencing, but a linear combination $\alpha ^{\prime }x_{t}$ is already stationary, the time series xt are said to be co-integrated with co-integrating vector α. There may be several such co-integrating vectors so that α becomes a matrix. Interpreting $\alpha ^{\prime }x_{t}=0$ as a long run equilibrium, co-integration implies that deviations from equilibrium are stationary, with finite variance, even though the series themselves are nonstationary and have infinite variance. The paper presents a representation theorem based on Granger (1983), which connects the moving average, autoregressive, and error correction representations for co-integrated systems. A vector autoregression in differenced variables is incompatible with these representations. Estimation of these models is discussed and a simple but asymptotically efficient two-step estimator is proposed. Testing for co-integration combines the problems of unit root tests and tests with parameters unidentified under the null. Seven statistics are formulated and analyzed. The critical values of these statistics are calculated based on a Monte Carlo simulation. Using these critical values, the power properties of the tests are examined and one test procedure is recommended for application. In a series of examples it is found that consumption and income are co-integrated, wages and prices are not, short and long interest rates are, and nominal GNP is co-integrated with M2, but not M1, M3, or aggregate liquid assets.},
+  publisher = {[Wiley, Econometric Society]},
+  url       = {http://www.jstor.org/stable/1913236},
+  urldate   = {2023-03-31},
+}
+
+@Book{Hamilton.1994,
+  author    = {James D. Hamilton},
+  publisher = {Princeton University Press},
+  title     = {Time Series Analysis},
+  year      = {1994},
+}
+
+@Article{Weber.2023,
+  author    = {Isabella M. Weber and Evan Wasner},
+  journal   = {Review of Keynesian Economics},
+  title     = {Sellers’ inflation, profits and conflict: why can large firms hike prices in an emergency?},
+  year      = {2023},
+  number    = {2},
+  pages     = {183 - 213},
+  volume    = {11},
+  address   = {Cheltenham, UK},
+  doi       = {10.4337/roke.2023.02.05},
+  publisher = {Edward Elgar Publishing Ltd},
+  url       = {https://www.elgaronline.com/view/journals/roke/11/2/article-p183.xml},
+}
+% WARNING: This file may contain UTF-8 (unicode) characters.
+% While non-8-bit characters are officially unsupported in BibTeX, you
+% can use them with the biber backend of biblatex
+%    usepackage[backend=biber]{biblatex}
+
+@TechReport{Werning.2022,
+  author      = {Werning, Iván},
+  institution = {National Bureau of Economic Research},
+  title       = {Expectations and the Rate of Inflation},
+  year        = {2022},
+  month       = {July},
+  number      = {30260},
+  type        = {Working Paper},
+  abstract    = {What is the effect of higher expectations of future inflation on current inflation? I compute this passthrough for a series of canonical firm-pricing models, but allowing for arbitrary (non-rational) expectations. In the Calvo model, the expectational-passthrough can be made arbitrarily close to zero for sufficiently high stickiness, but in practice, for reasonable parameters, passthrough is close to its upper bound of 1. In the Taylor model, in contrast, the upper bound for passthrough is ½ instead of 1. For a general time-dependent model I show that: (i) passthrough is given by a measurable sufficient statistic: the ratio of the average duration of ongoing price spells to that of completed price spells; (ii) the lowest theoretically possible passthrough equals ½ by Taylor pricing; and (iii) passthrough can be theoretically greater than 1 with hazards that decrease over time; (iv) breaking down the passthrough across horizons, it is expectations in the near future that matters the most, expectations of long-run inflation are completely irrelevant; (v) I provide a generalized Phillips curve for current inflation as a linear function of expectations of future inflation and realized past inflations; (vi) I show that the sum of all coefficients, both past and future, sums to one, so that the long-run Phillips curve is vertical. Finally, I study state-dependent “menu cost” models and show that passthrough in these models can be extremely low or extremely high, depending on the exact specification and inflation rate. I suggest a model where firms must pay a fixed cost for changing their sS pricing policy bands. This extension gives a passthrough of 0 for small enough changes in expectations.},
+  doi         = {10.3386/w30260},
+  series      = {Working Paper Series},
+  url         = {http://www.nber.org/papers/w30260},
+}
+
+@Article{Rudd.2022,
+  author    = {Jeremy B. Rudd},
+  journal   = {Review of Keynesian Economics},
+  title     = {Why do we think that inflation expectations matter for inflation? (And should we?)},
+  year      = {2022},
+  number    = {1},
+  pages     = {25 - 45},
+  volume    = {10},
+  address   = {Cheltenham, UK},
+  doi       = {10.4337/roke.2022.01.02},
+  publisher = {Edward Elgar Publishing Ltd},
+  url       = {https://www.elgaronline.com/view/journals/roke/10-1/roke.2022.01.02.xml},
+}
+
+@Article{Lima.2008,
+  author    = {Gilberto Tadeu Lima and Mark Setterfield},
+  journal   = {Journal of Post Keynesian Economics},
+  title     = {Inflation targeting and macroeconomic stability in a Post Keynesian economy},
+  year      = {2008},
+  number    = {3},
+  pages     = {435-461},
+  volume    = {30},
+  doi       = {10.2753/PKE0160-3477300307},
+  eprint    = {https://www.tandfonline.com/doi/pdf/10.2753/PKE0160-3477300307},
+  publisher = {Routledge},
+  url       = {https://www.tandfonline.com/doi/abs/10.2753/PKE0160-3477300307},
+}
+
+@Article{Saratchand.2021,
+  author    = {C. Saratchand and Soumya Datta},
+  journal   = {Journal of Post Keynesian Economics},
+  title     = {Endogenously heterogeneous inflation expectations and monetary policy},
+  year      = {2021},
+  number    = {4},
+  pages     = {569-603},
+  volume    = {44},
+  doi       = {10.1080/01603477.2020.1714450},
+  eprint    = {https://doi.org/10.1080/01603477.2020.1714450},
+  publisher = {Routledge},
+  url       = {https://doi.org/10.1080/01603477.2020.1714450},
+}
+
+@Article{Hein.2010,
+  author    = {Eckhard Hein and Engelbert Stockhammer},
+  journal   = {Review of Political Economy},
+  title     = {Macroeconomic Policy Mix, Employment and Inflation in a Post-Keynesian Alternative to the New Consensus Model},
+  year      = {2010},
+  number    = {3},
+  pages     = {317-354},
+  volume    = {22},
+  doi       = {10.1080/09538259.2010.491283},
+  eprint    = {https://doi.org/10.1080/09538259.2010.491283},
+  publisher = {Routledge},
+  url       = {https://doi.org/10.1080/09538259.2010.491283},
+}
+
+@Article{Johnson.2023,
+  author    = {Johnson, Samuel G. B. and Bilovich, Avri and Tuckett, David},
+  journal   = {Behavioral and Brain Sciences},
+  title     = {Conviction Narrative Theory: A theory of choice under radical uncertainty},
+  year      = {2023},
+  pages     = {e82},
+  volume    = {46},
+  doi       = {10.1017/S0140525X22001157},
+  publisher = {Cambridge University Press},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

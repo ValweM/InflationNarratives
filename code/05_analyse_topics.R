@@ -30,14 +30,15 @@ djn_model$keywords_raw
 
 load("./data/models/dynamic_w.rds") 
 wsj_model <- dynamic_w
-rm(dynamic)
+rm(dynamic_w)
 
+wsj_model$keywords_raw
 
 ## print words with highest probability of selection for both models
 
 djn_words <- top_words(djn_model, 20)
 head(djn_words, 20)
-print(xtable(djn_words[,1:13]), type = "latex", file = "./text/tables/words_djn.txt")
+print(xtable(djn_words[,1:14]), type = "latex", file = "./text/tables/words_djn.txt")
 
 
 ## create word clouds
@@ -46,13 +47,14 @@ library(ggwordcloud)
 cloud_words <- top_words(djn_model, 50)
 
 
-for (i in 1:13){
+for (i in 1:14){
   terms <- data.frame(words = cloud_words[[i]], freq = 50:1)
   
   terms$words <- str_remove(terms$words, "\\[[1-9]\\]")
   terms$words <- str_remove(terms$words, "\\[[1-9][1-9]\\]")
   terms$words <- str_remove(terms$words, "[✓]")
   terms$words <- str_remove(terms$words, "\\[\\]")
+  terms$words <- str_remove(terms$words, "^@[a-z][A-Z]")
   terms
   
   graph <- ggplot(terms, aes(label = words, size = freq)) +
@@ -78,7 +80,7 @@ wsj_words <- top_words(wsj_model,20)
 ## create new data frame to compare words
 
 words <- djn_words %>%
-  dplyr::select(c(1:13)) %>%
+  dplyr::select(c(1:14)) %>%
   dplyr::rename(djn_energy = "1_energy") %>%
   dplyr::rename(djn_war = "2_war") %>%
   dplyr::rename(djn_pandemic = "3_pandemic") %>%
@@ -86,13 +88,14 @@ words <- djn_words %>%
   dplyr::rename(djn_supplychains = "5_supply_chain") %>%
   dplyr::rename(djn_monetarypolicy = "6_monetary_policy") %>%
   dplyr::rename(djn_governmentspending = "7_government_spending") %>%
-  dplyr::rename(djn_pentup = "8_pent_up_demand") %>%
+  dplyr::rename(djn_demand = "8_demand") %>%
   dplyr::rename(djn_demandshift = "9_demand_shift") %>%
   dplyr::rename(djn_profits = "10_profits") %>%
   dplyr::rename(djn_politics = "11_politics") %>%
   dplyr::rename(djn_debt = "12_debt") %>%
   dplyr::rename(djn_taxes = "13_taxes") %>%
-  bind_cols(., wsj_words[1:13]) %>%
+  dplyr::rename(djn_supply = "14_supply") %>%
+  bind_cols(., wsj_words[1:14]) %>%
   dplyr::rename(wsj_energy = "1_energy") %>%
   dplyr::rename(wsj_war = "2_war") %>%
   dplyr::rename(wsj_pandemic = "3_pandemic") %>% 
@@ -100,24 +103,26 @@ words <- djn_words %>%
   dplyr::rename(wsj_supplychains = "5_supply_chain") %>%
   dplyr::rename(wsj_monetarypolicy = "6_monetary_policy") %>%
   dplyr::rename(wsj_governmentspending = "7_government_spending") %>%
-  dplyr::rename(wsj_pentup = "8_pent_up_demand") %>%
+  dplyr::rename(wsj_demand = "8_demand") %>%
   dplyr::rename(wsj_demandshift = "9_demand_shift") %>%
   dplyr::rename(wsj_profits = "10_profits") %>%
   dplyr::rename(wsj_politics = "11_politics") %>%
   dplyr::rename(wsj_debt = "12_debt") %>%
   dplyr::rename(wsj_taxes = "13_taxes") %>%
+  dplyr::rename(wsj_supply = "14_supply") %>%
   dplyr::relocate(wsj_energy, .after = djn_energy) %>%
   dplyr::relocate(wsj_war, .after = djn_war) %>%
   dplyr::relocate(wsj_labor, .after = djn_labor) %>%
   dplyr::relocate(wsj_supplychains, .after = djn_supplychains) %>%
   dplyr::relocate(wsj_monetarypolicy, .after = djn_monetarypolicy) %>%
   dplyr::relocate(wsj_governmentspending, .after = djn_governmentspending) %>%
-  dplyr::relocate(wsj_pentup, .after = djn_pentup) %>%
+  dplyr::relocate(wsj_demand, .after = djn_demand) %>%
   dplyr::relocate(wsj_demandshift, .after = djn_demandshift) %>%
   dplyr::relocate(wsj_profits, .after = djn_profits) %>%
   dplyr::relocate(wsj_politics, .after = djn_politics) %>%
   dplyr::relocate(wsj_debt, .after = djn_debt) %>%
-  dplyr::relocate(wsj_taxes, .after = djn_taxes) 
+  dplyr::relocate(wsj_taxes, .after = djn_taxes) %>%
+  dplyr::relocate(wsj_supply, .after = djn_supply) 
 
 
 print(xtable(words), type = "latex", file = "./text/tables/words.txt")
@@ -150,7 +155,7 @@ save_fig(p_pi, file = paste0("./text/figures/pi_", string, ".eps"))
 
 # topic appearance likelihood in corpus
 
-topicprop <-plot_topicprop(model, show_topic = 1:12)
+topicprop <-plot_topicprop(model, show_topic = 1:14)
 save_fig(topicprop, file = paste0("./text/figures/topicprob_", string, ".eps"), width = 15, height = 15)
 
 }
@@ -191,10 +196,10 @@ if (deparse(substitute(model)) == "djn_model"){
   data <- data %>%
     dplyr::mutate(sum = rowSums(data[, c("energy", "profits", "politics", "debt",
                                                 "taxes", "war", "pandemic", "labor_shortage", "supply_chain", "monetary_policy",
-                                                "government_spending", "pent_up_demand", "demand_shift") ])) %>%
+                                                "government_spending", "demand", "demand_shift", "supply") ])) %>%
     dplyr::mutate(across(all_of(c("energy", "profits", "politics", "debt",
                                   "taxes", "war", "pandemic", "labor_shortage", "supply_chain", "monetary_policy",
-                                  "government_spending", "pent_up_demand", "demand_shift" ) ), ~ ./sum))
+                                  "government_spending", "demand", "demand_shift", "supply" ) ), ~ ./sum))
   
   return(data)
 
@@ -216,7 +221,7 @@ djn_data <- djn_data_raw %>%
   dplyr::group_by(year, month) %>%
   dplyr::summarise(across(all_of(c("energy", "profits", "politics", "debt",
                                    "taxes", "war", "pandemic", "labor_shortage", "supply_chain", "monetary_policy",
-                                   "government_spending", "pent_up_demand", "demand_shift")), mean, na.rm = TRUE), .groups="drop") %>%
+                                   "government_spending", "demand", "demand_shift", "supply")), mean, na.rm = TRUE), .groups="drop") %>%
   dplyr::mutate(date = make_date(year, month)) %>%
   dplyr::select(-c(year, month))
 
@@ -224,7 +229,7 @@ wsj_data <- wsj_data_raw %>%
   dplyr::group_by(year, month) %>%
   dplyr::summarise(across(all_of(c("energy", "profits", "politics", "debt",
                                    "taxes", "war", "pandemic", "labor_shortage", "supply_chain", "monetary_policy",
-                                   "government_spending", "pent_up_demand", "demand_shift")), mean, na.rm = TRUE), .groups="drop") %>%
+                                   "government_spending", "demand", "demand_shift", "supply")), mean, na.rm = TRUE), .groups="drop") %>%
   dplyr::mutate(date = make_date(year, month)) %>%
   dplyr::select(-c(year, month))
 
@@ -240,32 +245,39 @@ plot_timetrend(djn_model, time_index_label = vars_period$Year, xlab = "Year")
 
 djn_data <- djn_data %>%
   mutate(dataset = "djn") %>%
-  tidyr::pivot_longer(c(1:13), names_to = "topic", values_to = "proportion")
+  tidyr::pivot_longer(c(1:14), names_to = "topic", values_to = "proportion")
 
 wsj_data <- wsj_data %>%
   mutate(dataset = "wsj") %>%
-  tidyr::pivot_longer(c(1:13), names_to = "topic", values_to = "proportion")
+  tidyr::pivot_longer(c(1:14), names_to = "topic", values_to = "proportion")
 
 vis_data <- rbind(djn_data, wsj_data)
 
 
 # Plot the time series of the different topics
 
-custom_order <- c("government_spending", "monetary_policy", "pent_up_demand", "demand_shift", 
-                  "supply_chain", "labor_shortage", "energy", "pandemic", "politics",
-                  "war", "debt", "taxes", "profits") # Specify your custom order
+
+custom_order <- c("government_spending", "monetary_policy", "demand_shift", "demand", 
+                  "supply_chain", "energy", "labor_shortage", "supply", "pandemic", "politics",
+                  "war", "debt", "taxes", "profits") 
 
 # Reorder the 'topic' factor variable based on custom_order
+
 djn_data$topic <- factor(djn_data$topic, levels = custom_order)
+# Reorder the 'topic' factor variable based on custom_order wsj
+wsj_data$topic <- factor(wsj_data$topic, levels = custom_order)
+
+
 
 djn_data <- djn_data %>%
   mutate(names = ifelse(topic == "government_spending", "Government Spending", NA)) %>%
   mutate(names = ifelse(topic == "monetary_policy", "Monetary Policy", names)) %>%
-  mutate(names = ifelse(topic == "pent_up_demand", "Pent-up Demand", names)) %>%
+  mutate(names = ifelse(topic == "demand", "Demand", names)) %>%
   mutate(names = ifelse(topic == "demand_shift", "Demand Shift", names)) %>%
   mutate(names = ifelse(topic == "supply_chain", "Supply Chain", names)) %>%
   mutate(names = ifelse(topic == "energy", "Energy", names)) %>%
   mutate(names = ifelse(topic == "labor_shortage", "Labor Shortage", names)) %>%
+  mutate(names = ifelse(topic == "supply", "Supply", names)) %>%
   mutate(names = ifelse(topic == "pandemic", "Pandemic", names)) %>%
   mutate(names = ifelse(topic == "politics", "Politics", names)) %>%
   mutate(names = ifelse(topic == "war", "War", names)) %>%
@@ -273,17 +285,16 @@ djn_data <- djn_data %>%
   mutate(names = ifelse(topic == "taxes", "Taxes", names)) %>%
   mutate(names = ifelse(topic == "profits", "Profits", names))
   
-# Reorder the 'topic' factor variable based on custom_order wsj
-wsj_data$topic <- factor(wsj_data$topic, levels = custom_order)
 
 wsj_data <- wsj_data %>%
   mutate(names = ifelse(topic == "government_spending", "Government Spending", NA)) %>%
   mutate(names = ifelse(topic == "monetary_policy", "Monetary Policy", names)) %>%
-  mutate(names = ifelse(topic == "pent_up_demand", "Pent-up Demand", names)) %>%
+  mutate(names = ifelse(topic == "demand", "Demand", names)) %>%
   mutate(names = ifelse(topic == "demand_shift", "Demand Shift", names)) %>%
   mutate(names = ifelse(topic == "supply_chain", "Supply Chain", names)) %>%
   mutate(names = ifelse(topic == "energy", "Energy", names)) %>%
   mutate(names = ifelse(topic == "labor_shortage", "Labor Shortage", names)) %>%
+  mutate(names = ifelse(topic == "supply", "Supply", names)) %>%
   mutate(names = ifelse(topic == "pandemic", "Pandemic", names)) %>%
   mutate(names = ifelse(topic == "politics", "Politics", names)) %>%
   mutate(names = ifelse(topic == "war", "War", names)) %>%
@@ -294,7 +305,7 @@ wsj_data <- wsj_data %>%
 
 # basic stream graph
 # Define the number of colors in your custom palette
-num_colors <- 13
+num_colors <- 14
 
 # Create a custom pastel-like palette
 start_color <- rgb(94, 79, 162, maxColorValue = 255)
@@ -339,10 +350,12 @@ dev.off()
 djn_data <- djn_data %>% 
   mutate(period = ifelse(date <= as.Date("2020-12-01"), "before 2021", "since 2021")) %>%
   mutate(group = ifelse(topic %in% c("government_spending", "monetary_policy",
-                                   "pent_up_demand", "demand_shift"), "demand", NA )) %>%
-  mutate(group = ifelse(topic %in% c("supply_chain", "labor_shortage", "energy"), "supply", group)) %>%
+                                   "demand", "demand_shift"), "demand", NA )) %>%
+  mutate(group = ifelse(topic %in% c("supply_chain", "energy", "labor_shortage", "supply"), "supply", group)) %>%
   mutate(group = ifelse(topic %in% c("pandemic", "politics", "war", "debt", "taxes", "profits"), "miscellaneous", group)) %>%
   mutate(group = factor(group, levels = c("demand", "supply", "miscellaneous")))
+
+
 
 
 data_summary <- function(data, varname, groupnames){
@@ -362,6 +375,11 @@ data_summary <- function(data, varname, groupnames){
 djn_change <- data_summary(djn_data, varname="proportion", 
                     groupnames=c("names", "period", "group"))
 
+
+custom_order <- c("Government Spending", "Monetary Policy", "Demand Shift", "Demand", 
+                  "Supply Chain", "Energy", "Labor Shortage", "Supply", "Pandemic", "Politics",
+                  "War", "Government Debt", "Taxes", "Profits") 
+djn_change$names <- factor(djn_change$names, levels = custom_order)
 
 plot_change <- ggplot(djn_change, aes(x = names, y = proportion*100, fill = period)) +
   geom_bar(stat = "identity", position = "dodge", width = 0.7) +

@@ -34,12 +34,13 @@ labor_shortage <- c("worker", "employment", "labor", "wage", "workforce", "labou
 supply_chain <- c("shortage", "cost", "disruption", "chain", "shipping", "delay", "supply", "pressure")
 monetary_policy <- c("fed", "quantitative", "easing", "loose", "monetary", "interest")
 government_spending <-c("infrastructure", "agreement", "biden", "spending", "deficit", "bipartisan", "package", "stimulus", "check")
-pent_up_demand <- c("recover",  "reopen", "pandemic", "demand", "grow", "consumption", "growth", "domestic", "output", "usa")
+demand <- c("recover", "reopen", "pandemic", "demand", "grow", "consumption", "growth", "domestic", "output", "usa")
 demand_shift <- c("shift", "trend", "preference", "behavior", "pandemic", "sentiment", "retail", "restaurant", "online", "service")
 profits <- c("margin", "corporate", "profitability", "profit")
 politics <- c("party", "republican", "trump", "congress", "senate", "president", "biden", "democrats", "government")
 debt <- c("debt", "public", "national", "federal", "deficit", "borrowing", "government", "balance")
 taxes <- c("tax", "raise", "reform", "legislation", "overhaul", "reduction")
+supply <- c("supply", "production", "capacity", "inventory", "industry")
 
 
 
@@ -54,12 +55,13 @@ keywords <- list(
   supply_chain = supply_chain,
   monetary_policy = monetary_policy,
   government_spending = government_spending,
-  pent_up_demand = pent_up_demand,
+  demand = demand,
   demand_shift = demand_shift,
   profits = profits,
   politics = politics,
   debt = debt,
-  taxes = taxes
+  taxes = taxes,
+  supply = supply
 )
 
 
@@ -201,7 +203,7 @@ dynamic_w <- keyATM(docs          = keyATM_docs_w,
                   
                   model_settings    = list(time_index = vars_period_w$Period, ### Number of days
                                            num_states = 4),              ## 4 Periods in observational period
-                  options           = list(seed = 265720, verbose = TRUE,iterations = 500))
+                  options           = list(seed = 265720, verbose = TRUE,iterations = 5000))
 
 
 save(dynamic_w, file = "./data/models/dynamic_w.rds")

@@ -1,0 +1,30 @@
+\ifx\undefined\bysame
+\newcommand{\bysame}{\leavevmode\hbox to\leftmargin{\hrulefill\,\,}}
+\fi
+\begin{thebibliography}{xx}
+
+\harvarditem[Andre et al.]{Andre, Haaland, Roth and
+  Wohlfahrt}{2023}{Andre.2023}
+{\bf Andre, Peter, Ingar Haaland, Christopher Roth, and Johannes Wohlfahrt},
+  ``Narratives about the Macroeconomy,'' Working Paper 2023.
+
+\harvarditem[Elliott et al.]{Elliott, Rothenberg and Stock}{1992}{elliott.1992}
+{\bf Elliott, Graham, Thomas Rothenberg, and James Stock}, ``Efficient
+  {{Tests}} for an {{Autoregressive Unit Root}},'' Technical Report t0130,
+  National Bureau of Economic Research, Cambridge, MA December 1992.
+
+\harvarditem[Eshima et al.]{Eshima, Imai and Sasaki}{2020}{Eshima.2020}
+{\bf Eshima, Shusei, Kosuke Imai, and Tomoya Sasaki}, ``Keyword Assisted Topic
+  Models,'' Working Paper 2020.
+
+\harvarditem[Grimmer et al.]{Grimmer, Roberts and Stewart}{2022}{grimmer.2022}
+{\bf Grimmer, Justin, Margaret~E Roberts, and Brandon~M Stewart}, {\it Text as
+  data: A new framework for machine learning and the social sciences},
+  Princeton University Press, 2022.
+
+\harvarditem[Honnibal and Montani]{Honnibal and Montani}{2017}{spacy.2017}
+{\bf Honnibal, Matthew and Ines Montani}, ``{spaCy 2}: Natural language
+  understanding with {B}loom embeddings, convolutional neural networks and
+  incremental parsing,'' 2017.
+
+\end{thebibliography}

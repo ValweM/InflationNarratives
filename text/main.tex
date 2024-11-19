@@ -17,7 +17,9 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage[capposition=top]{floatrow}
-\usepackage{natbib}
+\usepackage[sectionbib]{natbib}
+\usepackage[globalcitecopy]{bibunits}
+\defaultbibliography{biblio.bib}
 \usepackage{setspace}
 \usepackage{csquotes}
 \usepackage{todonotes}
@@ -44,6 +46,8 @@
 
 %\onehalfspace
 \begin{document}
+	
+
 %\title{Going viral: How media coverage of inflation narratives affects the macroeconomy\\ \textit{\textcolor{purple}{Prelimininary and incomplete draft.\\ Please do not cite!}}}
 \title{Going Viral: Inflation Narratives and the Macroeconomy}
 \author{Max Weinig\footnote{\textbf{Corresponding author}. Universität Hamburg, email:  \href{mailto:max.weinig@uni-hamburg.de}{max.weinig@uni-hamburg.de}} \and Ulrich Fritsche\footnote{Universität Hamburg \&KOF ETH Zurich, email: \href{mailto:ulrich.fritsche@uni-hamburg.de}{ulrich.fritsche@uni-hamburg.de}}}
@@ -92,5 +96,6 @@
 % Here: Appendix (new page)
 %\newpage
 \input{appendix.tex}
+
 
 \end{document}

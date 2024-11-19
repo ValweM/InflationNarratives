@@ -1,0 +1,1788 @@
+% Encoding: UTF-8
+@Book{Weber.2009,
+  author    = {Weber, Max},
+  publisher = {Anaconda},
+  title     = {Die Protestantische Ethik und der Geist des Kapitalismus},
+  year      = {2009},
+  address   = {Köln},
+  groups    = {Temporalität des Handelns},
+}
+
+@incollection{Grunwald.2009, 
+author = {Grundwald, Armin}, 
+title = {Wovon ist die Zukunftsforschung eine Wissenschaft}, 
+year = {2009}, 
+publisher = {Springer-Verlag}, 
+address = {Heidelberg}, 
+booktitle = {Zukunftsforschung und Zukunftsgestaltung}, 
+editor = {Popp, R. and Schüll, E.},
+}
+
+
+
+@article{Wansleben.2013,
+author = {Leon Wansleben},
+title = {‘Dreaming with BRICs’},
+journal = {Journal of Cultural Economy},
+volume = {6},
+number = {4},
+pages = {453-471},
+year  = {2013},
+publisher = {Routledge},
+doi = {10.1080/17530350.2012.756826},
+}
+
+
+
+@techreport{Bryan.2001,
+author={Michael F. Bryan and Guhan Venkatu},
+title={The Demographics of Inflation Opinion Surveys},
+institution={Federal Reserve Bank of Cleveland},
+type={Economic Commentary},
+year={2001}}
+
+@article{Lombardelli.2003,
+author={Clare Lombardelli and Jumana Saleheen},
+title={Public Expectations of UK Inflation},
+journal={Bank of England Quarterly Bulletin},
+edition={Automn},
+year={2003}}
+
+@techreport{Ash.2021,
+  doi = {10.48550/ARXIV.2108.01720},
+  url = {https://arxiv.org/abs/2108.01720},
+  type= {Working Paper},
+  author = {Ash, Elliott and Gauthier, Germain and Widmer, Philine},
+  keywords = {General Economics (econ.GN), FOS: Economics and business, FOS: Economics and business},
+  institution={ETH Zürich},
+  title = {RELATIO: Text Semantics Capture Political and Economic Narratives},
+  publisher = {arXiv},
+  year = {2021},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@techreport{Macaulay.2022,
+author={Alistair.Macaulay and Wenting Song},
+title={Narrative-Driven Fluctuations in Sentiment: Evidence Linking Traditional and Social Media},
+year={2022},
+type={Working Paper}}
+
+@techreport{Flynn.2022,
+author={Joel P. Flynn and Karthik Sastry},
+title={The Macroeconomics of Narratives},
+year={2022},
+type={Working Paper}}
+
+@book{Romer.2012,
+author={David Romer},
+title={Advanced Macroeconomics},
+edition={4},
+year={2012},
+address={New York},
+publisher={McGraw-Hill}}
+
+@Article{Lucas.1972,
+  author  = {Robert E. Lucas},
+  journal = {Journal of Economic Theory},
+  title   = {Expectations and the neutrality of money},
+  year    = {1972},
+  issn    = {0022-0531},
+  number  = {2},
+  pages   = {103-124},
+  volume  = {4},
+  doi     = {https://doi.org/10.1016/0022-0531(72)90142-1},
+  groups  = {rational expectations},
+  url     = {https://www.sciencedirect.com/science/article/pii/0022053172901421},
+}
+
+
+@Article{Lucas.1979,
+  author  = {Robert E. Lucas and Thomas J. Sargent},
+  journal = {Federal Reserve Bank of Minneapolis Quarterly Review},
+  title   = {After Keynesian Macroeconomics},
+  year    = {1979},
+  groups  = {rational expectations},
+}
+
+
+@Article{Lucas.1976,
+  author  = {Robert E. Lucas},
+  journal = {Carnegie-Rochester Conference Series on Public Policy},
+  title   = {Econometric policy evaluation: A critique},
+  year    = {1976},
+  issn    = {0167-2231},
+  pages   = {19-46},
+  volume  = {1},
+  doi     = {https://doi.org/10.1016/S0167-2231(76)80003-6},
+  groups  = {rational expectations},
+  url     = {https://www.sciencedirect.com/science/article/pii/S0167223176800036},
+}
+
+@misc{Payne.2022,
+author={Julia Payne},
+title={Exclusive: Russia's Gazprom tells European buyers gas supply halt beyond its control},
+institution={Reuters},
+year={2022},
+howpublished={\url{https://www.reuters.com/business/energy/russias-gazprom-declares-force-majeure-gas-supplies-europe-2022-07-18/}},
+note={Abgerufen am 24.07.2022}}
+
+@techreport{Forster.2021,
+author={Katrin Forster van Aerssen and Ramon Gomez-Salvador and Michel Soudan and Tajda Spital},
+year={2021},
+title={The US and UK labour markets in the post-pandemic recovery},
+institution={European Central Bank},
+type = {ECB Economic Bulletin},
+series={ECB Economic Bulletin},
+issue={8}}
+
+@misc{Terryberry.2022,
+author ={Paige Terryberry},
+title= {Government Spending Is the Cause of, Not the Antidote for Record Inflation},
+year={2022},
+institution ={John Locke Foundation},
+howpublished={\url{https://www.johnlocke.org/government-spending-is-the-cause-of-not-the-antidote-for-record-inflation/}},
+note={Abgerufen am 24.07.2022}}
+
+@article{Boukes.2021,
+    author = {Mark Boukes and Femke A.W.J. van Esch and Jereon A. Snellens and Sebastiaan C. Steenman and Rens Vliegenthart},
+    title = "{Using Cognitive Mapping to Study the Relationship between News Exposure and Cognitive Complexity}",
+    journal = {Public Opinion Quarterly},
+    volume = {84},
+    number = {3},
+    pages = {599-628},
+    year = {2021},
+    issue = {02}}
+
+@article {Rudd.2022,
+      author = "Jeremy B. Rudd",
+      title = "Why do we think that inflation expectations matter for inflation? (And should we?)",
+      journal = "Review of Keynesian Economics",
+      year = "2022",
+      publisher = "Edward Elgar Publishing Ltd",
+      address = "Cheltenham, UK",
+      volume = "10",
+      number = "1",
+      doi = "10.4337/roke.2022.01.02",
+      pages=      "25 - 45",
+      url = "https://www.elgaronline.com/view/journals/roke/10-1/roke.2022.01.02.xml"
+}
+
+@article{Lutkenhaus.2019,
+title = {Mapping the Dutch vaccination debate on Twitter: Identifying communities, narratives, and interactions},
+journal = {Vaccine: X},
+volume = {1},
+pages = {1-10},
+year = {2019},
+issn = {2590-1362},
+doi = {https://doi.org/10.1016/j.jvacx.2019.100019},
+url = {https://www.sciencedirect.com/science/article/pii/S2590136219300208},
+author = {Roel O. Lutkenhaus and Jeroen Jansz and Martine P.A. Bouman},
+keywords = {Vaccine hesitancy, Health communication, Social media, Network analysis}}
+
+@misc{Josephs.2021,
+author={Leslie Josephs},
+title={Boeing’s 2020 aircraft cancellations worst on record, despite December Max orders},
+institution={CNBC},
+year={2021},
+howpublished={\url{https://www.cnbc.com/2021/01/12/boeings-2020-aircraft-cancellations-worst-on-record-despite-december-max-orders.html}},
+note={zuletzt abgerufen am 03.08.2022}}
+
+@Article{Nerghes.2019,
+ title                = {Narratives of the refugee crisis: A comparative study of mainstream-media and twitter},
+ author               = {Nerghes, Adina and Lee, Ju-Sung},
+ journal              = {Media and Communication},
+ volume               = {7},
+ number               = {2},
+ pages                = {275--288},
+ year                 = {2019},
+ issue                = {6},
+}
+
+@misc{Soyres.2022,
+title={Demand–supply imbalance during the Covid-19 pandemic: The role of fiscal policy},
+author={Francois de Soyres and Ana Maria Santacreu and Henry Young},
+year={2022},
+institution={VOX EU},
+howpublished={\url{https://voxeu.org/article/demand-supply-imbalance-during-covid-19-pandemic}},
+note={Abgerufen am 14.08.2022}}
+
+
+@misc{Weber.2021,
+author={Isabella Weber},
+title={Could strategic price controls help fight inflation?},
+year={2021},
+howpublished={\url{https://www.theguardian.com/business/commentisfree/2021/dec/29/inflation-price-controls-time-we-use-it}},
+note={Abgerufen am 28.07.2022}}
+
+@TECHREPORT{Emme.2021,
+title = {Economics in Action – die Erstellung von Wirtschaftsprognosen in der (Corona-)Krise},
+author = {Emme, Verena and Henze, Justus and Reichmann, Werner and Weinig, Max},
+year = {2021},
+institution = {University of Hamburg, Faculty of Business, Economics and Social Sciences, WISO Research Laboratory},
+type = {WiSo-HH Working Paper Series},
+number = {63},
+abstract = {Das Papier geht der Frage nach, wie sich die Herstellung von Wirtschaftsprognosen im Kontext der radikalen Ungewissheit während der Corona-Pandemie verändert. Etablierte soziologische Forschungsarbeiten zu Wirtschaftsprognosen haben gezeigt, dass soziale Interaktionsprozesse zwischen den Akteur*innen der Prognostik innerhalb eines Netzwerks konstitutiv für die Herstellung von Prognosewissen sind. Dieses Papier aktualisiert und erweitert diese Erkenntnisse für die besonderen Bedingungen während der Corona-Pandemie. Mittels einer sozialen Netzwerkanalyse und der Auswertung von qualitativen Interviews mit führenden Prognostiker*innen im deutschsprachigen Raum wird gezeigt, dass die Bedeutung von sozialen Interaktionsprozessen innerhalb eines erweiterten Netzwerks zwischen Akteur*innen der Wirtschaftsforschung und -politik während der Corona-Pandemie stark zunimmt. Epistemische Interaktionen stellen sicher, dass in dieser weitreichenden gesellschaftlichen Krisensituation überhaupt plausible und glaubhafte Prognosen über die ökonomische Zukunft produziert werden können.},
+keywords = {Wirtschaftsprognosen; Corona; Pandemie; Covid-19; Wissensproduktion; Unsicherheit; Erwartungsbildung; Epistemische Interaktion},
+url = {https://EconPapers.repec.org/RePEc:zbw:uhhwps:63}
+}
+
+@Article{Gruen.2011,
+    title = {topicmodels: An R Package for Fitting Topic Models},
+    author = {Bettina Grün and Kurt Hornik},
+    journal = {Journal of Statistical Software},
+    year = {2011},
+    volume = {40},
+    number = {13},
+    pages = {1--30},
+    doi = {10.18637/jss.v040.i13},
+  }
+
+@techreport{Silva.2022,
+author={António Dias da Silva and Desislava Rusinova and Marco Weißler},
+year={2022},
+title={The labour market recovery in the euro area through the lens of the ECB Consumer Expectations Survey},
+institution={European Central Bank},
+type = {Working Paper},
+series={ECB Economic Bulletin},
+issue={2},
+howpublished={\url{https://www.ecb.europa.eu/pub/economic-bulletin/focus/2022/html/ecb.ebbox202202_06~d69e287c16.en.html}},
+note={Abgerufen am 24.07.2022}}
+
+@techreport{Koester.2021,
+title={Comparing recent inflation developments in the United States and the euro area},
+author={Gerrit Koester, Jakob Nordeman and Michel Soudan},
+year={2022},
+institution={European Central Bank},
+type={ECB Economic Bulletin},
+issue={6},
+howpublished={\url{https://www.ecb.europa.eu/pub/economic-bulletin/focus/2021/html/ecb.ebbox202106_01~11705a988e.en.html}},
+note={Abgerufen am 14.08.2022}}
+
+@misc{Bivens.2022,
+author={Josh Bivens},
+title={Corporate profits have contributed disproportionately to inflation. How should policymakers respond?},
+year={2022},
+institution={Economic Policy Institut},
+howpublished={\url{https://www.epi.org/blog/corporate-profits-have-contributed-disproportionately-to-inflation-how-should-policymakers-respond/}},
+note={Abgerufen am 21.07.2022}}
+
+@article{Malmendier.2015,
+    author = {Malmendier, Ulrike and Nagel, Stefan},
+    title = "{ Learning from Inflation Experiences  }",
+    journal = {The Quarterly Journal of Economics},
+    volume = {131},
+    number = {1},
+    pages = {53-87},
+    year = {2015},
+    issue = {10}}
+    
+@TechReport{Anderson.2008,
+  author={Robert D. J. Anderson},
+  title={{US Consumer Inflation Expectations: Evidence Regarding Learning, Accuracy and Demographics}},
+  year=2008,
+  institution={Economics, The University of Manchester},
+  type={Centre for Growth and Business Cycle Research Discussion Paper Series},
+  url={https://ideas.repec.org/p/man/cgbcrp/99.html},
+  number={99},
+}
+
+@Article{Acunto.2021,
+  author  = {Francesco D’Acunto and Ulrike Malmendier and Michael Weber},
+  journal = {Proceedings of the National Academy of Sciences},
+  title   = {Gender roles produce divergent economic expectations},
+  year    = {2021},
+  number  = {21},
+  pages   = {1--10},
+  volume  = {118},
+}
+
+@article{Menz.2013,
+author={Jan-Oliver Menz and Philipp Poppitz},
+year={2013},
+title={Inflation Expectations and Socioeconomic Media Exposure in Germany},
+journal={Bundesbank Discussion Paper},
+number={27}}
+
+@InCollection{Kahnemann.1979,
+  author    = {Daniel Kahneman and Amos Tversky},
+  booktitle = {Handbook of the Fundamentals of Financial Decision Making},
+  title     = {Prospect Theory: An Analysis of Decision Under Risk},
+  year      = {1979},
+  chapter   = {6},
+  pages     = {99-127},
+  doi       = {10.1142/9789814417358_0006},
+  url       = {https://www.worldscientific.com/doi/abs/10.1142/9789814417358_0006},
+}
+
+@article{Svetlova.2021,
+    author = {Svetlova, Ekaterina},
+    title = "{AI meets narratives: the state and future of research on expectation formation in economics and sociology}",
+    journal = {Socio-Economic Review},
+    year = {2021},
+    issue = {07}}
+    
+    
+@article{Maddock.1982,
+ ISSN = {00220515},
+ URL = {http://www.jstor.org/stable/2724658},
+ author = {Rodney Maddock and Michael Carter},
+ journal = {Journal of Economic Literature},
+ number = {1},
+ pages = {39--51},
+ publisher = {American Economic Association},
+ title = {A Child's Guide to Rational Expectations},
+ urldate = {2022-05-16},
+ volume = {20},
+ year = {1982}
+}
+
+
+@techreport{Woodford.2001,
+ title = {Imperfect Common Knowledge and the Effects of Monetary Policy},
+ author = "Woodford, Michael",
+ institution = "National Bureau of Economic Research",
+ type = "Working Paper",
+ series = "Working Paper Series",
+ number = "8673",
+ year = "2001",
+ issue = "12",
+ doi = {10.3386/w8673},
+ URL = "http://www.nber.org/papers/w8673",
+}
+
+@article{Mackowiak.2009,
+Author = {Mackowiak, Bartosz and Wiederholt, Mirko},
+Title = {Optimal Sticky Prices under Rational Inattention},
+Journal = {American Economic Review},
+Volume = {99},
+Number = {3},
+Year = {2009},
+issue = {6},
+Pages = {769-803},
+DOI = {10.1257/aer.99.3.769},
+URL = {https://www.aeaweb.org/articles?id=10.1257/aer.99.3.769}}
+
+@article{Sims.2003,
+title = {Implications of rational inattention},
+journal = {Journal of Monetary Economics},
+volume = {50},
+number = {3},
+pages = {665-690},
+year = {2003},
+note = {Swiss National Bank/Study Center Gerzensee Conference on Monetary Policy under Incomplete Information},
+issn = {0304-3932},
+doi = {https://doi.org/10.1016/S0304-3932(03)00029-1},
+url = {https://www.sciencedirect.com/science/article/pii/S0304393203000291},
+author = {Christopher A. Sims},
+keywords = {Information theory, Control theory, Sticky prices, Inertia},
+abstract = {A constraint that actions can depend on observations only through a communication channel with finite Shannon capacity is shown to be able to play a role very similar to that of a signal extraction problem or an adjustment cost in standard control problems. The resulting theory looks enough like familiar dynamic rational expectations theories to suggest that it might be useful and practical, while the implications for policy are different enough to be interesting.}
+}
+
+
+
+
+@article{Mankiw.2002,
+    author = {Mankiw, N. Gregory and Reis, Ricardo},
+    title = "{Sticky Information versus Sticky Prices: A Proposal to Replace the New Keynesian Phillips Curve }",
+    journal = {The Quarterly Journal of Economics},
+    volume = {117},
+    number = {4},
+    pages = {1295-1328},
+    year = {2002},
+    issue = {11},
+    abstract = "{This paper examines a model of dynamic price adjustment based on the assumption that information disseminates slowly throughout the population. Compared with the commonly used sticky-price model, this sticky-information model displays three related properties that are more consistent with accepted views about the effects of monetary policy. First, disinflations are always contractionary (although annoimced disinflations are less contractionary than surprise ones). Second, monetary policy shocks have their maximum impact on inflation with a substantial delay. Third, the change in inflation is positively correlated with the level of economic activity.}",
+    issn = {0033-5533},
+    doi = {10.1162/003355302320935034},
+    url = {https://doi.org/10.1162/003355302320935034},
+}
+
+
+
+
+
+@book{Enders.1995,
+title = {Applied Econometric Time Series},
+author = {Walter Enders},
+year = {1995},
+series = {Wiley Series in Probability and Mathematical Statistics},
+address = {New York},
+publisher = {John Wiley \& Sons, Inc.}}
+
+@article{Lutz.2011,
+    author = {Kilian, Lutz and Kim, Yun Jung},
+    title = "{How Reliable Are Local Projection Estimators of Impulse Responses?}",
+    journal = {The Review of Economics and Statistics},
+    volume = {93},
+    number = {4},
+    pages = {1460-1466},
+    year = {2011},
+    issue = {11},
+    abstract = "{We compare the finite-sample performance of impulse response confidence intervals based on local projections (LPs) and vector autoregressive (VAR) models in linear stationary settings. We find that in small samples, the asymptotic LP interval often is less accurate than the bias-adjusted bootstrap VAR interval, notwithstanding its excessive average length. Although the asymptotic LP interval has adequate coverage in sufficiently large samples, its average length still far exceeds that of bias-adjusted bootstrap VAR intervals with comparable accuracy. Bootstrap LP intervals (with or without bias correction) and asymptotic VAR intervals are shorter on average, but they often lack coverage accuracy in finite samples.}",
+    issn = {0034-6535},
+    doi = {10.1162/REST_a_00143},
+    url = {https://doi.org/10.1162/REST\_a\_00143},
+}
+
+
+@article{Jorda.2003,
+author={Jordà, Oscar},
+year={2003},
+title={Model-Free Impulse Responses (August 2003)},
+journal={UC Davis Working Paper},
+number={03-08}}
+
+
+
+
+@article{Coibion.2018,
+Author = {Coibion, Olivier and Gorodnichenko, Yuriy and Kamdar, Rupal},
+Title = {The Formation of Expectations, Inflation, and the Phillips Curve},
+Journal = {Journal of Economic Literature},
+Volume = {56},
+Number = {4},
+Year = {2018},
+issue = {12},
+Pages = {1447-91},
+DOI = {10.1257/jel.20171300},
+URL = {https://www.aeaweb.org/articles?id=10.1257/jel.20171300}}
+
+
+@article{Adaemmer.2019,
+  title={lpirfs: An R package to estimate impulse response functions by local projections},
+  author={Ad{\"a}mmer, Philipp},
+  journal={The R Journal (2019)},
+  volume={11},
+  number={2},
+  pages={421--438},
+  year={2019}
+}
+
+
+@book{Dreger.2014,
+author = {Christian Dreger and Reinhold Kosfeld and Hans-Friedrich Eckey},
+title = {Ökonometrie: Grundlagen-Methoden-Beispiele},
+edition = {5},
+year = {2014},
+address = {Wiesbaden},
+publisher = {Springer Gabler}}
+
+@book{Neusser.2009,
+author = {Klaus Neusser},
+year = {2009},
+title = {Zeitreihenanalyse in den Wirtschaftswissenschaften},
+edition = {2},
+address = {Wiesbaden},
+publisher = {Vieweg+Teubner}}
+
+@article{Jorda.2005,
+Author = {Jordà, Oscar},
+Title = {Estimation and Inference of Impulse Responses by Local Projections},
+Journal = {American Economic Review},
+Volume = {95},
+Number = {1},
+Year = {2005},
+issue = {3},
+Pages = {161-182},
+DOI = {10.1257/0002828053828518},
+URL = {https://www.aeaweb.org/articles?id=10.1257/0002828053828518}}
+
+
+
+@article{Koop.1996,
+title = {Impulse response analysis in nonlinear multivariate models},
+journal = {Journal of Econometrics},
+volume = {74},
+number = {1},
+pages = {119-147},
+year = {1996},
+issn = {0304-4076},
+doi = {https://doi.org/10.1016/0304-4076(95)01753-4},
+url = {https://www.sciencedirect.com/science/article/pii/0304407695017534},
+author = {Gary Koop and M.Hashem Pesaran and Simon M. Potter},
+keywords = {Persistence, Impulse response functions, Threshold autoregressive models, Nonlinear vector autoregressions},
+abstract = {This paper presents a unified approach to impulse response analysis which can be used for both linear and nonlinear multivariate models. After discussing the advantages and disadvantages of traditional impulse response functions for nonlinear models, we introduce the concept of a generalized impulse response function which, we argue, is applicable to both linear and nonlinear models. We develop measures of shock persistence and asymmetric effects of shocks derived from the generalized impulse response function. We illustrate the use of these measures for a nonlinear bivariate model of US output and the unemployment rate.}
+}
+
+@book{Kirchgaesser.2007,
+author = {Gebhard Kirchgässer and Jürgen Wolters},
+title = {Introduction to Modern Time Series Analysis},
+year = {2007},
+publisher = {Springer}, 
+address = {Berlin}}
+
+@article{Sims.1980,
+ ISSN = {00129682, 14680262},
+ URL = {http://www.jstor.org/stable/1912017},
+ abstract = {Existing strategies for econometric analysis related to macroeconomics are subject to a number of serious objections, some recently formulated, some old. These objections are summarized in this paper, and it is argued that taken together they make it unlikely that macroeconomic models are in fact over identified, as the existing statistical theory usually assumes. The implications of this conclusion are explored, and an example of econometric work in a non-standard style, taking account of the objections to the standard style, is presented.},
+ author = {Christopher A. Sims},
+ journal = {Econometrica},
+ number = {1},
+ pages = {1--48},
+ publisher = {[Wiley, Econometric Society]},
+ title = {Macroeconomics and Reality},
+ urldate = {2022-06-07},
+ volume = {48},
+ year = {1980}
+}
+
+@incollection{Traue.2014,
+author="Traue, Boris
+and Pfahl, Lisa
+and Sch{\"u}rmann, Lena",
+editor="Baur, Nina
+and Blasius, J{\"o}rg",
+title="Diskursanalyse",
+bookTitle="Handbuch Methoden der empirischen Sozialforschung",
+year="2014",
+publisher="Springer Fachmedien Wiesbaden",
+address="Wiesbaden",
+pages="493--508",
+abstract="Der Begriff „Diskurs`` bezeichnet in seiner allgemeinsten Bedeutung die Produktion sozialen Sinns, verstanden als die symbolische (d.h. sprachliche, visuelle, auditive) Darstellung, Vermittlung und Konstitution von Gegenst{\"a}nden in kommunikativen Prozessen.",
+isbn="978-3-531-18939-0",
+doi="10.1007/978-3-531-18939-0_34",
+url="https://doi.org/10.1007/978-3-531-18939-0_34"
+}
+
+
+
+@article{Kantor.1979,
+ ISSN = {00220515},
+ URL = {http://www.jstor.org/stable/2723721},
+ author = {Brian Kantor},
+ journal = {Journal of Economic Literature},
+ number = {4},
+ pages = {1422--1441},
+ publisher = {American Economic Association},
+ title = {Rational Expectations and Economic Thought},
+ urldate = {2022-05-30},
+ volume = {17},
+ year = {1979}
+}
+
+@article{Friedman.1968,
+author = {Milton Friedman},
+title = {The Role of Monetary Policy}, 
+journal = {The American Economic Review}, 
+year = {1968},
+volume = {58},
+number = {1},
+pages = {1--17}}
+
+
+
+
+@incollection{Sargent.2010,
+author ={Thomas J. Sargent},
+title = {rational expectations},
+booktitle = {Macroeconometrics and Time Series Analysis},
+editor = {Steven N. Durlauf and Lawrence E. Blume},
+year = {2010},
+publisher = {Macmillan Publisher Ltd},
+}
+
+
+@article{Friedman.1977,
+author = {Friedman, Milton},
+title = {Nobel Lecture: Inflation and Unemployment},
+journal = {Journal of Political Economy},
+volume = {85},
+number = {3},
+pages = {451-472},
+year = {1977},
+doi = {10.1086/260579},
+
+}
+
+
+
+@article{Lachmann.1943,
+ ISSN = {00130427, 14680335},
+ URL = {http://www.jstor.org/stable/2549651},
+ author = {Ludwig M. Lachmann},
+ journal = {Economica},
+ number = {37},
+ pages = {12--23},
+ publisher = {[London School of Economics, Wiley, London School of Economics and Political Science, Suntory and Toyota International Centres for Economics and Related Disciplines]},
+ title = {The Role of Expectations in Economics as a Social Science},
+ urldate = {2022-05-25},
+ volume = {10},
+ year = {1943}
+}
+
+@book{Biemann.2022,
+author={Chris Biemann and Gerhard Heyer and Uwe Quasthoff},
+title={Wissensrohstoff Text: Eine Einführung in das Text Mining},
+year={2022},
+address={Wiesbaden},
+edition={2},
+publisher={Springer Vieweg}}
+
+@misc{WSJ.2017,
+author={WSJ, Wall Street Journal},
+title={WSJ.COM AUDIENCE PROFILE},
+year={2017},
+institution={Wall Street Journal},
+howpublished={\url{https://images.dowjones.com/wp-content/uploads/sites/183/2018/05/09164150/WSJ.com-Audience-Profile.pdf}},
+note={Abgerufen am 08.08.2022}}
+
+@book{Keynes.1936,
+author = {John Maynard Keynes},
+title = {Allgemeine Theorie der Beschäftigung, des Zinses und des Geldes},
+year = {1983},
+edition = {6},
+address = {Berlin},
+publisher = {Duncker \& Humblot},
+}
+
+@book{Luetkepohl.2005,
+title={New Introduction to Multiple Time Series Analysis},
+author={Helmut Lütkepohl},
+publisher={Springer},
+year={2005},
+address={Berlin}}
+
+@Manual{forecast.2022,
+    title = {{forecast}: Forecasting functions for time series and
+      linear models},
+    author = {Rob Hyndman and George Athanasopoulos and Christoph
+      Bergmeir and Gabriel Caceres and Leanne Chhay and Mitchell
+      O'Hara-Wild and Fotios Petropoulos and Slava Razbash and Earo
+      Wang and Farah Yasmeen},
+    year = {2022},
+    note = {R package version 8.17.0},
+    type={Journal of Statistical Software},
+    issue={3},
+    url = {https://pkg.robjhyndman.com/forecast/},
+  }
+
+@book{Bohnensack.2011,
+author={Ralf Bohnensack and Winfried Marotzki and Michael Meuser},
+title={Hauptbegriffe Qualitativer Sozialforschung},
+edition={3},
+year={2011},
+address={Koeln},
+publisher={Barbara Budrich}}
+
+@incollection{Flick.2015,
+author={Uwe Flick and Ernst von Kardorff and Ines Steinke},
+editors={Uwe Flick and Ernst von Kardorff and Ines Steinke},
+booktitle={Qualitative Forschung. Ein Handbuch},
+title={Was ist qualitative Forschung},
+year={2015},
+address={Reinbek bei Hamburg},
+publisher={Rowohlt Taschenbuch Verlag}}
+
+@book{Hicks.1939,
+author = {J. R. Hicks},
+title = {Value and Capital: An inquiry into some fundamental principles of economic theory},
+edition = {2},
+year = {1946},
+publisher = {Oxford University Press},
+address = {Oxford}
+}
+
+@incollection{Hayek.1937,
+author = {Friedrich A. Hayek},
+booktitle = {Individualism and Economic Order},
+title = {Economics and Knowledge},
+publisher = {The University of Chicago Press},
+address = {Chicago},
+edition = {3},
+year = {1958},
+editor = {Friedrich A. Hayek},}
+
+@book{Curtin.2019,
+author = {Richard Thomas Curtin},
+year = {2019},
+title = {Consumer Expectations: Micro Foundations and Macro Impact},
+publisher = {Cambridge University Press},
+address ={Cambridge}
+}
+
+@article{Working.1949,
+ ISSN = {00028282},
+ URL = {http://www.jstor.org/stable/1831740},
+ author = {Holbrook Working},
+ journal = {The American Economic Review},
+ number = {3},
+ pages = {150--166},
+ publisher = {American Economic Association},
+ title = {The Investigation of Economic Expectations},
+ urldate = {2022-05-25},
+ volume = {39},
+ year = {1949}
+}
+
+
+
+@book{Scott.2006,
+author = {Scott, Mike and Tribble, Christopher},
+title = {Textual Patterns: Key words and corpus analysis in language education},
+publisher = {John Benjamins Publishing Company},
+address = {Amsterdam},
+year = {2006}}
+
+@article{Dunning.1993, 
+title = {Accurate Methods for the Statistics of Surprise and Coincidence},
+journal = {Computational Linguistics},
+author = {Dunning, Ted},
+volume = {19},
+number = {1},
+year = {1993},
+publisher = {MIT Press},
+address = {Cambridge, MA},
+pages ={61--74}
+}
+
+@article{quanteda.2018,
+  title = {quanteda: An R package for the quantitative analysis of textual data},
+  journal = {Journal of Open Source Software},
+  author = {Kenneth Benoit and Kohei Watanabe and Haiyan Wang and Paul Nulty and Adam Obeng and Stefan Müller and Akitaka Matsuo},
+  doi = {10.21105/joss.00774},
+  url = {https://quanteda.io},
+  volume = {3},
+  number = {30},
+  pages = {1--4},
+  year = {2018},
+}
+
+@incollection{Bondi.2010,
+author = {Bondi, Marina},
+title = {Perspectives on keywords and keynes: An introduction},
+editors = {Boni, Marina and Scott, Mike},
+year = {2010},
+booktitle = {Keyness in Texts},
+publisher = {John Benjamins Publishing Company},
+address ={Amsterdam and Philadelphia},
+pages = {1-20},
+}
+
+@misc{ECB.2022,
+title={Monetary policy decisions},
+author={ECB},
+year={2022},
+howpublished={\url{https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.mp220609~122666c272.en.html}},
+note={Abgerufen am 27.06.2022},
+}
+
+@book{Bofinger.2011,
+title={Grundzüge der Volkswirtschaftslehre: Eine Einführung in die Wissenschaft von Märkten},
+edition ={3},
+author ={Peter Bofinger},
+year={2011},
+address={München},
+publisher={Pearson Studium}}
+
+@misc{Lange.2022,
+author={Kai Lange},
+title={Chronik einer Fehleinschätzung: Wie der EZB die Inflation davonlief},
+year={2022},
+howpublished={\url{https://www.manager-magazin.de/politik/europaeische-zentralbank-wie-der-ezb-die-inflation-davonlief-a-f2d492b1-05e6-4f20-8ab8-eb3b2823a9f3}},
+note={Abgerufen am 11.07.2022}}
+
+
+
+@techreport{Hendrickson.2022,
+ title = {Central Banks Are Inflation Creators, Not Inflation Fighters},
+ author = {Joshua R. Hendrickson},
+ institution={Mercatus Center, George Manson University},
+ type={Working Paper},
+ series={Policy Briefs},
+ year={2022},
+ issue={2}, 
+ url={https://www.mercatus.org/publications/monetary-policy/central-banks-are-inflation-creators-not-inflation-fighters}}
+
+@misc{McKinsey.2021,
+author={Jaana Remes and James Manyika and Sven Smit and Sajal Kohli and Victor Fabius and Sundiatu Dixon-Fyle and Anton Nakaliuzhnyi},
+year={2021},
+institution={McKinsey \& Company},
+title={The consumer demand recovery and lasting effects of COVID-19},
+howpublished={\url{https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/the-consumer-demand-recovery-and-lasting-effects-of-covid-19}},
+note={Abgerufen am 13.07.2022}}
+
+@misc{fed.2019,
+author={Board of Governors of the Federal Reserve System},
+year={2019},
+title={Implementation Note issued July 31, 2019},
+howpublished={\url{https://www.federalreserve.gov/newsevents/pressreleases/monetary20190731a1.htm}},
+note={Abgerufen am 11.07.2022}}
+
+@misc{Inman.2022,
+author={Phillip Inman},
+year={2022},
+title={IMF warns China over cost of Covid lockdowns},
+howpublished={\url{https://www.theguardian.com/business/2022/jan/21/imf-warns-china-over-cost-of-covid-lockdowns}},
+note={Abgerufen am 11.07.2022}}}
+
+@article{Richtie.2020,
+    author = {Hannah Ritchie, Edouard Mathieu, Lucas Rodés-Guirao, Cameron Appel, Charlie Giattino, Esteban Ortiz-Ospina, Joe Hasell, Bobbie Macdonald, Diana Beltekian and Max Roser},
+    title = {Coronavirus Pandemic (COVID-19)},
+    journal = {Our World in Data},
+    year = {2020},
+    note = {https://ourworldindata.org/coronavirus}
+}
+
+@misc{DowJones.2022,
+author={Dow Jones Newswire},
+year={2022},
+howpublished={\url{https://www.dowjones.com/professional/newswires/}},
+note={Abgerufen am 18.07.2022}}
+
+
+@techreport{Eshima.2020,
+  doi = {10.48550/ARXIV.2004.05964},
+  url = {https://arxiv.org/abs/2004.05964},
+  author = {Eshima, Shusei and Imai, Kosuke and Sasaki, Tomoya},
+  keywords = {Computation and Language (cs.CL), Applications (stat.AP), Methodology (stat.ME), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Keyword Assisted Topic Models},
+  publisher = {arXiv},
+  type = {Working Paper},
+  year = {2020},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@misc{CDC.2022,
+author={{David J. Sencer CDC Museum}},
+title={CDC Museum COVID-19 Timeline},
+year={2022},
+howpublished={\url{https://www.cdc.gov/museum/timeline/covid19.html}},
+note={Abgerufen am 15.08.2022}}
+
+@incollection{Crain.2012,
+author="Crain, Steven P.
+and Zhou, Ke
+and Yang, Shuang-Hong
+and Zha, Hongyuan",
+editor="Aggarwal, Charu C.
+and Zhai, ChengXiang",
+title="Dimensionality Reduction and Topic Modeling: From Latent Semantic Indexing to Latent Dirichlet Allocation and Beyond",
+bookTitle="Mining Text Data",
+year="2012",
+publisher="Springer US",
+address="Boston, MA",
+pages="129--161",
+abstract="The bag-of-words representation commonly used in text analysis can be analyzed very efficiently and retains a great deal of useful information, but it is also troublesome because the same thought can be expressed using many different terms or one term can have very different meanings. Dimension reduction can collapse together terms that have the same semantics, to identify and disambiguate terms with multiple meanings and to provide a lower-dimensional representation of documents that reflects concepts instead of raw terms. In this chapter, we survey two influential forms of dimension reduction. Latent semantic indexing uses spectral decomposition to identify a lower-dimensional representation that maintains semantic properties of the documents. Topic modeling, including probabilistic latent semantic indexing and latent Dirichlet allocation, is a form of dimension reduction that uses a probabilistic model to find the co-occurrence patterns of terms that correspond to semantic topics in a collection of documents. We describe the basic technologies in detail and expose the underlying mechanism. We also discuss recent advances that have made it possible to apply these techniques to very large and evolving text collections and to incorporate network structure or other contextual information.",
+isbn="978-1-4614-3223-4",
+doi="10.1007/978-1-4614-3223-4_5",
+url="https://doi.org/10.1007/978-1-4614-3223-4_5"
+}
+
+
+@incollection{Benoit.2020,
+author = {Ken Benoit},
+title = {Text as Data: An Overview},
+booktitle = {The SAGE Handbook of Research Methods in Political Science and International Relations},
+year = {2020},
+volume = {2},
+editor = {Luigi Curini and Robert Franzese},
+address = {London},
+pages={461--497},
+publisher = {SAGE Publications Ltd.},
+}
+
+
+@article{blei.2003,
+  title={Latent dirichlet allocation},
+  author={Blei, David M. and Ng, Andrew Y. and Jordan, Michael I.},
+  journal={Journal of machine Learning research},
+  volume={3},
+  pages={993--1022},
+  year={2003}
+}
+
+@article{Larsen.2021,
+title = {News-driven inflation expectations and information rigidities},
+journal = {Journal of Monetary Economics},
+volume = {117},
+pages = {507-520},
+year = {2021},
+issn = {0304-3932},
+doi = {https://doi.org/10.1016/j.jmoneco.2020.03.004},
+url = {https://www.sciencedirect.com/science/article/pii/S030439322030026X},
+author = {Vegard H. Larsen and Leif Anders Thorsrud and Julia Zhulanova},
+keywords = {Expectations, Media, Machine learning, Inflation},
+abstract = {Using a large news corpus and machine learning algorithms we investigate the role played by the media in the expectations formation process of households, and conclude that the news topics media report on are good predictors of both inflation and inflation expectations. In turn, in a noisy information model, augmented with a simple media channel, we document that the time series features of relevant topics help explain time-varying information rigidity among households. As such, we provide a novel estimate of state-dependent information rigidities and present new evidence highlighting the role of the media in understanding inflation expectations and information rigidities.}
+}
+
+@techreport{Andre.2022,
+author ={Andre, Peter and Haaland, Ingar and Roth, Christopher and Wohlfahrt, Johannes},
+title = {Narratives about the Macroeconomy}, 
+year = {2022},
+type = {Working Paper},
+}
+
+@article{Shiller.2017,
+Author = {Shiller, Robert J.},
+Title = {Narrative Economics},
+Journal = {American Economic Review},
+Volume = {107},
+Number = {4},
+Year = {2017},
+issue = {4},
+Pages = {967-1004},
+DOI = {10.1257/aer.107.4.967},
+URL = {https://www.aeaweb.org/articles?id=10.1257/aer.107.4.967}}
+
+@article{Haaland.2020,
+title = {Designing Information Provision Experiments},
+year = {2020},
+author = {Haaland, Ingar and Roth, Christopher and Wohlfahrt, Johannes},
+journal = {CESifo Working Paper}}
+
+@incollection{Shiller.1997, 
+author = {Robert J. Shiller},
+year = {1997},
+title = {Why Do People Dislike Inflation?},
+pages = {13--70},
+booktitle = {Reducing Inflation: Motivation and Strategy},
+editor = {Romer, Christina D. and Romer, David H.},
+publisher ={University of Chicago Press},
+}
+
+@TechReport{Ponweiser.2012,
+  author      = {Martin Ponweiser},
+  institution = {WU Vienna University of Economics and Business},
+  title       = {Latent Dirichlet Allocation in R},
+  year        = {2012},
+  address     = {Vienna},
+  note        = {Diploma Thesis},
+  number      = {2},
+  type        = {Theses / Institute for Statistics and Mathematics},
+  issue       = {5},
+  keywords    = {latent Dirichlet allocation / LDA / R / topic models / text mining / information retrieval / statistics},
+  url         = {https://epub.wu.ac.at/3558/},
+}
+
+@article{Kliesen.2021,
+author={Kevin L. Kliesen},
+title={Measuring Market-Based Inflation Expectations},
+journal={Economic Synopses},
+number={6},
+year={2021}}
+
+@techreport{Baumeister.2021,
+ title = "Measuring Market Expectations",
+ author = "Baumeister, Christiane",
+ institution = "National Bureau of Economic Research",
+ type = "Working Paper",
+ series = "Working Paper Series",
+ number = "29232",
+ year = "2021",
+ issue = "9",
+ doi = {10.3386/w29232}}
+ 
+@techreport{Born.2022,
+author={Benjamin Born and Zeno Enders and Gernot J. Müller and Knut Niemann},
+title={Firm expectations about production and prices: Facts, determinants, and effects},
+year={2022},
+type={Working Paper},
+institution={DFG Priority Programm 1859}}
+ 
+@article{Gennaioli.2015,
+author = {Gennaioli, Nicola and Ma, Yueran and Shleifer, Andrei},
+title = {Expectations and Investment},
+journal = {NBER Macroeconomics Annual},
+volume = {30},
+number = {},
+pages = {379-431},
+year = {2016},
+doi = {10.1086/685965}}
+
+@book{Skulschus.2012,
+author ={Marco Skulschus and Marcus Wiederstein},
+title = {XML: Standards und Technologien},
+year={2012},
+address={Berlin},
+publisher ={Comelio Medien}}
+
+@article{loughran.2011,
+author = {Loughran, Tim and McDonald, Bill},
+title = {When Is a Liability Not a Liability? Textual Analysis, Dictionaries, and 10-Ks},
+journal = {The Journal of Finance},
+volume = {66},
+number = {1},
+pages = {35-65},
+doi = {10.1111/j.1540-6261.2010.01625.x},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6261.2010.01625.x},
+year = {2011}}
+
+@incollection{Bronk.2018,
+author={Jens Beckert and Richard Bronk},
+title={An Introduction to Uncertain Futures},
+editors={Jens Beckert and Richard Bronk},
+booktitle={Uncertain Futures: Imaginaries, Narratives, and Calculation in the Economy},
+publisher={Oxford University Press},
+year={2018},
+pages={1--36},
+address={Oxford}}
+
+@incollection{Boyer.2018,
+author={Robert Boyer},
+title={Expectations, Narratives, and Socio-Economic Regimes},
+editors={Jens Beckert and Richard Bronk},
+booktitle={Uncertain Futures: Imaginaries, Narratives, and Calculation in the Economy},
+publisher={Oxford University Press},
+year={2018},
+pages={39--61},
+address={Oxford}}
+
+
+@incollection{Stubbs.2010,
+author = {Stubbs, Michael},
+title = {Three concepts of keywords},
+editor = {Marina Boni and Mike Scott},
+year = {2010},
+booktitle = {Keyness in Texts},
+publisher = {John Benjamins Publishing Company},
+address ={Amsterdam and Philadelphia},
+pages = {1-20},
+}
+
+@Book{Shiller.2019,
+  author    = {Robert J. Shiller},
+  publisher = {Princeton University Press},
+  title     = {Narrative Economics: How Stories Go Viral \& Drive Major Economic Events},
+  year      = {2019},
+  address   = {Princeton},
+}
+
+@article{Tuckett.2020,
+author={David Tuckett and Douglas Holmes and Alice Pearson and Graem Chaplin},
+year={2020},
+title={Monetary Policy and the Management of Uncertainty: A Narrative Approach},
+journal={Bank of England Working Paper},
+number={870}}
+
+
+@techreport{Roos.2021,
+  doi = {10.48550/ARXIV.2109.02331},
+  url = {https://arxiv.org/abs/2109.02331},
+  author = {Roos, Michael and Reccius, Matthias},
+  keywords = {General Economics (econ.GN), FOS: Economics and business, FOS: Economics and business},
+  title = {Narratives in economics},
+  publisher = {arXiv},
+  type={Working Paper},
+  year = {2021},
+  copyright = {Creative Commons Attribution Share Alike 4.0 International}
+}
+
+
+@book{Shiller.2009,
+author={Robert J. Shiller and George A. Akerlof},
+title={Animal Spirits: Wie Wirtschaft wirklich funktioniert},
+address={Frankfurt},
+year={2009},
+publisher={Campus Verlag}}
+
+@incollection{Wiedemann.2016,
+author = {Wiedemann, Gregor}, 
+title = {Text Mining for Qualitative Data Analysis in the Social Science. A Study on Democratic Discourse in Germany},
+year = {2016},
+publisher = {Springer VS}, 
+address = {Wiesbaden},
+}
+
+
+
+@book{grimmer.2022,
+  title={Text as data: A new framework for machine learning and the social sciences},
+  author={Grimmer, Justin and Roberts, Margaret E and Stewart, Brandon M},
+  year={2022},
+  publisher={Princeton University Press}
+}
+
+@article{Crocco.2009,
+title={The concept of degrees of uncertainty in Keynes, Schackle and Davidson}, volume={12},
+url={https://revistas.face.ufmg.br/index.php/novaeconomia/article/view/399},
+number={2},
+journal={Nova Economia},
+author={Crocco, Marco},
+year={2002},
+page={11--28},
+issue={5} }
+
+
+@article{Carroll.2003,
+    author = {Carroll, Christopher D.},
+    title = "{Macroeconomic Expectations of Households and Professional Forecasters }",
+    journal = {The Quarterly Journal of Economics},
+    volume = {118},
+    number = {1},
+    pages = {269-298},
+    year = {2003},
+    issue = {02},
+    issn = {0033-5533},
+    doi = {10.1162/00335530360535207},
+   
+  }
+
+@article{Jonung.1981,
+ ISSN = {00028282},
+ URL = {http://www.jstor.org/stable/1803477},
+ author = {Lars Jonung},
+ journal = {The American Economic Review},
+ number = {5},
+ pages = {961--968},
+ publisher = {American Economic Association},
+ title = {Perceived and Expected Rates of Inflation in Sweden},
+ urldate = {2022-06-17},
+ volume = {71},
+ year = {1981}
+}
+
+
+
+
+
+@article{Souleles.2004,
+ ISSN = {00222879, 15384616},
+ URL = {http://www.jstor.org/stable/3839047},
+ author = {Nicholas S. Souleles},
+ journal = {Journal of Money, Credit and Banking},
+ number = {1},
+ pages = {39--72},
+ publisher = {[Wiley, Ohio State University Press]},
+ title = {Expectations, Heterogeneous Forecast Errors, and Consumption: Micro Evidence from the Michigan Consumer Sentiment Surveys},
+ urldate = {2022-06-17},
+ volume = {36},
+ year = {2004}
+}
+
+
+
+@article{Gabaix.2014,
+    author = {Gabaix, Xavier},
+    title = "{ A Sparsity-Based Model of Bounded Rationality  }",
+    journal = {The Quarterly Journal of Economics},
+    volume = {129},
+    number = {4},
+    pages = {1661-1710},
+    year = {2014},
+    issue = {09},
+    abstract = "{ This article defines and analyzes a “sparse max” operator, which is a less than fully attentive and rational version of the traditional max operator. The agent builds (as economists do) a simplified model of the world which is sparse, considering only the variables of first-order importance. His stylized model and his resulting choices both derive from constrained optimization. Still, the sparse max remains tractable to compute. Moreover, the induced outcomes reflect basic psychological forces governing limited attention. The sparse max yields a behavioral version of basic chapters of the microeconomics textbook: consumer demand and competitive equilibrium. I obtain a behavioral version of Marshallian and Hicksian demand, Arrow-Debreu competitive equilibrium, the Slutsky matrix, the Edgeworth box, Roy’s identity, and so on. The Slutsky matrix is no longer symmetric: nonsalient prices are associated with anomalously small demand elasticities. Because the consumer exhibits nominal illusion, in the Edgeworth box, the offer curve is a two-dimensional surface rather than a one-dimensional curve. As a result, different aggregate price levels correspond to materially distinct competitive equilibria, in a similar spirit to a Phillips curve. The Arrow-Debreu welfare theorems typically do not hold. This framework provides a way to assess which parts of basic microeconomics are robust, and which are not, to the assumption of perfect maximization. }",
+    issn = {0033-5533},
+    doi = {10.1093/qje/qju024},
+    url = {https://doi.org/10.1093/qje/qju024},
+}
+
+@article{Samuelson.1938,
+ ISSN = {00130427, 14680335},
+ URL = {http://www.jstor.org/stable/2548836},
+ author = {Paul A. Samuelson},
+ journal = {Economica},
+ number = {17},
+ pages = {61--71},
+ publisher = {[London School of Economics, Wiley, London School of Economics and Political Science, Suntory and Toyota International Centres for Economics and Related Disciplines]},
+ title = {A Note on the Pure Theory of Consumer's Behaviour},
+ urldate = {2022-06-15},
+ volume = {5},
+ year = {1938}
+}
+
+
+
+@article{Samuelson.1948,
+ ISSN = {00130427, 14680335},
+ URL = {http://www.jstor.org/stable/2549561},
+ author = {Paul A. Samuelson},
+ journal = {Economica},
+ number = {60},
+ pages = {243--253},
+ publisher = {[London School of Economics, Wiley, London School of Economics and Political Science, Suntory and Toyota International Centres for Economics and Related Disciplines]},
+ title = {Consumption Theory in Terms of Revealed Preference},
+ urldate = {2022-06-15},
+ volume = {15},
+ year = {1948}
+}
+
+
+
+@article{Manksi.2004,
+author = {Manski, Charles F.},
+title = {Measuring Expectations},
+journal = {Econometrica},
+volume = {72},
+number = {5},
+pages = {1329-1376},
+keywords = {Choice analysis, beliefs, subjective probabilities, survey research},
+doi = {https://doi.org/10.1111/j.1468-0262.2004.00537.x},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0262.2004.00537.x},
+abstract = {To predict choice behavior, the standard practice of economists has been to infer decision processes from data on observed choices. When decision makers act with partial information, economists typically assume that persons form probabilistic expectations for unknown quantities and maximize expected utility. Observed choices may be consistent with many alternative specifications of preferences and expectations, so researchers commonly assume particular sorts of expectations. It would be better to measure expectations in the form called for by modern economic theory; that is, subjective probabilities. Data on expectations can be used to relax or validate assumptions about expectations. Since the early 1990's, economists have increasingly undertaken to elicit from survey respondents probabilistic expectations of significant personal events. This article discusses the history underlying the new literature, describes some of what has been learned thus far, and looks ahead towards making further progress.},
+year = {2004}
+}
+
+
+@article{Kahnemann.1972,
+title = {Subjective probability: A judgment of representativeness},
+journal = {Cognitive Psychology},
+volume = {3},
+number = {3},
+pages = {430-454},
+year = {1972},
+issn = {0010-0285},
+doi = {https://doi.org/10.1016/0010-0285(72)90016-3},
+url = {https://www.sciencedirect.com/science/article/pii/0010028572900163},
+author = {Daniel Kahneman and Amos Tversky},
+abstract = {This paper explores a heuristic—representativeness—according to which the subjective probability of an event, or a sample, is determined by the degree to which it: (i) is similar in essential characteristics to its parent population; and (ii) reflects the salient features of the process by which it is generated. This heuristic is explicated in a series of empirical examples demonstrating predictable and systematic errors in the evaluation of uncertain events. In particular, since sample size does not represent any property of the population, it is expected to have little or no effect on judgment of likelihood. This prediction is confirmed in studies showing that subjective sampling distributions and posterior probability judgments are determined by the most salient characteristic of the sample (e.g., proportion, mean) without regard to the size of the sample. The present heuristic approach is contrasted with the normative (Bayesian) approach to the analysis of the judgment of uncertainty.}
+}
+
+@article{Fuster.2010,
+Author = {Fuster, Andreas and Laibson, David and Mendel, Brock},
+Title = {Natural Expectations and Macroeconomic Fluctuations},
+Journal = {Journal of Economic Perspectives},
+Volume = {24},
+Number = {4},
+Year = {2010},
+issue = {12},
+Pages = {67-84},
+DOI = {10.1257/jep.24.4.67},
+URL = {https://www.aeaweb.org/articles?id=10.1257/jep.24.4.67}}
+
+
+
+
+@book{Shackle.1979,
+author = {George L.S. Shackle}, 
+title = {Expectations, Enterprise and Profit}, 
+address = {London}, 
+year = {1970}, 
+publisher = {George Allen and Unwin Ltd},
+}
+
+@book{Evans.2001,
+title={Learning and Expectations in Macroeconomics},
+author={George W. Evans and Seppo Honkapohja},
+year={2001},
+publisher={Princeton University Press},
+address={Princeton, New Jersey}}
+
+@incollection{Selten.2002,
+author={Reinhard Selten},
+year={2002},
+title={What is Bounded Rationality?},
+booktitle={Bounded Rationality: The Adaptive Toolbox},
+editor={Gerd Gigerenzer and Reinhard Selten},
+publisher={MIT Press},
+address={Massachusetts},
+series={Dahlem Workshop Reports},
+}
+
+@Article{Juster.1966,
+  author    = {F. Thomas Juster},
+  journal   = {Journal of the American Statistical Association},
+  title     = {Consumer Buying Intentions and Purchase Probability: An Experiment in Survey Design},
+  year      = {1966},
+  number    = {315},
+  pages     = {658-696},
+  volume    = {61},
+  publisher = {Taylor \& Francis},
+}
+
+
+
+@article{Angelico.2022,
+title = {Can we measure inflation expectations using Twitter?},
+journal = {Journal of Econometrics},
+volume = {228},
+number = {2},
+pages = {259-277},
+year = {2022},
+issn = {0304-4076},
+doi = {https://doi.org/10.1016/j.jeconom.2021.12.008},
+url = {https://www.sciencedirect.com/science/article/pii/S0304407622000227},
+author = {Cristina Angelico and Juri Marcucci and Marcello Miccoli and Filippo Quarta},
+keywords = {Inflation expectations, Twitter, Text mining, Big data, Forecasting}}
+
+@article{Armentier.2013,
+author = {Armantier, Olivier and Bruine de Bruin, W\"{a}ndi and Potter, Simon and Topa, Giorgio and van der Klaauw, Wilbert and Zafar, Basit},
+title = {Measuring Inflation Expectations},
+journal = {Annual Review of Economics},
+volume = {5},
+number = {1},
+pages = {273-301},
+year = {2013},
+doi = {10.1146/annurev-economics-081512-141510}}
+
+
+@article{Curtin.1982,
+    author = {Curtin, Richard T.},
+    title = "{Indicators of Consumer Behavior: The University of Michigan Surveys of Consumers}",
+    journal = {Public Opinion Quarterly},
+    volume = {46},
+    number = {3},
+    pages = {340-352},
+    year = {1982},
+    issue = {01},
+    abstract = "{Data gathered by the Surveys of Consumers over the past several decades show that changes in consumer attitudes and expectations occur in advance of action. Current data can be measured and used to predict aggregate trends in consumer expenditures for houses, cars, and large household durables, as well as the incurrence of debt and acquisition of financial assets.}",
+    issn = {0033-362X},
+    doi = {10.1086/268731},
+    url = {https://doi.org/10.1086/268731},
+    
+}
+
+@article{Wansleben.2018,
+title={How expectations became governable: institutional change and the performative power of central banks},
+author={Leon Wansleben},
+year={2018},
+journal={Theory and Society},
+number={47},
+pages={773--803}}
+
+@article{Chong.2015,
+    author = {Chong, Kimberly and Tuckett, David},
+    title = "{Constructing conviction through action and narrative: how money managers manage uncertainty and the consequence for financial market functioning}",
+    journal = {Socio-Economic Review},
+    volume = {13},
+    number = {2},
+    pages = {309-330},
+    year = {2015},
+    issue = {05}}
+
+@incollection{Holmes.2018,
+author={Douglas R. Holmes},
+title={A Tractable Future: Central Banks in Conversation with their Publics},
+year={2018},
+editors={Jens Beckert and Richard Bronk},
+booktitle={Uncertain Futures: Imaginaries, Narratives, and Calculation in the Economy},
+publisher={Oxford University Press},
+address={Oxford}}
+
+@article{Blinder.2008,
+Author = {Blinder, Alan S. and Ehrmann, Michael and Fratzscher, Marcel and De Haan, Jakob and Jansen, David-Jan},
+Title = {Central Bank Communication and Monetary Policy: A Survey of Theory and Evidence},
+Journal = {Journal of Economic Literature},
+Volume = {46},
+Number = {4},
+pages={910--945},
+Year = {2008}}
+
+
+
+
+@article{Beckert.2021,
+author = {Jens Beckert},
+title ={The Firm as an Engine of Imagination: Organizational prospection and the making of economic futures},
+journal = {Organization Theory},
+volume = {2},
+number = {2},
+pages = {1--21},
+year = {2021}}
+
+@incollection{Davidson.1999,
+author="Davidson, Louise",
+editor="Davidson, Louise",
+title="Uncertainty in Economics",
+bookTitle="Uncertainty, International Money, Employment and Theory: Volume 3: The Collected Writings of Paul Davidson",
+year="1999",
+publisher="Palgrave Macmillan UK",
+address="London",
+pages="30--37"}
+
+
+@article{Larsen.2019,
+title={Business Cycle Narratives},
+author={Vegard Larsen and Leif Anders Thorsud},
+year={2019},
+journal={CESifo Working Paper No. 7468}}
+
+@techreport{Mueller.2022,
+address = {Dortmund},
+author = {Henrik M\"{u}ller and Tobias Schmidt and Jonas Rieger and Lena Marie Hufnagel and Nico Hornig},
+copyright = {http://www.econstor.eu/dspace/Nutzungsbedingungen},
+doi = {10.17877/DE290R-22632},
+keywords = {519; Inflation; Expectations; Narratives; Latent Dirichlet Allocation; Covid-19; Text Mining; Computational Methods; Behavioral Economics},
+language = {eng},
+number = {9},
+publisher = {TU Dortmund University, Dortmund Center for Data-based Media Analysis (DoCMA)},
+title = {A German inflation narrative: How the media frame price dynamics: Results from a RollingLDA analysis},
+type = {DoCMA Working Paper},
+year = {2022}
+}
+
+@Article{Gemeinschaftsdiagnose.2022,
+  author={{Projektgruppe Gemeinschaftsdiagnose}},
+  title={{Von der Pandemie zur Energiekrise – Wirtschaft und Politik im Dauerstress Kurzfassung der Gemeinschaftsdiagnose Frühjahr 2022}},
+  journal={ifo Schnelldienst},
+  year={2022},
+  volume={75},
+  number={05},
+  pages={58-63},
+  issue = {5},
+   url={https://ideas.repec.org/a/ces/ifosdt/v75y2022i05p58-63.html}
+}
+
+@Article{Reis.2021,
+author={Ricardo Reis},
+title={Losing the inflation anchor},
+year={2021},
+journal = {Brookings Papers on Economic Activity},
+pages={307--361},
+volume={Fall}
+}
+
+
+@misc{Sahm.2021,
+author={Claudia Sahm},
+title={What to expect when you're expecting inflation?},
+year={2021},
+howpublished={\url{https://stayathomemacro.substack.com/p/what-to-expect-when-youre-expecting}},
+note={Aufgerufen am 27.06.2022}}
+
+@misc{Tooze.2021,
+author={Adam Tooze},
+title={Chartbook 42 - The Great Inflation Debate},
+year={2021},
+howpublished={\url{https://adamtooze.substack.com/p/chartbook-42-the-great-inflation}},
+note={Abgerufen am 27.06.2022}}
+
+@misc{Schnabel.2022,
+  title = {The globalisation of inflation},
+  howpublished = {\url{https://www.ecb.europa.eu/press/key/date/2022/html/ecb.sp220511_1~e9ba02e127.en.html}},
+  author={Isabel Schnabel},
+  year={2022},
+  note = {Aufgerufen am 27.06.2022}
+}
+
+@incollection{Davidson.2010,
+author="Davidson, Paul",
+editor="Skidelsky, Robert
+and Wigstr{\"o}m, Christian Westerlind",
+title="Risk and Uncertainty",
+bookTitle="The Economic Crisis and the State of Economics",
+year="2010",
+publisher="Palgrave Macmillan US",
+address="New York",
+pages="13--29",
+doi="10.1057/9780230105690_2",
+url="https://doi.org/10.1057/9780230105690_2"
+}
+
+@article{Bachmann.2015,
+Author = {Bachmann, Rüdiger and Berg, Tim O. and Sims, Eric R.},
+Title = {Inflation Expectations and Readiness to Spend: Cross-Sectional Evidence},
+Journal = {American Economic Journal: Economic Policy},
+Volume = {7},
+Number = {1},
+Year = {2015},
+issue = {February},
+Pages = {1-35},
+DOI = {10.1257/pol.20130292},
+URL = {https://www.aeaweb.org/articles?id=10.1257/pol.20130292}}
+
+@article{Burch.1975,
+ ISSN = {00346535, 15309142},
+ URL = {http://www.jstor.org/stable/1923995},
+ author = {Susan W. Burch and Diane Werneke},
+ journal = {The Review of Economics and Statistics},
+ number = {2},
+ pages = {141--154},
+ publisher = {The MIT Press},
+ title = {The Stock of Consumer Durables, Inflation, and Personal Saving Decisions},
+ urldate = {2022-06-14},
+ volume = {57},
+ year = {1975}
+}
+
+
+@Article{Juster.1972,
+  author={F. Thomas Juster and Paul Wachtel},
+  title={{Inflation and the Consumer}},
+  journal={Brookings Papers on Economic Activity},
+  year=1972,
+  volume={3},
+  number={1},
+  pages={71-122},
+  keywords={macroeconomics; consumer; inflation},
+  doi={},
+  abstract={No abstract is available for this item.},
+  url={https://ideas.repec.org/a/bin/bpeajo/v3y1972i1972-1p71-122.html}
+}
+
+
+@article{Dräger.2021,
+    author = {Dräger, Lena and Nghiem, Giang},
+    title = "{Are Consumers' Spending Decisions in Line with A Euler Equation?}",
+    journal = {The Review of Economics and Statistics},
+    volume = {103},
+    number = {3},
+    pages = {580-596},
+    year = {2021},
+    issue = {07}}
+
+@article{Duca.2021,
+title = {Inflation expectations, consumption and the lower bound: Micro evidence from a large multi-country survey},
+author={Iona Duca-Radu and Geoff Kenny and Andreas Reuter},
+journal = {Journal of Monetary Economics},
+volume = {118},
+pages = {120-134},
+year = {2021},
+issn = {0304-3932},
+doi = {https://doi.org/10.1016/j.jmoneco.2020.03.005},
+url = {https://www.sciencedirect.com/science/article/pii/S0304393220300271}}
+
+@article{Vellekoop.2019,
+author={Nathanael Vellekoop and Mirko Wiederholt},
+title={Inflation Expectations and Choices of Households},
+year={2019},
+number={250},
+journal={SAFE Working Paper},
+issue={4}}
+
+@article{Andrade.2020,
+author={Philippe Andrade},
+title={What Matters in Households' Inflation Expectations?},
+year={2020},
+journal={Banque de France Working Paper},
+number={770},
+issue={6}}
+
+@article{Orland.2019,
+title = {Price-setting with quadratic adjustment costs: Experimental evidence},
+journal = {Journal of Economic Behavior \& Organization},
+volume = {163},
+pages = {88-116},
+year = {2019},
+issn = {0167-2681},
+doi = {https://doi.org/10.1016/j.jebo.2019.05.010},
+url = {https://www.sciencedirect.com/science/article/pii/S0167268119301490},
+author = {Andreas Orland and Michael W.M. Roos}}
+
+@misc{Twidale.2022,
+author={Susanna Twidale},
+title={Explainer: Why Russia drives European and British gas prices},
+year={2022},
+howpublished={\url{https://www.reuters.com/business/energy/why-russia-drives-european-gas-prices-2022-01-21/}},
+note={Abgerufen am 19.07.2022}}
+
+@article{Coibion.2018b,
+Author = {Coibion, Olivier and Gorodnichenko, Yuriy and Kumar, Saten},
+Title = {How Do Firms Form Their Expectations? New Survey Evidence},
+Journal = {American Economic Review},
+Volume = {108},
+Number = {9},
+Year = {2018},
+issue = {9},
+Pages = {2671-2713},
+DOI = {10.1257/aer.20151299},
+URL = {https://www.aeaweb.org/articles?id=10.1257/aer.20151299}}
+
+@article{Coibion.2020,
+    author = {Coibion, Olivier and Gorodnichenko, Yuriy and Ropele, Tiziano},
+    title = "{Inflation Expectations and Firm Decisions: New Causal Evidence }",
+    journal = {The Quarterly Journal of Economics},
+    volume = {135},
+    number = {1},
+    pages = {165-219},
+    year = {2019},
+    issue = {09}}
+
+@article{Burke.2021,
+    author = {Burke, Mary A. and Ozdagli, Ali},
+    title = "{Household Inflation Expectations and Consumer Spending: Evidence from Panel Data}",
+    journal = {The Review of Economics and Statistics},
+    pages = {1-45},
+    year = {2021},
+    issue={10}
+}
+
+
+
+@techreport{Itzhak.2018,
+ title = "Expectations Uncertainty and Household Economic Behavior",
+ author = "Ben-David, Itzhak and Fermand, Elyas and Kuhnen, Camelia M and Li, Geng",
+ institution = "National Bureau of Economic Research",
+ type = "Working Paper",
+ series = "Working Paper Series",
+ number = "25336",
+ year = "2018",
+ issue = "12",
+ doi = {10.3386/w25336},
+ URL = "http://www.nber.org/papers/w25336",
+ abstract = {We show that there exists significant heterogeneity across US households in how uncertain they are in their expectations regarding personal and macroeconomic outcomes, and that uncertainty in expectations predicts households' choices.  Individuals with lower income or education, more precarious finances, and living in counties with higher unemployment are more uncertain in their expectations regarding own-income growth, inflation, and national home price changes. People with more uncertain expectations, even accounting for their socioeconomic characteristics, exhibit more precaution in their consumption, credit, and investment behaviors.},
+}
+
+@article{Rutherford.1984,
+author={Malcolm Rutherford},
+title={Rational Expectations and Keynesian Uncertainty: A Critique},
+journal={Journal of Post Keynesian Economics},
+year={1984},
+volume={6},
+number={3},
+pages={377--387}}
+
+@book{Fisher.1930,
+author={Irving Fisher},
+title={The theory of interest},
+year={1930},
+address={New York},
+publisher={August M. Kelley}}
+
+
+@Book{Knight.1921, 
+author = {Frank H. Knight},
+year = {1921}, 
+publisher = {Houghton Mifflin Company}, 
+title = {Risk, Uncertainty and Profit}, 
+address = {Boston and New York}
+}
+
+
+@article{Muth.1961,
+ ISSN = {00129682, 14680262},
+ URL = {http://www.jstor.org/stable/1909635},
+ abstract = {In order to explain fairly simply how expectations are formed, we advance the hypothesis that they are essentially the same as the predictions of the relevant economic theory. In particular, the hypothesis asserts that the economy generally does not waste information, and that expectations depend specifically on the structure of the entire system. Methods of analysis, which are appropriate under special conditions, are described in the context of an isolated market with a fixed production lag. The interpretative value of the hypothesis is illustrated by introducing commodity speculation into the system.},
+ author = {John F. Muth},
+ journal = {Econometrica},
+ number = {3},
+ pages = {315--335},
+ publisher = {[Wiley, Econometric Society]},
+ title = {Rational Expectations and the Theory of Price Movements},
+ urldate = {2022-05-16},
+ volume = {29},
+ year = {1961}
+}
+
+
+
+
+@Book{Bourdieu.2000,
+  author    = {Bourdieu, Pierre},
+  publisher = {UKV},
+  title     = {Die zwei Gesicher der Arbeit: Interdependenzen von Zeit- und Wirtschaftsstrukturen am Beispiel einer Ethnologie der algerischen Übergangsgesellschaft},
+  year      = {2000},
+  address   = {Konstanz},
+  edition   = {édition discours},
+  volume    = {25},
+  groups    = {Temporalität des Handelns},
+}
+
+@Book{Beckert.2018,
+  author    = {Beckert, Jens},
+  publisher = {Suhrkamp},
+  title     = {Imaginierte Zukunft: Fiktionale Erwartungen und die Dynamik des Kapitalismus},
+  year      = {2018},
+  address   = {Berlin},
+  groups    = {Temporalität des Handelns},
+}
+
+@incollection{Rosa.2020,
+  author    = {Harmut Rosa},
+  booktitle = {Soziologische Theorien},
+  publisher = {UVK Verlag},
+  editor    = {Harmut Rosa},
+  title     = {Die frühe Moderne},
+  year      = {2020},
+  address   = {Stuttgart},
+  pages     = {30-108},
+  groups    = {Temporalität des Handelns},
+  issn      = {9783825228361},
+  url       = {https://doi.org/10.36198/9783838528366-30-108},
+}
+
+@Book{Schumpeter.1987,
+  author    = {Schumpeter, Joseph},
+  publisher = {Duncker \& Humblot},
+  title     = {Theorie der wirtschaftlichen Entwicklung: Eine Untersuchung über Unternehmergewinn, Kapital, Kredit und den Konjunkturzyklus},
+  year      = {1987},
+  address   = {Berlin},
+  Edition   = {7}, 
+  groups    = {Temporalität des Handelns},
+ }
+
+@incollection{Gosh.2019,
+  author    = {Gosh, Peter},
+  booktitle   = {The Oxford Handbook of Max Weber},
+  editor    = {Edith Hanke and Lawrence Scaff and Sam Whimster},
+  pages     = {1-23},
+  publisher = {Oxford Handbooks Online},
+  title     = {Max Weber's Ethics of the Modern World},
+  year      = {2019},
+}
+
+@article{Thompson.1967,
+  title={Time, work-discipline, and industrial capitalism},
+  author={Thompson, Edwin P},
+  journal={Past \& Present},
+  pages={56-97},
+  year={1967},
+  publisher={Oxford University Press}
+}
+
+@Book{Marx.1976,
+author = {Marx, Karl}, 
+title = {Das Kapital. Kritik der politischen Ökonomie. Buch I: Der Produktionsprozeß des Kapitals},
+publisher = {Dietz Verlag},
+year = {1976}, 
+address = {Berlin},
+}
+
+@Book{Marx.1969,
+author = {Marx, Karl and Engels, Friedrich},
+title = {Manifest der Kommunistischen Partei}, 
+publisher = {Reclam}, 
+year = {1969},
+address = {Stuttgart}
+}
+
+@incollection{Hall.Soskice.2001,
+author = {Hall, Peter A. and Soskice, David},
+booktitle = {Varieties of Capitalism. Institutional Foundations of Comparative Advantage},
+title = {An Introduction to Varieties of Capitalism},
+editor = {Hall, Peter A. and Soskice, David}, 
+pages = {1-68}, 
+publisher = {Oxford University Press},
+address = {Oxford},
+year = {2001}, 
+}
+
+@article{Bieling.2011,
+  title={Varieties of Capitalism, Regulationstheorie und neogramscianische IPÖ - komplementäre oder gegensätzliche Perspektiven des globalisierten Kapitalismus?},
+  author={Bieling, Hans-Jürgen},
+  year={2011},
+  journal={Discussion Paper Zentrum für Ökonomische und Soziologische Studien},
+  address = {Hamburg}
+}
+
+@article{Baccaro.2016,
+  title={Rethinking comparative political economy: the growth model perspective},
+  author={Baccaro, Lucio and Pontusson, Jonas},
+  journal={Politics \& society},
+  volume={44},
+  number={2},
+  pages={175--207},
+  year={2016},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
+}
+
+@article{Sewell.2008,
+    author = {Sewell, William H., Jr},
+    title = "{The temporalities of capitalism†}",
+    journal = {Socio-Economic Review},
+    volume = {6},
+    number = {3},
+    pages = {517-537},
+    year = {2008},
+    issue = {04},
+    abstract = "{The temporalities of capitalism are in certain respects unique. The temporalities of social life in general are ‘eventful’, i.e. irreversible, contingent, uneven, discontinuous and transformational. Although capitalist social processes are in certain respects super-eventful, the extreme abstraction that is a signature of capitalist development enables core processes of capitalism to escape from the irreversibility of time and to sustain a recurrent logic at their core. This means that the temporality of capitalism is composite and contradictory, simultaneously still and hyper-eventful. Recognizing this contradiction at the core of capitalism poses important conceptual and methodological challenges for those who study it.}",
+    issn = {1475-1461},
+    doi = {10.1093/ser/mwn007},
+    url = {https://doi.org/10.1093/ser/mwn007},
+}
+
+
+@article{Shammas.2019, 
+author = {Shammas, Victor L. and Holen, Tomas B.}, 
+title = {One giant leap for capitalistkind: private enterprise in outer space},
+journal = {Palgrave Commun},
+volume = {5}, 
+number = {10},
+year = {2019},
+pages={1--9},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: grouping:
+0 AllEntriesGroup:;
+1 StaticGroup:Temporalität des Handelns\;0\;1\;0x8a8a8aff\;\;\;;
+}

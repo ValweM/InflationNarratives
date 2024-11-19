@@ -270,7 +270,7 @@ djnlevel <- data.frame(economic_activity = as.matrix(econ_dlog),
                        inflation = as.matrix(inf_dlog),
                        government_spending = as.matrix(sdjn_data$government_spending),
                        monetary_policy = as.matrix(sdjn_data$monetary_policy),
-                       pent_up_demand = as.matrix(sdjn_data$pent_up_demand),
+                       demand = as.matrix(sdjn_data$demand),
                        demand_shift = as.matrix(sdjn_data$demand_shift),
                        politics = as.matrix(sdjn_data$politics),
                        debt = as.matrix(sdjn_data$debt),
@@ -279,9 +279,9 @@ djnlevel <- data.frame(economic_activity = as.matrix(econ_dlog),
                        war = as.matrix(sdjn_data$war),
                        labor_shortage = as.matrix(sdjn_data$labor_shortage),
                        supply_chain = as.matrix(sdjn_data$supply_chain),
+                       supply = as.matrix(sdjn_data$supply),
                        energy = as.matrix(sdjn_data$energy),
                        pandemic = as.matrix(sdjn_data$pandemic),
-                       #sentiment = as.matrix(sdjn_data$sentiment),
                        dummy = as.matrix(dummy)) %>%
   dplyr::rename(economic_activity = econ_ac) %>%
   dplyr::rename(inflation = cpi_growth)
@@ -289,22 +289,23 @@ djnlevel <- data.frame(economic_activity = as.matrix(econ_dlog),
 
 
 # Define the topic names and their corresponding table names
-topic_names <- c("government_spending", "monetary_policy", "pent_up_demand", "demand_shift",
-                 "supply_chain", "energy", "labor_shortage", "pandemic", "politics",
+topic_names <- c("government_spending", "monetary_policy", "demand", "demand_shift",
+                 "supply_chain", "energy", "supply", "labor_shortage", "pandemic", "politics",
                  "war", "debt", "taxes", "profits")
-topic_table <- c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift",
-                 "Supply Chain", "Energy", "Labor Shortage", "Pandemic", "Politics",
+topic_table <- c("Government Spending", "Monetary Policy", "Demand", "Demand Shift",
+                 "Supply Chain", "Energy", "Supply", "Labor Shortage", "Pandemic", "Politics",
                  "War", "Debt", "Taxes", "Profits")
 
-# Perform stationarity tests
+# Perform stationary tests
 tests <- list(
   government_spending = ur.ers(djnlevel$government_spending, type="P-test", model="const", lag.max = 6),
   monetary_policy = ur.ers(djnlevel$monetary_policy, type="P-test", model="const", lag.max = 6),
-  pent_up_demand = ur.ers(djnlevel$pent_up_demand, type="P-test", model="const", lag.max = 6),
+  demand = ur.ers(djnlevel$demand, type="P-test", model="const", lag.max = 6),
   demand_shift = ur.ers(djnlevel$demand_shift, type="P-test", model="const", lag.max = 6),
   supply_chain = ur.ers(djnlevel$supply_chain, type="P-test", model="const", lag.max = 6),
   energy = ur.ers(djnlevel$energy, type="P-test", model="const", lag.max = 6),
   labor_shortage = ur.ers(djnlevel$labor_shortage, type="P-test", model="const", lag.max = 6),
+  supply = ur.ers(djnlevel$supply, type="P-test", model="const", lag.max = 6),
   pandemic = ur.ers(djnlevel$pandemic, type="P-test", model="const", lag.max = 6),
   politics = ur.ers(djnlevel$politics, type="P-test", model="const", lag.max = 6),
   war = ur.ers(djnlevel$war, type="P-test", model="const", lag.max = 6),
@@ -350,10 +351,10 @@ write(latex_table, file = "./text/tables/ers_results.tex")
 
 ## boosted HP-Filter 
 
-bHP_list <- lapply(djnlevel[1:47], BoostedHP, lambda = 129600, Max_Iter = 200, stopping = "adf") #129 600 #104035
+bHP_list <- lapply(djnlevel[1:48], BoostedHP, lambda = 129600, Max_Iter = 200, stopping = "adf") #129 600 #104035
 
 djnbHP <- data.frame(index = seq(1:61))
-for (i in 1:47){
+for (i in 1:48){
   djnbHP <- cbind(djnbHP, bHP_list[[i]]$cycle)
 }
 
@@ -366,10 +367,10 @@ colnames(djnbHP) <- colnames(djnlevel)
 ## Differences 
 
 diff(djnlevel$economic_activity)
-diff_list <- lapply(djnlevel[1:47], diff)
+diff_list <- lapply(djnlevel[1:48], diff)
 
 djndiff <- data.frame(index = seq(1:60)) #pandemic, war, debt and government spending
-for (i in 1:47){
+for (i in 1:48){
   djndiff <- cbind(djndiff, diff_list[[i]])
 }
 
@@ -388,7 +389,3 @@ save(djnlevel, file = "./data/localprojections/djnlevel.rds")
 save(djnbHP, file = "./data/localprojections/djnbHP.rds")
 save(djndiff, file = "./data/localprojections/djndiff.rds")
 
-
-plot.ts(djnlevel$inflation_expectations_1y)
-plot.ts(djnbHP$inflation_expectations_1y)
-plot.ts(djndiff$inflation_expectations_1y)

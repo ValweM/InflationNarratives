@@ -19,7 +19,6 @@ lapply(mypackages, require, character.only = TRUE)
 # Load data sets
 load(file = "./data/localprojections/djnlevel.rds")
 load(file = "./data/localprojections/djnbHP.rds")
-load(file = "./data/localprojections/djnhp.rds")
 load(file = "./data/localprojections/djndiff.rds")
 
 granger_cause <- function(topic, datatype, modeltype, var, group, reverse = FALSE){
@@ -155,12 +154,11 @@ granger_cause <- function(topic, datatype, modeltype, var, group, reverse = FALS
   
   tsdata <- ts(data, start = c(2018, 1), freq = 12)
   
-
-  selection <- VARselect(tsdata[, 1:5], lag.max = 6, exogen = tsdata[,"dummy"],
+  # select optimal number of lags
+  selection <- VARselect(tsdata[, 1:5], lag.max = 4, exogen = tsdata[,"dummy"],
                          season = 12, type = "none")
-  #num_lags <- table(selection$selection)
-  #num_lags <- as.numeric(names(which.max(num_lags)))
-  num_lags <- selection$selection[3]
+
+  num_lags <- selection$selection[3] # Select BIC
   model <- VAR(y = tsdata[,1:5], exogen = tsdata[,"dummy"], p = num_lags, season = 12) # for the tests!
   
   # Inflation expectations 3y equation
@@ -354,11 +352,12 @@ granger_cause <- function(topic, datatype, modeltype, var, group, reverse = FALS
 }
 
 
-topic_names <- c("government_spending", "monetary_policy", "pent_up_demand", "demand_shift",
-                 "supply_chain", "energy", "labor_shortage", "pandemic", "politics",
+
+topic_names <- c("government_spending", "monetary_policy", "demand_shift", "demand",
+                 "supply_chain", "energy", "labor_shortage", "supply", "pandemic", "politics",
                  "war", "debt", "taxes", "profits")
-topic_table <- c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift",
-                 "Supply Chain", "Energy", "Labor Shortage", "Pandemic", "Politics",
+topic_table <- c("Government Spending", "Monetary Policy","Demand Shift", "Demand (residual)",
+                 "Supply Chain", "Energy", "Labor Shortage", "Supply (residual)", "Pandemic", "Politics",
                  "War", "Debt", "Taxes", "Profits")
 
 
@@ -399,8 +398,8 @@ for (i in seq_along(topic_names)) {
   
   base_bHP <- add_row(base_bHP,
                        Narrative = topic_table[i],
-                       Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift"), "Demand",
-                                         ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage"), "Supply", "Miscellaneous")),
+                       Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
+                                         ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)"), "Supply", "Miscellaneous")),
                        "1-Year Expectations" = format_p_value(p_value[2]),
                        "3-Year Expectations" = format_p_value(p_value[1]),
                       "CPI Inflation" = format_p_value(p_value[3]),
@@ -414,7 +413,7 @@ for (i in seq_along(topic_names)) {
 # Function to generate LaTeX table with custom formatting and caption
 generate_latex_table <- function(data, caption) {
   categories <- unique(data$Category)
-  latex_table <- paste0("\\begin{table}[ht]\n\\centering\n\\caption{", caption, "}\\label{table:granger}\n\n\\begin{tabular}{lcc}\n\\toprule\n\\textbf{Narratives} & \\textbf{One-Year Expectations} & \\textbf{Three-Year Expectations} \\\\\n& (Pr($>$F)) & (Pr($>$F)) \\\\\n\\midrule\n")
+  latex_table <- paste0("\\begin{table}[ht]\n\\centering\n\\caption{", caption, "}\\label{tab:granger}\n\n\\begin{tabular}{lcc}\n\\toprule\n\\textbf{Narratives} & \\textbf{One-Year Expectations} & \\textbf{Three-Year Expectations} \\\\\n& (Pr($>$F)) & (Pr($>$F)) \\\\\n\\midrule\n")
   
   for (cat in categories) {
     latex_table <- paste0(latex_table, "\\multicolumn{3}{l}{\\textbf{", cat, "}} \\\\\n\\midrule\n")
@@ -431,10 +430,12 @@ generate_latex_table <- function(data, caption) {
   return(latex_table)
 }
 
+
 # Example of generating and saving the LaTeX table with a custom caption
-custom_caption <- "Granger causality analysis (boosted HP-Filter)"
+custom_caption <- "Narrative $\\rightarrow$ Expectations Granger causality (boosted HP-Filter)"
 latex_table_bHP <- generate_latex_table(base_bHP, custom_caption)
 write(latex_table_bHP, file = "./text/output/granger/baseline/bHP/granger_bHP_base.tex")
+
 
 
 ## bHP Feedback
@@ -456,8 +457,8 @@ for (i in seq_along(topic_names)) {
   
   base_bHP_feedback <- add_row(base_bHP_feedback,
                        Narrative = topic_table[i],
-                       Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift"), "Demand",
-                                         ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage"), "Supply", "Miscellaneous")),
+                       Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
+                                         ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)"), "Supply", "Miscellaneous")),
                        "1-Year Expectations" = format_p_value(p_value[2]),
                        "3-Year Expectations" = format_p_value(p_value[1]),
                        "CPI Inflation" = format_p_value(p_value[3]),
@@ -469,7 +470,7 @@ for (i in seq_along(topic_names)) {
 
 # 26 warnings regarding "dummy" name
 
-custom_caption <- "Reverse granger causality analysis (boosted HP-Filter)"
+custom_caption <- "Expectations $\\rightarrow$ Narrative Granger causality (boosted HP-Filter)"
 latex_table_bHP_feedback <- generate_latex_table(base_bHP_feedback, custom_caption)
 write(latex_table_bHP_feedback, file = "./text/output/granger/baseline/bHP/granger_bHP_base_feedback.tex")
 
@@ -493,8 +494,8 @@ for (i in seq_along(topic_names)) {
   
   base_level<- add_row(base_level,
                     Narrative = topic_table[i],
-                    Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift"), "Demand",
-                                      ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage"), "Supply", "Miscellaneous")),
+                    Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
+                                      ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)"), "Supply", "Miscellaneous")),
                     "1-Year Expectations" = format_p_value(p_value[2]),
                     "3-Year Expectations" = format_p_value(p_value[1])
   )
@@ -503,7 +504,7 @@ for (i in seq_along(topic_names)) {
 
 # 26 warnings regarding "dummy" name
 
-custom_caption <- "Granger causality analysis (level)"
+custom_caption <- "Narrative $\\rightarrow$ Expectations Granger causality (level)"
 latex_table_level <- generate_latex_table(base_level, custom_caption)
 write(latex_table_level, file = "./text/output/granger/baseline/level/granger_level_base.tex")
 
@@ -525,8 +526,8 @@ for (i in seq_along(topic_names)) {
   
   base_level_feedback <- add_row(base_level_feedback,
                               Narrative = topic_table[i],
-                              Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift"), "Demand",
-                                                ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage"), "Supply", "Miscellaneous")),
+                              Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
+                                                ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual"), "Supply", "Miscellaneous")),
                               "1-Year Expectations" = format_p_value(p_value[2]),
                               "3-Year Expectations" = format_p_value(p_value[1])
   )
@@ -535,7 +536,7 @@ for (i in seq_along(topic_names)) {
 
 # 26 warnings regarding "dummy" name
 
-custom_caption <- "Granger causality analysis (level)"
+custom_caption <- "Expectations $\\rightarrow$ Narrative Granger causality (level)"
 latex_table_level_feedback <- generate_latex_table(base_level_feedback, custom_caption)
 write(latex_table_level_feedback, file = "./text/output/granger/baseline/level/granger_level_base_feedback.tex")
 
@@ -543,8 +544,6 @@ write(latex_table_level_feedback, file = "./text/output/granger/baseline/level/g
 
 
 ## with differences
-
-
 
 base_diff<- tibble(
   Narrative = character(),
@@ -560,8 +559,8 @@ for (i in seq_along(topic_names)) {
   
   base_diff<- add_row(base_diff,
                     Narrative = topic_table[i],
-                    Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift"), "Demand",
-                                      ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage"), "Supply", "Miscellaneous")),
+                    Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residuals)"), "Demand",
+                                      ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residuals)"), "Supply", "Miscellaneous")),
                     "1-Year Expectations" = format_p_value(p_value[2]),
                     "3-Year Expectations" = format_p_value(p_value[1])
   )
@@ -573,7 +572,7 @@ for (i in seq_along(topic_names)) {
 
 
 
-custom_caption <- "Granger causality analysis (differences)"
+custom_caption <- "Narrative $\\rightarrow$ Expectations Granger causality (differences)"
 latex_table_diff <- generate_latex_table(base_diff, custom_caption)
 write(latex_table_diff, file = "./text/output/granger/baseline/diff/granger_diff_base.tex")
 
@@ -592,7 +591,7 @@ write(latex_table_diff, file = "./text/output/granger/baseline/diff/granger_diff
 # Function to generate LaTeX table with custom formatting and caption (income heterogeneity)
 generate_latex_table_income <- function(data, caption) {
   categories <- unique(data$Category)
-  latex_table <- paste0("\\begin{sidewaystable}[ht]\n\\centering\n\\caption{", caption, "}\\label{table:granger}\n\n\\begin{tabular}{lcccccc}\n \\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Income} & \\textbf{3-Year Low Income} & \\textbf{1-Year Mid Income} & \\textbf{3-Year Mid Income} & \\textbf{1-Year High Income} & \\textbf{3-Year High Income} \\\\\n\\midrule\n")
+  latex_table <- paste0("\\begin{sidewaystable}[H]\n\\centering\n\\footnotesize\n\\caption{", caption, "}\\label{table:granger}\n\n\\begin{tabular}{lcccccc}\n \\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Income} & \\textbf{3-Year Low Income} & \\textbf{1-Year Mid Income} & \\textbf{3-Year Mid Income} & \\textbf{1-Year High Income} & \\textbf{3-Year High Income} \\\\\n\\midrule\n")
   
   for (cat in categories) {
     latex_table <- paste0(latex_table, "\\multicolumn{7}{l}{\\textbf{", cat, "}} \\\\\n\\midrule\n")
@@ -616,59 +615,6 @@ generate_latex_table_income <- function(data, caption) {
 
 
 # income heterogeneity
-
-# Initialize the tibble for "level" data type
-income_level <- tibble(
-  Narrative = character(),
-  Category = character(),
-  "1-Year Low Income" = character(),
-  "3-Year Low Income" = character(),
-  "1-Year Mid Income" = character(),
-  "3-Year Mid Income" = character(),
-  "1-Year High Income" = character(),
-  "3-Year High Income" =  character()
-)
-
-for (i in seq_along(topic_names)) {
-  # Get p-values for the 'low' group
-  p_value_low <- granger_cause(topic_names[i], datatype = "level", modeltype = "djn", var = "income", group = "low")
-  
-  # Get p-values for the 'mid' group
-  p_value_mid <- granger_cause(topic_names[i], datatype = "level", modeltype = "djn", var = "income", group = "mid")
-  
-  # Get p-values for the 'high' group
-  p_value_high <- granger_cause(topic_names[i], datatype = "level", modeltype = "djn", var = "income", group = "high")
-  
-  # Bind all together into the main tibble
-  
-  
-  income_level<- add_row(income_level,
-                    Narrative = topic_table[i],
-                    Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift"), "Demand",
-                                      ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage"), "Supply", "Miscellaneous")),
-                    "1-Year Low Income" = format_p_value(p_value_low[2]),
-                    "3-Year Low Income" = format_p_value(p_value_low[1]),
-                    "1-Year Mid Income" = format_p_value(p_value_mid[2]),
-                    "3-Year Mid Income" = format_p_value(p_value_mid[1]),
-                    "1-Year High Income" = format_p_value(p_value_high[2]),
-                    "3-Year High Income" = format_p_value(p_value_high[1]))
-  
-}
-
-
-# 50 dummy warnings
-
-custom_caption <- "Income: Granger causality analysis (level)"
-latex_table_income_level <- generate_latex_table_income(income_level, custom_caption)
-write(latex_table_income_level, file = "./text/output/granger/income/granger_income_level.tex")
-
-
-
-
-
-
-
-
 
 
 # Initialize the tibble for "bHP" data type
@@ -695,8 +641,8 @@ for (i in seq_along(topic_names)) {
   
   income_bHP<- add_row(income_bHP,
                          Narrative = topic_table[i],
-                         Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift"), "Demand",
-                                           ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage"), "Supply", "Miscellaneous")),
+                         Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
+                                           ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)"), "Supply", "Miscellaneous")),
                          "1-Year Low Income" = format_p_value(p_value_low[2]),
                          "3-Year Low Income" = format_p_value(p_value_low[1]),
                          "1-Year Mid Income" = format_p_value(p_value_mid[2]),
@@ -708,7 +654,7 @@ for (i in seq_along(topic_names)) {
 
 # 50 dummy warnings
 
-custom_caption <- "Income: Granger causality analysis (bHP-Filter)"
+custom_caption <- "Income: Narrative $\\rightarrow$ Expectations Granger causality (bHP-Filter)"
 latex_table_income_bHP <- generate_latex_table_income(income_bHP, custom_caption)
 write(latex_table_income_bHP, file = "./text/output/granger/income/granger_income_bHP.tex")
 
@@ -724,7 +670,7 @@ write(latex_table_income_bHP, file = "./text/output/granger/income/granger_incom
 # Function to generate LaTeX table with custom formatting and caption (income heterogeneity)
 generate_latex_table_educ <- function(data, caption) {
   categories <- unique(data$Category)
-  latex_table <- paste0("\\begin{sidewaystable}[ht]\n\\centering\n\\caption{", caption, "}\\label{table:granger}\n\n\\begin{tabular}{lcccccc}\n\\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Education} & \\textbf{3-Year Low Education} & \\textbf{1-Year Mid Education} & \\textbf{3-Year Mid Education} & \\textbf{1-Year High Education} & \\textbf{3-Year High Education} \\\\\n\\midrule\n")
+  latex_table <- paste0("\\begin{sidewaystable}[H]\n\\centering\n\\footnotesize\n\\caption{", caption, "}\\label{table:granger}\n\n\\begin{tabular}{lcccccc}\n\\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Education} & \\textbf{3-Year Low Education} & \\textbf{1-Year Mid Education} & \\textbf{3-Year Mid Education} & \\textbf{1-Year High Education} & \\textbf{3-Year High Education} \\\\\n\\midrule\n")
   
   for (cat in categories) {
     latex_table <- paste0(latex_table, "\\multicolumn{7}{l}{\\textbf{", cat, "}} \\\\\n\\midrule\n")
@@ -740,52 +686,6 @@ generate_latex_table_educ <- function(data, caption) {
   
   return(latex_table)
 }
-
-
-
-# Initialize the tibble for "level" data type
-education_level <- tibble(
-  Narrative = character(),
-  Category = character(),
-  "1-Year Low Education" = character(),
-  "3-Year Low Education" = character(),
-  "1-Year Mid Education" = character(),
-  "3-Year Mid Education" = character(),
-  "1-Year High Education" = character(),
-  "3-Year High Education" =  character()
-)
-
-for (i in seq_along(topic_names)) {
-  # Get p-values for the 'low' group
-  p_value_low <- granger_cause(topic_names[i], datatype = "level", modeltype = "djn", var = "education", group = "low")
-  
-  # Get p-values for the 'mid' group
-  p_value_mid <- granger_cause(topic_names[i], datatype = "level", modeltype = "djn", var = "education", group = "mid")
-  
-  # Get p-values for the 'high' group
-  p_value_high <- granger_cause(topic_names[i], datatype = "level", modeltype = "djn", var = "education", group = "high")
-  
-  # Bind all together into the main tibble
-  education_level<- add_row(education_level,
-                      Narrative = topic_table[i],
-                      Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift"), "Demand",
-                                        ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage"), "Supply", "Miscellaneous")),
-                      "1-Year Low Education" = format_p_value(p_value_low[2]),
-                      "3-Year Low Education" = format_p_value(p_value_low[1]),
-                      "1-Year Mid Education" = format_p_value(p_value_mid[2]),
-                      "3-Year Mid Education" = format_p_value(p_value_mid[1]),
-                      "1-Year High Education" = format_p_value(p_value_high[2]),
-                      "3-Year High Education" = format_p_value(p_value_high[1]))
-}
-
-
-custom_caption <- "Education: Granger causality analysis (level)"
-latex_table_education_level <- generate_latex_table_educ(education_level, custom_caption)
-write(latex_table_education_level, file = "./text/output/granger/education/granger_education_level.tex")
-
-
-
-
 
 
 
@@ -815,8 +715,8 @@ for (i in seq_along(topic_names)) {
   # Bind all together into the main tibble
   education_bHP<- add_row(education_bHP,
                             Narrative = topic_table[i],
-                            Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift"), "Demand",
-                                              ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage"), "Supply", "Miscellaneous")),
+                            Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
+                                              ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)"), "Supply", "Miscellaneous")),
                             "1-Year Low Education" = format_p_value(p_value_low[2]),
                             "3-Year Low Education" = format_p_value(p_value_low[1]),
                             "1-Year Mid Education" = format_p_value(p_value_mid[2]),
@@ -825,7 +725,7 @@ for (i in seq_along(topic_names)) {
                             "3-Year High Education" = format_p_value(p_value_high[1]))
 }
 
-custom_caption <- "Education: Granger causality analysis (bHP-Filter)"
+custom_caption <- "Education: Narrative $\\rightarrow$ Expectations Granger causality (bHP-Filter)"
 latex_table_education_bHP <- generate_latex_table_educ(education_bHP, custom_caption)
 write(latex_table_education_bHP, file = "./text/output/granger/education/granger_education_bHP.tex")
 
@@ -840,7 +740,7 @@ write(latex_table_education_bHP, file = "./text/output/granger/education/granger
 # Function to generate LaTeX table with custom formatting and caption (age heterogeneity)
 generate_latex_table_age <- function(data, caption) {
   categories <- unique(data$Category)
-  latex_table <- paste0("\\begin{sidewaystable}[ht]\n\\centering\n\\caption{", caption, "}\\label{table:granger}\n\n\\begin{tabular}{lcccccc}\n\\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Age} & \\textbf{3-Year Low Age} & \\textbf{1-Year Mid Age} & \\textbf{3-Year Mid Age} & \\textbf{1-Year High Age} & \\textbf{3-Year High Age} \\\\\n\\midrule\n")
+  latex_table <- paste0("\\begin{sidewaystable}[H]\n\\centering\n\\footnotesize\n\\caption{", caption, "}\\label{table:granger}\n\n\\begin{tabular}{lcccccc}\n\\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Age} & \\textbf{3-Year Low Age} & \\textbf{1-Year Mid Age} & \\textbf{3-Year Mid Age} & \\textbf{1-Year High Age} & \\textbf{3-Year High Age} \\\\\n\\midrule\n")
   
   for (cat in categories) {
     latex_table <- paste0(latex_table, "\\multicolumn{7}{l}{\\textbf{", cat, "}} \\\\\n\\midrule\n")
@@ -858,48 +758,6 @@ generate_latex_table_age <- function(data, caption) {
 }
 
 
-
-
-
-# Initialize the tibble for "level" data type
-age_level<- tibble(
-  Narrative = character(),
-  Category = character(),
-  "1-Year Low Age" = character(),
-  "3-Year Low Age" = character(),
-  "1-Year Mid Age" = character(),
-  "3-Year Mid Age" = character(),
-  "1-Year High Age" = character(),
-  "3-Year High Age" =  character()
-)
-
-
-for (i in seq_along(topic_names)) {
-  # Get p-values for the 'low' group
-  p_value_low <- granger_cause(topic_names[i], datatype = "level", modeltype = "djn", var = "age", group = "low")
-  
-  # Get p-values for the 'mid' group
-  p_value_mid <- granger_cause(topic_names[i], datatype = "level", modeltype = "djn", var = "age", group = "mid")
-  
-  # Get p-values for the 'high' group
-  p_value_high <- granger_cause(topic_names[i], datatype = "level", modeltype = "djn", var = "age", group = "high")
-  
-  # Bind all together into the main tibble
-  age_level<- add_row(age_level,
-                         Narrative = topic_table[i],
-                         Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift"), "Demand",
-                                           ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage"), "Supply", "Miscellaneous")),
-                         "1-Year Low Age" = format_p_value(p_value_low[2]),
-                         "3-Year Low Age" = format_p_value(p_value_low[1]),
-                         "1-Year Mid Age" = format_p_value(p_value_mid[2]),
-                         "3-Year Mid Age" = format_p_value(p_value_mid[1]),
-                         "1-Year High Age" = format_p_value(p_value_high[2]),
-                         "3-Year High Age" = format_p_value(p_value_high[1]))
-}
-
-custom_caption <- "Age: Granger causality analysis (level)"
-latex_table_age_level <- generate_latex_table_age(age_level, custom_caption)
-write(latex_table_age_level, file = "./text/output/granger/age/granger_age_level.tex")
 
 
 
@@ -929,8 +787,8 @@ for (i in seq_along(topic_names)) {
   # Bind all together into the main tibble
   age_bHP<- add_row(age_bHP,
                       Narrative = topic_table[i],
-                      Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift"), "Demand",
-                                        ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage"), "Supply", "Miscellaneous")),
+                      Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
+                                        ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)"), "Supply", "Miscellaneous")),
                       "1-Year Low Age" = format_p_value(p_value_low[2]),
                       "3-Year Low Age" = format_p_value(p_value_low[1]),
                       "1-Year Mid Age" = format_p_value(p_value_mid[2]),
@@ -939,7 +797,7 @@ for (i in seq_along(topic_names)) {
                       "3-Year High Age" = format_p_value(p_value_high[1]))
 }
 
-custom_caption <- "Age: Granger causality analysis (bHP-Filter)"
+custom_caption <- "Age: Narrative $\\rightarrow$ Expectations Granger causality (bHP-Filter)"
 latex_table_age_bHP <- generate_latex_table_age(age_bHP, custom_caption)
 write(latex_table_age_bHP, file = "./text/output/granger/age/granger_age_bHP.tex")
 
@@ -952,7 +810,7 @@ write(latex_table_age_bHP, file = "./text/output/granger/age/granger_age_bHP.tex
 # Function to generate LaTeX table with custom formatting and caption (numeracy heterogeneity)
 generate_latex_table_numeracy <- function(data, caption) {
   categories <- unique(data$Category)
-  latex_table <- paste0("\\begin{sidewaystable}[ht]\n\\centering\n\\caption{", caption, "}\\label{table:granger}\n\n\\begin{tabular}{lcccc}\n\\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Numeracy} & \\textbf{3-Year Low Numeracy} & \\textbf{1-Year High Numeracy} & \\textbf{3-Year High Numeracy} \\\\\n\\midrule\n")
+  latex_table <- paste0("\\begin{sidewaystable}[H]\n\\centering\n\\footnotesize\n\\caption{", caption, "}\\label{table:granger}\n\n\\begin{tabular}{lcccc}\n\\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Numeracy} & \\textbf{3-Year Low Numeracy} & \\textbf{1-Year High Numeracy} & \\textbf{3-Year High Numeracy} \\\\\n\\midrule\n")
   
   for (cat in categories) {
     latex_table <- paste0(latex_table, "\\multicolumn{5}{l}{\\textbf{", cat, "}} \\\\\n\\midrule\n")
@@ -968,42 +826,6 @@ generate_latex_table_numeracy <- function(data, caption) {
   
   return(latex_table)
 }
-
-
-# Initialize the tibble for "hp" data type
-numeracy_level<- tibble(
-  Narrative = character(),
-  Category = character(),
-  "1-Year Low Numeracy" = character(),
-  "3-Year Low Numeracy" = character(),
-  "1-Year High Numeracy" = character(),
-  "3-Year High Numeracy" = character()
-)
-
-
-
-for (i in seq_along(topic_names)) {
-  # Get p-values for the 'low' group
-  p_value_low <- granger_cause(topic_names[i], datatype = "level", modeltype = "djn", var = "numeracy", group = "low")
-  
-
-  # Get p-values for the 'high' group
-  p_value_high <- granger_cause(topic_names[i], datatype = "level", modeltype = "djn", var = "numeracy", group = "high")
-  
-  # Bind all together into the main tibble
-  numeracy_level<- add_row(numeracy_level,
-                      Narrative = topic_table[i],
-                      Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift"), "Demand",
-                                        ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage"), "Supply", "Miscellaneous")),
-                      "1-Year Low Numeracy" = format_p_value(p_value_low[2]),
-                      "3-Year Low Numeracy" = format_p_value(p_value_low[1]),
-                      "1-Year High Numeracy" = format_p_value(p_value_high[2]),
-                      "3-Year High Numeracy" = format_p_value(p_value_high[1]))
-}
-
-custom_caption <- "Numeracy: Granger causality analysis (level)"
-latex_table_numeracy_level<- generate_latex_table_numeracy(numeracy_level, custom_caption)
-write(latex_table_numeracy_level, file = "./text/output/granger/numeracy/granger_numeracy_level.tex")
 
 
 
@@ -1029,15 +851,15 @@ for (i in seq_along(topic_names)) {
   # Bind all together into the main tibble
   numeracy_bHP<- add_row(numeracy_bHP,
                            Narrative = topic_table[i],
-                           Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Pent-up Demand", "Demand Shift"), "Demand",
-                                             ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage"), "Supply", "Miscellaneous")),
+                           Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
+                                             ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)"), "Supply", "Miscellaneous")),
                            "1-Year Low Numeracy" = format_p_value(p_value_low[2]),
                            "3-Year Low Numeracy" = format_p_value(p_value_low[1]),
                            "1-Year High Numeracy" = format_p_value(p_value_high[2]),
                            "3-Year High Numeracy" = format_p_value(p_value_high[1]))
 }
 
-custom_caption <- "Numeracy: Granger causality analysis (bHP-Filter)"
+custom_caption <- "Numeracy: Narrative $\\\rightarrow$ Expectations Granger causality (bHP-Filter)"
 latex_table_numeracy_bHP<- generate_latex_table_numeracy(numeracy_bHP, custom_caption)
 write(latex_table_numeracy_bHP, file = "./text/output/granger/numeracy/granger_numeracy_bHP.tex")
 

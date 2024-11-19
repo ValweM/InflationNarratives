@@ -22,13 +22,6 @@ lapply(mypackages, require, character.only = TRUE)
 load(file = "./data/localprojections/djn_data_raw.rds")
 load(file = "./data/localprojections/wsj_data_raw.rds")
 
-load("./data/models/dynamic.rds")
-djn_model <- dynamic
-rm(dynamic)
-
-load("./data/models/dynamic_w.rds")
-wsj_model <- dynamic_w
-rm(dynamic_w)
 
 
 load(file = "./data/localprojections/sent_dat.rds")
@@ -49,30 +42,20 @@ djn_data <- inner_join(djn_data_raw, dat)
 
 djn_data[, c("energy", "profits", "politics", "debt",
          "taxes", "war", "pandemic", "labor_shortage", "supply_chain", "monetary_policy",
-         "government_spending", "pent_up_demand", "demand_shift")] <-   djn_data[, c("energy", "profits", "politics", "debt",
+         "government_spending", "demand", "demand_shift", "supply")] <-   djn_data[, c("energy", "profits", "politics", "debt",
                                                                                         "taxes", "war", "pandemic", "labor_shortage", "supply_chain", "monetary_policy",
-                                                                                        "government_spending", "pent_up_demand", "demand_shift")] * t(djn_data$fit)
+                                                                                        "government_spending", "demand", "demand_shift", "supply")] * t(djn_data$fit)
 
-
-
-djn_data <- djn_data %>%
-  dplyr::group_by(year, month) %>%
-  dplyr::summarise(across(all_of(c("energy", "profits", "politics", "debt",
-                                   "taxes", "war", "pandemic", "labor_shortage", "supply_chain", "monetary_policy",
-                                   "government_spending", "pent_up_demand", "demand_shift")), mean, na.rm = TRUE), .groups="drop") %>%
-  dplyr::mutate(date = make_date(year, month)) %>%
-  dplyr::select(-c(year, month))
 
 
 sdjn_data <- djn_data %>%
-  dplyr::mutate(year = year(date)) %>%
-  dplyr::mutate(month = month(date)) %>%
   dplyr::group_by(year, month) %>%
   dplyr::summarise(across(all_of(c("energy", "profits", "politics", "debt",
                                    "taxes", "war", "pandemic", "labor_shortage", "supply_chain", "monetary_policy",
-                                   "government_spending", "pent_up_demand", "demand_shift")), mean, na.rm = TRUE), .groups="drop") %>%
+                                   "government_spending", "demand", "demand_shift", "supply")), mean, na.rm = TRUE), .groups="drop") %>%
   dplyr::mutate(date = make_date(year, month)) %>%
   dplyr::select(-c(year, month))
+
 
 
 save(sdjn_data, file = "./data/localprojections/sdjn_data.rds")
@@ -84,28 +67,17 @@ wsj_data <- inner_join(wsj_data_raw, dat)
 
 wsj_data[, c("energy", "profits", "politics", "debt",
              "taxes", "war", "pandemic", "labor_shortage", "supply_chain", "monetary_policy",
-             "government_spending", "pent_up_demand", "demand_shift")] <-   wsj_data[, c("energy", "profits", "politics", "debt",
+             "government_spending", "demand", "demand_shift", "supply")] <-   wsj_data[, c("energy", "profits", "politics", "debt",
                                                                                          "taxes", "war", "pandemic", "labor_shortage", "supply_chain", "monetary_policy",
-                                                                                         "government_spending", "pent_up_demand", "demand_shift")] * t(wsj_data$fit)
-wsj_data <- wsj_data %>%
-  dplyr::group_by(year, month) %>%
-  dplyr::summarise(across(all_of(c("energy", "profits", "politics", "debt",
-                                   "taxes", "war", "pandemic", "labor_shortage", "supply_chain", "monetary_policy",
-                                   "government_spending", "pent_up_demand", "demand_shift")), mean, na.rm = TRUE), .groups="drop") %>%
-  dplyr::mutate(date = make_date(year, month)) %>%
-  dplyr::select(-c(year, month))
-
-
-
+                                                                                         "government_spending", "demand", "demand_shift", "supply")] * t(wsj_data$fit)
 swsj_data <- wsj_data %>%
-  dplyr::mutate(year = year(date)) %>%
-  dplyr::mutate(month = month(date)) %>%
   dplyr::group_by(year, month) %>%
   dplyr::summarise(across(all_of(c("energy", "profits", "politics", "debt",
                                    "taxes", "war", "pandemic", "labor_shortage", "supply_chain", "monetary_policy",
-                                   "government_spending", "pent_up_demand", "demand_shift")), mean, na.rm = TRUE), .groups="drop") %>%
+                                   "government_spending", "demand", "demand_shift", "supply")), mean, na.rm = TRUE), .groups="drop") %>%
   dplyr::mutate(date = make_date(year, month)) %>%
   dplyr::select(-c(year, month))
+
 
 
 save(swsj_data, file = "./data/localprojections/swsj_data.rds")
@@ -116,24 +88,24 @@ save(swsj_data, file = "./data/localprojections/swsj_data.rds")
 
 sdjn_data <- sdjn_data %>%
   dplyr::mutate(dataset = "djn") %>%
-  tidyr::pivot_longer(1:13, names_to = "topic", values_to = "proportion")
+  tidyr::pivot_longer(1:14, names_to = "topic", values_to = "proportion")
 
 
 swsj_data <- swsj_data %>%
   dplyr::mutate(dataset = "wsj") %>%
-  tidyr::pivot_longer(1:13, names_to = "topic", values_to = "proportion")
+  tidyr::pivot_longer(1:14, names_to = "topic", values_to = "proportion")
 
 
 
 sdjn_demand <- sdjn_data %>%
   dplyr::filter(topic %in% c("demand_shift", "government_spending", 
-                             "monetary_policy", "pent_up_demand")) 
+                             "monetary_policy", "demand")) 
 
 ## Plot for Demand Narratives
 
 
 # Define the number of colors in your custom palette
-num_colors <- 13
+num_colors <- 14
 
 # Create a custom pastel-like palette
 start_color <- rgb(94, 79, 162, maxColorValue = 255)
@@ -171,11 +143,11 @@ plot_sdemand <- ggplot(sdjn_demand, aes(x = date, y = 100 * proportion, color = 
     values = c(
       "government_spending" = colors[1],
       "monetary_policy" = colors[5],
-      "pent_up_demand" = colors[8],
+      "demand" = colors[8],
       "demand_shift" = colors[12]
     ),
-    breaks = c("government_spending", "monetary_policy", "pent_up_demand", "demand_shift"),
-    labels = c("Govt. Spending", "Monetary Policy", "Pent-Up Demand", "Demand Shift")
+    breaks = c("government_spending", "monetary_policy", "demand_shift", "demand"),
+    labels = c("Govt. Spending", "Monetary Policy", "Demand Shift", "Demand (residual)")
   )
 
 
@@ -189,7 +161,7 @@ ggsave("./text/figures/plot_sdemand.eps", plot = plot_sdemand, device = cairo_ps
 
 sdjn_supply <- sdjn_data %>%
   dplyr::filter(topic %in% c("supply_chain", "labor_shortage",
-                             "energy")) 
+                             "energy", "supply")) 
 
 
 
@@ -214,10 +186,11 @@ plot_ssupply <- ggplot(sdjn_supply, aes(x = date, y = 100 * proportion, color = 
     values = c(
       "supply_chain" = colors[1],
       "energy" = colors[5],
-      "labor_shortage" = colors[8]
+      "labor_shortage" = colors[8],
+      "supply" = colors[12]
     ),
-    breaks = c("supply_chain", "energy", "labor_shortage"),
-    labels = c("Supply Chain", "Energy", "Labor Shortage")
+    breaks = c("supply_chain", "energy", "labor_shortage", "supply"),
+    labels = c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)")
   )
 
 ggsave(filename = "./text/figures/plot_ssupply.eps", plot = plot_ssupply, device = cairo_ps, width = 15, height = 7)
@@ -259,7 +232,7 @@ plot_sothers <- ggplot(sdjn_others, aes(x = date, y = 100 * proportion, color = 
       "profits" = colors[13]
     ),
     breaks = c("pandemic", "politics", "war", "debt", "taxes", "profits"),
-    labels = c("Pandemic", "Politics", "War", "Debt", "Taxes", "Profits")
+    labels = c("Pandemic", "Politics", "War", "Government Debt", "Taxes", "Profits")
   )
 
 ggsave(filename = "./text/figures/plot_sothers.eps", plot = plot_sothers, device = cairo_ps, width = 15, height = 7)

@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: appendix_doc.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: aer.bst
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+A level-1 auxiliary file: bu.aux
+Reallocating 'name_of_file' (item size: 1) to 44 items.
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: ./bibtex/literaturverzeichnis_inflation.bib
+Database file #2: ./bibtex/Masterarbeit.bib
+Database file #3: ./bibtex/biblio.bib
+Repeated entry---line 37 of file ./bibtex/biblio.bib
+ : @techreport{Andre.2023
+ :                       ,
+I'm skipping whatever remains of this entry
+Database file #4: ./bibtex/pub_uf.bib
+Warning--empty note in spacy.2017
+You've used 5 entries,
+            2984 wiz_defined-function locations,
+            683 strings with 5210 characters,
+and the built_in function-call counts, 4028 in all, are:
+= -- 562
+> -- 310
+< -- 73
++ -- 105
+- -- 60
+* -- 277
+:= -- 936
+add.period$ -- 5
+call.type$ -- 5
+change.case$ -- 35
+chr.to.int$ -- 5
+cite$ -- 6
+duplicate$ -- 49
+empty$ -- 90
+format.name$ -- 149
+if$ -- 957
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 2
+newline$ -- 21
+num.names$ -- 60
+pop$ -- 66
+preamble$ -- 1
+purify$ -- 40
+quote$ -- 0
+skip$ -- 0
+stack$ -- 0
+substring$ -- 55
+swap$ -- 11
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 18
+warning$ -- 1
+while$ -- 50
+width$ -- 0
+write$ -- 77
+(There was 1 error message)

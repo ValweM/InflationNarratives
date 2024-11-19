@@ -22,11 +22,13 @@ library(ggpubr)
 library(gridExtra)
 
 load(file = "./data/localprojections/sdjn_data.rds")
-load(file = "./data/localprojections/djnhp.rds")
 load(file = "./data/localprojections/djnlevel.rds")
 load(file = "./data/localprojections/djndiff.rds")
 load(file = "./data/localprojections/djnbHP.rds")
 
+
+
+## function to estimate local projections and to save figures and output
 
 localprojections <- function(topic, data, type, group) {
   
@@ -44,8 +46,8 @@ localprojections <- function(topic, data, type, group) {
                           "bHP" = djnbHP)
     
     data_djn <- data_source[c(topic,
-                              "inflation_expectations_1y", "inflation_expectations_3y",
-                              "inflation", "economic_activity", "dummy")]
+                           "inflation_expectations_1y", "inflation_expectations_3y",
+                           "inflation", "economic_activity", "dummy")]
     
   } else if (type == "income"){
     
@@ -57,39 +59,40 @@ localprojections <- function(topic, data, type, group) {
     data_source <- switch(data,
                           "level" = djnlevel,
                           "diff" = djndiff,
-                          "hp" = djnhp,
-                          "bHP" = djnbHP)
+                          "hp" = djnhp)
     
     data_djn <- data_source[c(topic, "exp_lowinc_1y",
-                              "exp_lowinc_3y",
-                              "inflation", "economic_activity", "dummy")]
+                           "exp_lowinc_3y",
+                           "inflation", "economic_activity", "dummy")]
     
     data_djn <- data_djn %>%
       dplyr::rename(inflation_expectations_1y = exp_lowinc_1y, 
                     inflation_expectations_3y = exp_lowinc_3y)
+    
+  
   }
   
+  # select optimal number of lags
   tsdata_djn <- ts(data_djn, start = c(2018, 2), freq = 12)
   month <- seasonaldummy(tsdata_djn[, topic])
   data_djn <- cbind(data_djn, month)
-  tmp <- VARselect(tsdata_djn[, 1:5], lag.max = 6, exogen = tsdata_djn[,"dummy"],
-                   season = 12, type = "none")
-  print(tmp$criteria)
-  print(tmp$criteria)
-  num_lags <- tmp$selection[3]
+
+  # estimate local projections
   results_lin <- lp_lin(endog_data = data_djn[1:5],
-                        lags_endog_lin = num_lags,
-                        contemp_data = c(data_djn["dummy"], data_djn[, 7:16]),
-                        trend = 0,
-                        shock_type = 0,
-                        confint = 1.65,
-                        hor = 12)
+                        lags_endog_lin = NaN,
+                        lags_criterion = "BIC",
+                        max_lags = 4, 
+                        contemp_data = c(data_djn["dummy"], data_djn[, 7:16]) ,
+                        trend          = 0,
+                        shock_type     = 1,
+                        confint        = 1.65,
+                        hor            = 12)
+  
   
   print(results_lin)
   plots <- myplot(results_lin)
   plot(results_lin)
-  #plots <- plot_lin(results_lin)
-  
+
   # Using ggsave to save plots as EPS files
   if (group == "NONE") {
     ggsave(plots[[1]], file = paste0("./text/output/lp/", type, "/", data, "/", topic, "/", topic, "on", topic, ".eps"), width = 6, height = 5, device = cairo_ps)
@@ -147,10 +150,15 @@ localprojections <- function(topic, data, type, group) {
     ggsave(plots[[25]], file = paste0("./text/output/lp/", type, "/", group, "/", data, "/", topic, "/", "econaconeconac", "_djn.eps"), width = 6, height = 5, device = cairo_ps)
   }
   
+  
+  
   sink(file = NULL)
+  
+  
 }
 
-topic_names <- colnames(sdjn_data[1:13])
+
+topic_names <- colnames(sdjn_data[1:14])
 
 for (i in topic_names){
   localprojections(i, "level", "baseline", "NONE")
@@ -162,21 +170,7 @@ for (i in topic_names){
 }
 
 
-
 for (i in topic_names){
   localprojections(i, "bHP", "baseline","NONE")
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 

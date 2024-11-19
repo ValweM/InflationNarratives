@@ -7,6 +7,7 @@
 \newpage
 \counterwithin{figure}{section} % Setzt den Figure-Zähler auf Abschnitt-Ebene zurück
 \counterwithin{table}{section} % Setzt den Figure-Zähler auf Abschnitt-Ebene zurück
+
 \section{Appendix - Going Viral: Inflation Narratives and the Macroeconomy}\label{sec:Appendix}
 
 \subsection{Supplementary Figures and Tables}\label{subsec:Supplements}
@@ -65,7 +66,7 @@
 		
 		
 	\end{tikzpicture}
-	\caption{Graphical model of base keyATM}
+	\caption{Graphical model of base \textsf{keyATM}}
 	\label{graph:basekeyatm}
 	\floatfoot{The shaded node ($w$) denotes observed variables, while other transparent nodes denote latent variables. Source: \cite[40]{Eshima.2020}}
 \end{figure}
@@ -122,7 +123,7 @@
 		\node at (-3.4,-5.6) {$\tilde{K}$};
 		
 	\end{tikzpicture}
-	\caption{Graphical model of dynamic \textsf{\textbf{keyATM}}}
+	\caption{Graphical model of dynamic \textsf{keyATM}}
 	\label{graph:dynamickeyatm}
 	\floatfoot{The shaded node ($w$) denotes observed variables, while other transparent nodes denote latent variables. Source: \cite[41]{Eshima.2020}}
 \end{figure}	
@@ -133,7 +134,9 @@
 	\includegraphics[width=1\linewidth]{figures/modelfit_djn_model.eps}
 	\caption{Modelfit}
 	\label{fig:modelfit}
+	\floatfoot{Note: The figure visualizes the model fitting. We observe an increase trend for the log-likelihood and an decrease trend for the perplexity, which is an indicator that the model is working as expected \citep{Eshima.2023}.}
 \end{figure}
+
 
 %Estimated Alpha
  \begin{figure}[H]
@@ -141,6 +144,7 @@
 		\includegraphics[width=1.0\linewidth]{figures/alpha_djn_model.eps}
 		\caption{Estimated alpha}
 		\label{fig:alpha}
+		\floatfoot{Note: The figure visualizes $\alpha$, the prior for the document-topic distribution. We let the dynamic keyATM vary $\alpha$ across 4 latent states.}
 	\end{center}
 \end{figure}
 
@@ -167,6 +171,7 @@
 	\includegraphics[width=0.7\linewidth, angle = 270]{figures/comparision.eps}
 	\caption{Change of mean proportions}
 	\label{fig:comparision}
+	\floatfoot{The figure shows the development of the smoothed proportions for both considered corpora. To calculate the relative proportions only the topics with pre-specified keywords were considered.}
 \end{sidewaysfigure}
 
 \input{tables/ers_results}
@@ -220,7 +225,7 @@
 \subsection{Data preprocessing}\label{subsec:DataPrep}
 
 In this section we describe the data pre-processing steps prior to the keyATM estimation.
-The Dow Jones Newswire is stored in .nml data files, that contain Extensible Markup Language (XML) Files. The raw Dow Jones Newswire contains roughly eight million documents for the observation period. This amount of documents and terms alone makes it computationally challenging. Moreover, many of these documents may not be of interest for the underlying research question(s) of this paper. To shrink the data set and at the same time allows for a greater focus on economic news about inflation, we pre-filtered the raw corpus in two ways: first, by using the subject codes from Dow Jones Newswire, we only selected relevant news sources, see \ref{table:news sources}. This left us with approximately 350,000 documents. Additionally we explicitly removed articles that report tables, calendars, technical reports or press releases. Second, by applying a simple keyword filtering to generate a dataset only containing documents, which, in some way, report on inflation. The selected keywords are:  ``inflation'', ``deflation'', ``rising price[s]'', ``increasing price[s]'', ``price increase'', ``rise of prices'' and ``stagflation''. The final corpus includes 163030 documents. 
+The Dow Jones Newswire is stored in .nml data files, that contain Extensible Markup Language (XML) Files. The raw Dow Jones Newswire contains roughly eight million documents for the observation period. This amount of documents and terms alone makes it computationally challenging. Moreover, many of these documents may not be of interest for the underlying research question(s) of this paper. To shrink the data set and at the same time allows for a greater focus on economic news about inflation, we pre-filtered the raw corpus in two ways: first, by using the subject codes from Dow Jones Newswire, we only selected relevant news sources, see \ref{table:news sources}. This left us with approximately 350,000 documents. Additionally we explicitly removed articles that report tables, calendars, technical reports or press releases. Second, by applying a simple keyword filtering to generate a dataset only containing documents, which, in some way, report on inflation. The selected keywords are:  ''inflation'', ''deflation'', ''rising price[s]'', ''increasing price[s]'', ''price increase'', ''rise of prices'' and ''stagflation''. The final corpus includes 163030 documents. 
 
 
 \begin{table}[H]
@@ -249,7 +254,7 @@ The Dow Jones Newswire is stored in .nml data files, that contain Extensible Mar
 \end{table}
 
 
-As customary when using text-as-data methods, we reduce the dimensionality of the dataset according to \cite{grimmer.2022} . Therefore, we first proceeded with an lemmatization. By lemmatization we mean a mapping process from words to lemmas, whereby a lemma is the canonical form of a set of by inflection related words \citep{grimmer.2022}. Accordingly, we used the Python package spaCy \citep{spacy.2017}. This was followed by removing all punctuation, numbers, symbols, separators and urls. After removing these characters, we filtered out stop words, i.e. common words which have little to none information relating an article's subject. Additionally, time marks were taken out, as well as corpus-specific terms, which are relatively frequent but contain no information about the subject of an article like ``quot'' or ``newswires''. Finally, very rare terms were removed, as we are not able to use those efficiently in our model. 
+As customary when using text-as-data methods, we reduce the dimensionality of the dataset according to \cite{grimmer.2022}. Therefore, we first proceeded with an lemmatization. By lemmatization we mean a mapping process from words to lemmas, whereby a lemma is the canonical form of a set of by inflection related words \citep{grimmer.2022}. Accordingly, we used the Python package spaCy \citep{spacy.2017}. This was followed by removing all punctuation, numbers, symbols, separators and urls. After removing these characters, we filtered out stop words, i.e. common words which have little to none information relating an article's subject. Additionally, time marks were taken out, as well as corpus-specific terms, which are relatively frequent but contain no information about the subject of an article like ``quot'' or ``newswires''. Finally, very rare terms were removed, as we are not able to use those efficiently in our model. 
 
 
 %\subsection{Topic Modeling }\label{subsec:ToMo}
