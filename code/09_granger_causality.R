@@ -1,3 +1,4 @@
+# This is a script to run multivariate Granger tests
 ## pre-settings
 
 Sys.setenv(LANG = "en")
@@ -20,6 +21,9 @@ lapply(mypackages, require, character.only = TRUE)
 load(file = "./data/localprojections/djnlevel.rds")
 load(file = "./data/localprojections/djnbHP.rds")
 load(file = "./data/localprojections/djndiff.rds")
+
+
+# create function to run Granger tests with VAR
 
 granger_cause <- function(topic, datatype, modeltype, var, group, reverse = FALSE){
   if (modeltype == "djn" & var == "base") {

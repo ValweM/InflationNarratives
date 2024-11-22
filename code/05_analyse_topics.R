@@ -204,7 +204,8 @@ if (deparse(substitute(model)) == "djn_model"){
   return(data)
 
 }
- 
+
+## save data  
 
 djn_data_raw <- dynamic_object(djn_model)
 wsj_data_raw <- dynamic_object(wsj_model)
@@ -215,7 +216,7 @@ save(wsj_data_raw, file = "./data/localprojections/wsj_data_raw.rds")
 
 
 
-
+## create mean of data for first analysis
 
 djn_data <- djn_data_raw %>%
   dplyr::group_by(year, month) %>%

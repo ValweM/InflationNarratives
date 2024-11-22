@@ -1,3 +1,4 @@
+## This is a script to run diagnostic tests and trend-cycle filter
 ## pre-settings
 
 Sys.setenv(LANG = "en")

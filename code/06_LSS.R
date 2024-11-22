@@ -14,7 +14,7 @@ mypackages <- c("dplyr", "quanteda", "quanteda.corpora", "LSX", "text2vec", "tex
 lapply(mypackages, require, character.only = TRUE)
 
 load(file = "./data/localprojections/djn_data.rds")
-load(file="./data/corpus/tokens.rds")
+load(file="./data/corpus/tokens.rds") # It is not possible to reproduce due to data license restrictions
 load(file ="./data/dfm/dfm.rds")
 
 

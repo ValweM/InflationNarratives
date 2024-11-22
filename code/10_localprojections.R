@@ -1,3 +1,4 @@
+# This is a script to estimate local projections
 ## pre-settings
 
 Sys.setenv(LANG = "en")

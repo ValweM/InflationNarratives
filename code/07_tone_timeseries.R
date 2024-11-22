@@ -19,7 +19,7 @@ lapply(mypackages, require, character.only = TRUE)
 ## load data
 
 
-load(file = "./data/localprojections/djn_data_raw.rds")
+load(file = "./data/localprojections/djn_data_raw.rds") 
 load(file = "./data/localprojections/wsj_data_raw.rds")
 
 
@@ -30,7 +30,7 @@ load(file = "./data/localprojections/sent_dat_wsj.rds")
 
 
 
-## Combine Sentiment and Topics ######
+## Combine Sentiment and Topics on document level######
 
 
 
@@ -46,7 +46,7 @@ djn_data[, c("energy", "profits", "politics", "debt",
                                                                                         "taxes", "war", "pandemic", "labor_shortage", "supply_chain", "monetary_policy",
                                                                                         "government_spending", "demand", "demand_shift", "supply")] * t(djn_data$fit)
 
-
+# aggregate data
 
 sdjn_data <- djn_data %>%
   dplyr::group_by(year, month) %>%
@@ -56,7 +56,7 @@ sdjn_data <- djn_data %>%
   dplyr::mutate(date = make_date(year, month)) %>%
   dplyr::select(-c(year, month))
 
-
+# save data
 
 save(sdjn_data, file = "./data/localprojections/sdjn_data.rds")
 
@@ -84,7 +84,7 @@ save(swsj_data, file = "./data/localprojections/swsj_data.rds")
 
 
 
-## plot the time series
+## plot the time series #########
 
 sdjn_data <- sdjn_data %>%
   dplyr::mutate(dataset = "djn") %>%

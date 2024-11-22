@@ -1,69 +1,70 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.24)  19 NOV 2024 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  22 NOV 2024 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./appendix_doc.tex
 (appendix_doc.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
-(C:\Program Files\MiKTeX\tex/latex/base\article.cls
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Program Files\MiKTeX\tex/latex/base\size12.clo
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
+\c@part=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
-(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 )
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/newtx\newtxtext.sty
-Package: newtxtext 2024/04/01 v1.744(Michael Sharpe) latex and unicode latex su
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/newtx\newtxtext.sty
+Package: newtxtext 2023/11/14 v1.734(Michael Sharpe) latex and unicode latex su
 pport for TeXGyreTermesX
 
-`newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes a
+`newtxtext' v1.734, 2023/11/14 Text macros taking advantage of TeXGyre Termes a
 nd its extensions (msharpe)
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/xpatch\xpatch.sty
-(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2024-02-20 L3 programming layer (loader) 
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-11-09 L3 programming layer (loader) 
 
-(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count196
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
 \l__pdf_internal_box=\box51
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 
-(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2024-02-18 L3 Experimental document command parser
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
 )
-(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count197
-))
-(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+\etb@tempcnta=\count195
+)) (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
-(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 
-(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 )
-(C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
@@ -73,46 +74,45 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-)
-(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+) (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks19
 \XKV@tempa@toks=\toks20
 
-(C:\Program Files\MiKTeX\tex/generic/xkeyval\keyval.tex))
-\XKV@depth=\count198
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.tex))
+\XKV@depth=\count196
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
+)) (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/xstring\xstring.sty
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/generic/xstring\xstring.tex
-\xs_counta=\count199
-\xs_countb=\count266
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\xs_counta=\count197
+\xs_countb=\count198
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-)
-(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+) (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
 LaTeX Font Info:    Setting ntxLF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/generic/binhex\binhex.tex)
-\ntx@tmpcnta=\count267
-\ntx@cnt=\count268
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/binhex\binhex.tex)
+\ntx@tmpcnta=\count199
+\ntx@cnt=\count266
+\ntxsups@scale=\dimen141
+\ntxsups@raise=\dimen142
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -125,40 +125,40 @@ LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
 )
-\tx@sixem=\dimen141
-\tx@y=\dimen142
-\tx@x=\dimen143
-\tx@tmpdima=\dimen144
-\tx@tmpdimb=\dimen145
-\tx@tmpdimc=\dimen146
-\tx@tmpdimd=\dimen147
-\tx@tmpdime=\dimen148
-\tx@tmpdimf=\dimen149
-\tx@dimA=\dimen150
-\tx@dimAA=\dimen151
-\tx@dimB=\dimen152
-\tx@dimBB=\dimen153
-\tx@dimC=\dimen154
-LaTeX Info: Redefining \oldstylenums on input line 902.
-)
-(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2024/02/07 v24.2 The Babel package
-\babel@savecnt=\count269
-\U@D=\dimen155
+\tx@sixem=\dimen143
+\tx@y=\dimen144
+\tx@x=\dimen145
+\tx@tmpdima=\dimen146
+\tx@tmpdimb=\dimen147
+\tx@tmpdimc=\dimen148
+\tx@tmpdimd=\dimen149
+\tx@tmpdime=\dimen150
+\tx@tmpdimf=\dimen151
+\tx@dimA=\dimen152
+\tx@dimAA=\dimen153
+\tx@dimB=\dimen154
+\tx@dimBB=\dimen155
+\tx@dimC=\dimen156
+LaTeX Info: Redefining \oldstylenums on input line 871.
+) (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/11/11 v3.97 The Babel package
+\babel@savecnt=\count267
+\U@D=\dimen157
 \l@unhyphenated=\language79
 
-(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count270
+\bbl@dirlevel=\count268
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Program Files\MiKTeX\tex/latex/babel-english\english.ldf
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -167,218 +167,225 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 ))
-(C:\Program Files\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
-(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen156
-\Gin@req@width=\dimen157
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
 )
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count271
-\Gm@cntv=\count272
-\c@Gm@tempcnt=\count273
-\Gm@bindingoffset=\dimen158
-\Gm@wd@mp=\dimen159
-\Gm@odd@mp=\dimen160
-\Gm@even@mp=\dimen161
-\Gm@layoutwidth=\dimen162
-\Gm@layoutheight=\dimen163
-\Gm@layouthoffset=\dimen164
-\Gm@layoutvoffset=\dimen165
+\Gm@cnth=\count269
+\Gm@cntv=\count270
+\c@Gm@tempcnt=\count271
+\Gm@bindingoffset=\dimen160
+\Gm@wd@mp=\dimen161
+\Gm@odd@mp=\dimen162
+\Gm@even@mp=\dimen163
+\Gm@layoutwidth=\dimen164
+\Gm@layoutheight=\dimen165
+\Gm@layouthoffset=\dimen166
+\Gm@layoutvoffset=\dimen167
 \Gm@dimlist=\toks21
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-09 v7.01f Hypertext links for LaTeX
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.
-sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
+)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/auxhook\auxhook.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-09 v2.55 Cross-referencing by name of section
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestr
-ing.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count274
+\c@section@level=\count272
 )
-\@linkdim=\dimen166
-\Hy@linkcounter=\count275
-\Hy@pagecounter=\count276
-
-(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen168
+\Hy@linkcounter=\count273
+\Hy@pagecounter=\count274
+ (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-09 v7.01f Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count277
-
-(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count275
+ (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-09 v7.01f Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
-Package hyperref Info: Hyper figures OFF on input line 4179.
-Package hyperref Info: Link nesting OFF on input line 4184.
-Package hyperref Info: Hyper index ON on input line 4187.
-Package hyperref Info: Plain pages OFF on input line 4194.
-Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4054.
+Package hyperref Info: Hyper figures OFF on input line 4171.
+Package hyperref Info: Link nesting OFF on input line 4176.
+Package hyperref Info: Hyper index ON on input line 4179.
+Package hyperref Info: Plain pages OFF on input line 4186.
+Package hyperref Info: Backreferencing OFF on input line 4191.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count278
+Package hyperref Info: Bookmarks ON on input line 4438.
+\c@Hy@tempcnt=\count276
 
-(C:\Program Files\MiKTeX\tex/latex/url\url.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen167
+LaTeX Info: Redefining \url on input line 4776.
+\XeTeXLinkMargin=\dimen169
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count279
-\Field@Width=\dimen168
-\Fld@charsize=\dimen169
-Package hyperref Info: Hyper figures OFF on input line 6063.
-Package hyperref Info: Link nesting OFF on input line 6068.
-Package hyperref Info: Hyper index ON on input line 6071.
-Package hyperref Info: backreferencing OFF on input line 6078.
-Package hyperref Info: Link coloring ON on input line 6081.
-Package hyperref Info: Link coloring with OCG OFF on input line 6088.
-Package hyperref Info: PDF/A mode OFF on input line 6093.
- (C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+\Fld@menulength=\count277
+\Field@Width=\dimen170
+\Fld@charsize=\dimen171
+Package hyperref Info: Hyper figures OFF on input line 6055.
+Package hyperref Info: Link nesting OFF on input line 6060.
+Package hyperref Info: Hyper index ON on input line 6063.
+Package hyperref Info: backreferencing OFF on input line 6070.
+Package hyperref Info: Link coloring ON on input line 6073.
+Package hyperref Info: Link coloring with OCG OFF on input line 6080.
+Package hyperref Info: PDF/A mode OFF on input line 6085.
+
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count280
-\c@Item=\count281
-\c@Hfootnote=\count282
+\Hy@abspage=\count278
+\c@Item=\count279
+\c@Hfootnote=\count280
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-09 v7.01f Hyperref driver for pdfTeX
 
-(C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
-
-(C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count283
-\c@bookmark@seq@number=\count284
+\Fld@listcount=\count281
+\c@bookmark@seq@number=\count282
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilechec
-k.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounte
-r.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip50
-) (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
+)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count285
+\c@r@tfl@t=\count283
 \rotFPtop=\skip51
 \rotFPbot=\skip52
 \rot@float@box=\box52
 \rot@mess@toks=\toks22
 )
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen170
-\captionmargin=\dimen171
-\caption@leftmargin=\dimen172
-\caption@rightmargin=\dimen173
-\caption@width=\dimen174
-\caption@indent=\dimen175
-\caption@parindent=\dimen176
-\caption@hangindent=\dimen177
+\caption@tempdima=\dimen172
+\captionmargin=\dimen173
+\caption@leftmargin=\dimen174
+\caption@rightmargin=\dimen175
+\caption@width=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count286
-\c@continuedfloat=\count287
+\c@caption@flags=\count284
+\c@continuedfloat=\count285
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 )
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/caption\subcaption.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count288
+\c@subfigure=\count286
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count289
-)
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/floatrow\floatrow.sty
+\c@subtable=\count287
+) (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/floatrow\floatrow.sty
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
-\c@float@type=\count290
+\c@float@type=\count288
 \float@exts=\toks23
 \float@box=\box53
 \@floatcapt=\box54
@@ -387,337 +394,396 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 
 \FR@everyfloat=\toks24
 \flrow@foot=\insert252
-\FB@wd=\dimen178
-\FBo@wd=\dimen179
-\FBc@wd=\dimen180
+\FB@wd=\dimen180
+\FBo@wd=\dimen181
+\FBc@wd=\dimen182
 \FBo@ht=\skip53
 \FBc@ht=\skip54
 \FBf@ht=\skip55
 \FBo@max=\skip56
 \FBc@max=\skip57
 \FBf@max=\skip58
-\c@FBl@b=\count291
-\floatbox@depth=\count292
-\c@FRobj=\count293
-\c@FRsobj=\count294
+\c@FBl@b=\count289
+\floatbox@depth=\count290
+\c@FRobj=\count291
+\c@FRsobj=\count292
 \Xhsize=\skip59
 \sXhsize=\skip60
 \Zhsize=\skip61
 \sZhsize=\skip62
 \flrow@rowbox=\box55
-\FR@Zunitlength=\dimen181
-\c@FBcnt=\count295
-\FPOScnt=\count296
+\FR@Zunitlength=\dimen183
+\c@FBcnt=\count293
+\FPOScnt=\count294
 \LTleft=\skip63
 \LTright=\skip64
 \LTleft=\skip65
 \LTright=\skip66
 \flrow@types=\toks25
-)
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty
+) (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip67
 \bibsep=\skip68
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count297
+\c@NAT@ctr=\count295
 )
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/bibunits\bibunits.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/bibunits\bibunits.sty
 Package: bibunits 2004/05/12 v2.4 Multiple bibliographies in one document.
 \@bibunitaux=\write3
-\@bibunitauxcnt=\count298
+\@bibunitauxcnt=\count296
 )
 \gdef\bu@bibdata{biblio.bib}
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.sty
-Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count299
-\csq@gtype=\count300
-\csq@glevel=\count301
-\csq@qlevel=\count302
-\csq@maxlvl=\count303
-\csq@tshold=\count304
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count297
+\csq@gtype=\count298
+\csq@glevel=\count299
+\csq@qlevel=\count300
+\csq@maxlvl=\count301
+\csq@tshold=\count302
 \csq@ltx@everypar=\toks26
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.def
-File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.cfg
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
 ))
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/todonotes\todonotes.sty
-Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
-Package: todonotes 2024/01/05
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
+Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
+Package: todonotes 2023/01/31
 
-(C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
-(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
 \pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen182
-\pgfutil@tempdimb=\dimen183
+\pgfutil@tempdima=\dimen184
+\pgfutil@tempdimb=\dimen185
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
 \pgfutil@abb=\box56
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
-(C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
-(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
 \pgfkeys@pathtoks=\toks28
 \pgfkeys@temptoks=\toks29
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.
-tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks30
 ))
-\pgf@x=\dimen184
-\pgf@y=\dimen185
-\pgf@xa=\dimen186
-\pgf@ya=\dimen187
-\pgf@xb=\dimen188
-\pgf@yb=\dimen189
-\pgf@xc=\dimen190
-\pgf@yc=\dimen191
-\pgf@xd=\dimen192
-\pgf@yd=\dimen193
+\pgf@x=\dimen186
+\pgf@y=\dimen187
+\pgf@xa=\dimen188
+\pgf@ya=\dimen189
+\pgf@xb=\dimen190
+\pgf@yb=\dimen191
+\pgf@xc=\dimen192
+\pgf@yc=\dimen193
+\pgf@xd=\dimen194
+\pgf@yd=\dimen195
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count305
-\c@pgf@countb=\count306
-\c@pgf@countc=\count307
-\c@pgf@countd=\count308
+\c@pgf@counta=\count303
+\c@pgf@countb=\count304
+\c@pgf@countc=\count305
+\c@pgf@countd=\count306
 \t@pgf@toka=\toks31
 \t@pgf@tokb=\toks32
 \t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count309
- (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+\pgf@sys@id@count=\count307
+
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count310
-\pgfsyssoftpath@bigbuffer@items=\count311
+\pgfsyssoftpath@smallbuffer@items=\count308
+\pgfsyssoftpath@bigbuffer@items=\count309
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen194
-\pgfmath@count=\count312
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen196
+\pgfmath@count=\count310
 \pgfmath@box=\box57
 \pgfmath@toks=\toks34
 \pgfmath@stack@operand=\toks35
 \pgfmath@stack@operation=\toks36
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.co
-de.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
-
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.
-tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
-cs.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
-) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count313
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count311
 ))
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen195
-\pgf@picmaxx=\dimen196
-\pgf@picminy=\dimen197
-\pgf@picmaxy=\dimen198
-\pgf@pathminx=\dimen199
-\pgf@pathmaxx=\dimen256
-\pgf@pathminy=\dimen257
-\pgf@pathmaxy=\dimen258
-\pgf@xx=\dimen259
-\pgf@xy=\dimen260
-\pgf@yx=\dimen261
-\pgf@yy=\dimen262
-\pgf@zx=\dimen263
-\pgf@zy=\dimen264
+\pgf@picminx=\dimen197
+\pgf@picmaxx=\dimen198
+\pgf@picminy=\dimen199
+\pgf@picmaxy=\dimen256
+\pgf@pathminx=\dimen257
+\pgf@pathmaxx=\dimen258
+\pgf@pathminy=\dimen259
+\pgf@pathmaxy=\dimen260
+\pgf@xx=\dimen261
+\pgf@xy=\dimen262
+\pgf@yx=\dimen263
+\pgf@yy=\dimen264
+\pgf@zx=\dimen265
+\pgf@zy=\dimen266
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.t
-ex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen265
-\pgf@path@lasty=\dimen266
+\pgf@path@lastx=\dimen267
+\pgf@path@lasty=\dimen268
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen267
-\pgf@shorten@start@additional=\dimen268
+\pgf@shorten@end@additional=\dimen269
+\pgf@shorten@start@additional=\dimen270
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count314
+\pgf@picture@serial@count=\count312
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
-x
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen269
+\pgflinewidth=\dimen271
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code
-.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen270
-\pgf@pt@y=\dimen271
-\pgf@pt@temp=\dimen272
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+\pgf@pt@x=\dimen272
+\pgf@pt@y=\dimen273
+\pgf@pt@temp=\dimen274
+)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.
-tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen273
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen274
-\pgf@sys@shading@range@num=\count315
-\pgf@shadingcount=\count316
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen275
+)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen276
+\pgf@sys@shading@range@num=\count313
+\pgf@shadingcount=\count314
+)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box61
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.te
-x
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box62
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen275
-\pgf@nodesepend=\dimen276
+\pgf@nodesepstart=\dimen277
+\pgf@nodesepend=\dimen278
 )
-(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
-(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex))
-(C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex))
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+))
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen277
-\pgffor@skip=\dimen278
+\pgffor@iter=\dimen279
+\pgffor@skip=\dimen280
 \pgffor@stack=\toks37
 \pgffor@toks=\toks38
 ))
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
-tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count317
-\pgfplotmarksize=\dimen279
+\pgf@plot@mark@count=\count315
+\pgfplotmarksize=\dimen281
 )
-\tikz@lastx=\dimen280
-\tikz@lasty=\dimen281
-\tikz@lastxsaved=\dimen282
-\tikz@lastysaved=\dimen283
-\tikz@lastmovetox=\dimen284
-\tikz@lastmovetoy=\dimen285
-\tikzleveldistance=\dimen286
-\tikzsiblingdistance=\dimen287
+\tikz@lastx=\dimen282
+\tikz@lasty=\dimen283
+\tikz@lastxsaved=\dimen284
+\tikz@lastysaved=\dimen285
+\tikz@lastmovetox=\dimen286
+\tikz@lastmovetoy=\dimen287
+\tikzleveldistance=\dimen288
+\tikzsiblingdistance=\dimen289
 \tikz@figbox=\box63
 \tikz@figbox@bg=\box64
 \tikz@tempbox=\box65
 \tikz@tempbox@bg=\box66
-\tikztreelevel=\count318
-\tikznumberofchildren=\count319
-\tikznumberofcurrentchild=\count320
-\tikz@fig@count=\count321
- (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count322
-\pgfmatrixcurrentcolumn=\count323
-\pgf@matrix@numberofcolumns=\count324
-)
-\tikz@expandcount=\count325
+\tikztreelevel=\count316
+\tikznumberofchildren=\count317
+\tikznumberofcurrentchild=\count318
+\tikz@fig@count=\count319
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-rytopaths.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count320
+\pgfmatrixcurrentcolumn=\count321
+\pgf@matrix@numberofcolumns=\count322
+)
+\tikz@expandcount=\count323
+
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-rypositioning.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
+)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count326
-\calc@Bcount=\count327
-\calc@Adimen=\dimen288
-\calc@Bdimen=\dimen289
+\calc@Acount=\count324
+\calc@Bcount=\count325
+\calc@Adimen=\dimen290
+\calc@Bdimen=\dimen291
 \calc@Askip=\skip69
 \calc@Bskip=\skip70
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count328
+\calc@Ccount=\count326
 \calc@Cskip=\skip71
 )
-\c@@todonotes@numberoftodonotes=\count329
+\c@@todonotes@numberoftodonotes=\count327
 )
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks39
 \symAMSa=\mathgroup4
@@ -725,93 +791,97 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty
+)) (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.st
+y
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen290
-\lightrulewidth=\dimen291
-\cmidrulewidth=\dimen292
-\belowrulesep=\dimen293
-\belowbottomsep=\dimen294
-\aboverulesep=\dimen295
-\abovetopsep=\dimen296
-\cmidrulesep=\dimen297
-\cmidrulekern=\dimen298
-\defaultaddspace=\dimen299
-\@cmidla=\count330
-\@cmidlb=\count331
-\@aboverulesep=\dimen300
-\@belowrulesep=\dimen301
-\@thisruleclass=\count332
-\@lastruleclass=\count333
-\@thisrulewidth=\dimen302
-)
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/svg\svg.sty
+\heavyrulewidth=\dimen292
+\lightrulewidth=\dimen293
+\cmidrulewidth=\dimen294
+\belowrulesep=\dimen295
+\belowbottomsep=\dimen296
+\aboverulesep=\dimen297
+\abovetopsep=\dimen298
+\cmidrulesep=\dimen299
+\cmidrulekern=\dimen300
+\defaultaddspace=\dimen301
+\@cmidla=\count328
+\@cmidlb=\count329
+\@aboverulesep=\dimen302
+\@belowrulesep=\dimen303
+\@thisruleclass=\count330
+\@lastruleclass=\count331
+\@thisrulewidth=\dimen304
+) (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/svg\svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbase.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
 Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlfile.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
 Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlfile-hook.st
-y
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
 Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
 
- (C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlogo.sty
+
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
 Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line
  368.
-) (C:\Program Files\MiKTeX\tex/latex/trimspaces\trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-(C:\Program Files\MiKTeX\tex/latex/tools\shellesc.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
+ty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+) (C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count334
+\c@svg@param@lastpage=\count332
 \svg@box=\box67
-\c@svg@param@currpage=\count335
+\c@svg@param@currpage=\count333
 )
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/transparent\transparent.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
+.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/transparent\transparent-nome
-tadata.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
+-nometadata.sty
 Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
  stack (HO)
-)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+))
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip72
 
 For additional information on amsmath, use the `?' option.
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks40
-\ex@=\dimen303
+\ex@=\dimen305
 ))
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen304
+\pmbraise@=\dimen306
 )
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count336
+\inf@bad=\count334
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count337
-\leftroot@=\count338
+\uproot@=\count335
+\leftroot@=\count336
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count339
-\DOTSCASE@=\count340
+\classnum@=\count337
+\DOTSCASE@=\count338
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -821,30 +891,30 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen305
+\big@size=\dimen307
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count341
+\macc@depth=\count339
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count342
+\c@MaxMatrixCols=\count340
 \dotsspace@=\muskip17
-\c@parentequation=\count343
-\dspbrk@lvl=\count344
+\c@parentequation=\count341
+\dspbrk@lvl=\count342
 \tag@help=\toks41
-\row@=\count345
-\column@=\count346
-\maxfields@=\count347
+\row@=\count343
+\column@=\count344
+\maxfields@=\count345
 \andhelp@=\toks42
-\eqnshift@=\dimen306
-\alignsep@=\dimen307
-\tagshift@=\dimen308
-\tagwidth@=\dimen309
-\totwidth@=\dimen310
-\lineht@=\dimen311
+\eqnshift@=\dimen308
+\alignsep@=\dimen309
+\tagshift@=\dimen310
+\tagwidth@=\dimen311
+\totwidth@=\dimen312
+\lineht@=\dimen313
 \@envbody=\toks43
 \multlinegap=\skip73
 \multlinetaggap=\skip74
@@ -852,7 +922,7 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Program Files\MiKTeX\tex/latex/tools\bm.sty
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
 Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -862,54 +932,54 @@ Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/tikz-bayesnet\tikzlibrarybay
-esnet.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-ryshapes.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/tikz-bayesnet\tikzlibra
+rybayesnet.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-ryshapes.geometric.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geom
-etric.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-ryshapes.misc.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc
-.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-ryshapes.symbols.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.symbols.code.tex
 File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symb
-ols.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-ryshapes.arrows.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.arrows.code.tex
 File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arro
-ws.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-ryshapes.callouts.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.call
-outs.code.tex))
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-ryshapes.multipart.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.callouts.code.tex))
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.multipart.code.tex
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.mult
-ipart.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodepartlowerbox=\box70
 \pgfnodeparttwobox=\box71
@@ -932,22 +1002,24 @@ File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodepartsixbox=\box88
 \pgfnodepartfivebox=\box89
 )))
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-ryfit.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-rychains.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarychains.code.tex
 File: tikzlibrarychains.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-ryarrows.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen312
-))) (C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/chngcntr\chngcntr.sty
+\arrowsize=\dimen314
+)))
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
@@ -955,7 +1027,7 @@ Package chngcntr Info: \counterwithout already defined.
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
 e 38.
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1ntxtlf.fd
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
@@ -999,29 +1071,34 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
- (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count348
-\scratchdimen=\dimen313
+\scratchcounter=\count346
+\scratchdimen=\dimen315
 \scratchbox=\box90
-\nofMPsegments=\count349
-\nofMParguments=\count350
+\nofMPsegments=\count347
+\nofMParguments=\count348
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count351
-\MPscratchDim=\dimen314
-\MPnumerator=\count352
-\makeMPintoPDFobject=\count353
+\MPscratchCnt=\count349
+\MPscratchDim=\dimen316
+\MPnumerator=\count350
+\makeMPintoPDFobject=\count351
 \everyMPtoPDFconversion=\toks46
-) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+)
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@mv@tabular=\count354
-\c@mv@boldtabular=\count355
+\c@mv@tabular=\count352
+\c@mv@boldtabular=\count353
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1086,27 +1163,26 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 13.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
 
- (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
 
 
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 71.
-LaTeX Font Info:    Trying to load font information for OT1+qhv on input line 1
-26.
+LaTeX Font Info:    Trying to load font information for OT1+qhv on input line 6
+9.
 
-(C:\Users\bay1977\AppData\Roaming\MiKTeX\tex/latex/tex-gyre\ot1qhv.fd
+(C:\Users\mw001\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ot1qhv.fd
 File: ot1qhv.fd 2009/09/25 v1.2 font definition file for OT1/qhv
 )
 LaTeX Font Info:    Font shape `OT1/qhv/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 126.
-LaTeX Font Info:    Font shape `OT1/qhv/b/n' will be
-(Font)              scaled to size 11.28003pt on input line 126.
+(Font)              scaled to size 11.28003pt on input line 69.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 71.
 Package epstopdf Info: Source file: <figures/modelfit_djn_model.eps>
 (epstopdf)                    date: 2024-11-18 11:11:19
 (epstopdf)                    size: 51221 bytes
@@ -1125,12 +1201,13 @@ File: figures/modelfit_djn_model-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/modelfit_djn_model-eps-converted-to.pdf  used 
 on input line 134.
 (pdftex.def)             Requested size: 412.56499pt x 412.55531pt.
- [1
+
+[1
 
 
-{C:/Users/bay1977/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ba
-y1977/AppData/Roaming/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{C:/Users/ba
-y1977/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-rm.enc}]
+{C:/Users/mw001/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/mw00
+1/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{C:/Users
+/mw001/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-rm.enc}]
 Package epstopdf Info: Source file: <figures/alpha_djn_model.eps>
 (epstopdf)                    date: 2024-11-18 11:11:25
 (epstopdf)                    size: 5387046 bytes
@@ -1140,15 +1217,16 @@ df>
 (epstopdf)                    size: 2817722 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/alpha_djn_mo
 del-eps-converted-to.pdf figures/alpha_djn_model.eps>
-(epstopdf)             \includegraphics on input line 142.
+(epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
-<figures/alpha_djn_model-eps-converted-to.pdf, id=46, 1084.05pt x 1084.05pt>
+<figures/alpha_djn_model-eps-converted-to.pdf, id=50, 1084.05pt x 1084.05pt>
 File: figures/alpha_djn_model-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/alpha_djn_model-eps-converted-to.pdf>
 Package pdftex.def Info: figures/alpha_djn_model-eps-converted-to.pdf  used on 
-input line 142.
+input line 144.
 (pdftex.def)             Requested size: 412.56499pt x 412.55531pt.
- [2 <./figures/modelfit_djn_model-eps-converted-to.pdf>]
+
+[2 <./figures/modelfit_djn_model-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/plot_change.eps>
 (epstopdf)                    date: 2024-11-18 11:23:03
 (epstopdf)                    size: 20052 bytes
@@ -1157,16 +1235,16 @@ Package epstopdf Info: Source file: <figures/plot_change.eps>
 (epstopdf)                    size: 13790 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/plot_change-
 eps-converted-to.pdf figures/plot_change.eps>
-(epstopdf)             \includegraphics on input line 157.
+(epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
-<figures/plot_change-eps-converted-to.pdf, id=60, 561.09625pt x 809.0225pt>
+<figures/plot_change-eps-converted-to.pdf, id=66, 561.09625pt x 809.0225pt>
 File: figures/plot_change-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/plot_change-eps-converted-to.pdf>
 Package pdftex.def Info: figures/plot_change-eps-converted-to.pdf  used on inpu
-t line 157.
+t line 160.
 (pdftex.def)             Requested size: 288.79422pt x 416.39818pt.
 
-Overfull \hbox (3.83319pt too wide) in paragraph at lines 157--158
+Overfull \hbox (3.83319pt too wide) in paragraph at lines 160--161
  [][] 
  []
 
@@ -1179,16 +1257,16 @@ Package epstopdf Info: Source file: <figures/comparision.eps>
 (epstopdf)                    size: 23426 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/comparision-
 eps-converted-to.pdf figures/comparision.eps>
-(epstopdf)             \includegraphics on input line 168.
+(epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
-<figures/comparision-eps-converted-to.pdf, id=77, 561.09625pt x 809.0225pt>
+<figures/comparision-eps-converted-to.pdf, id=83, 561.09625pt x 809.0225pt>
 File: figures/comparision-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/comparision-eps-converted-to.pdf>
 Package pdftex.def Info: figures/comparision-eps-converted-to.pdf  used on inpu
-t line 168.
+t line 171.
 (pdftex.def)             Requested size: 472.02916pt x 680.59889pt.
 
-Overfull \hbox (6.26857pt too wide) in paragraph at lines 168--169
+Overfull \hbox (6.26857pt too wide) in paragraph at lines 171--172
  [][] 
  []
 
@@ -1230,7 +1308,7 @@ ns1y_djn.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/government_spending/government_spendingonexpectations1y
-_djn-eps-converted-to.pdf, id=148, 428.60126pt x 348.30125pt>
+_djn-eps-converted-to.pdf, id=154, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/government_spending/government_spendingonexpectati
 ons1y_djn-eps-converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/government_spending/government_spendingonexpectatio
@@ -1255,7 +1333,7 @@ ns3y_djn.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/government_spending/government_spendingonexpectations3y
-_djn-eps-converted-to.pdf, id=149, 428.60126pt x 348.30125pt>
+_djn-eps-converted-to.pdf, id=155, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/government_spending/government_spendingonexpectati
 ons3y_djn-eps-converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/government_spending/government_spendingonexpectatio
@@ -1278,7 +1356,7 @@ ps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/government_spending/government_spendingoninflation_djn-
-eps-converted-to.pdf, id=150, 428.60126pt x 348.30125pt>
+eps-converted-to.pdf, id=156, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/government_spending/government_spendingoninflation
 _djn-eps-converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/government_spending/government_spendingoninflation_
@@ -1300,7 +1378,7 @@ put/lp/baseline/bHP/government_spending/government_spendingoneconac_djn.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/government_spending/government_spendingoneconac_djn-eps
--converted-to.pdf, id=151, 428.60126pt x 348.30125pt>
+-converted-to.pdf, id=157, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/government_spending/government_spendingoneconac_dj
 n-eps-converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/government_spending/government_spendingoneconac_djn
@@ -1322,7 +1400,7 @@ put/lp/baseline/bHP/monetary_policy/monetary_policyonexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/monetary_policy/monetary_policyonexpectations1y_djn-eps
--converted-to.pdf, id=152, 428.60126pt x 349.305pt>
+-converted-to.pdf, id=158, 428.60126pt x 349.305pt>
 File: output/lp/baseline/bHP/monetary_policy/monetary_policyonexpectations1y_dj
 n-eps-converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/monetary_policy/monetary_policyonexpectations1y_djn
@@ -1344,7 +1422,7 @@ put/lp/baseline/bHP/monetary_policy/monetary_policyonexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/monetary_policy/monetary_policyonexpectations3y_djn-eps
--converted-to.pdf, id=153, 428.60126pt x 348.30125pt>
+-converted-to.pdf, id=159, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/monetary_policy/monetary_policyonexpectations3y_dj
 n-eps-converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/monetary_policy/monetary_policyonexpectations3y_djn
@@ -1366,7 +1444,7 @@ p/baseline/bHP/monetary_policy/monetary_policyoninflation_djn.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/monetary_policy/monetary_policyoninflation_djn-eps-conv
-erted-to.pdf, id=154, 428.60126pt x 348.30125pt>
+erted-to.pdf, id=160, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/monetary_policy/monetary_policyoninflation_djn-eps
 -converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/monetary_policy/monetary_policyoninflation_djn-eps-
@@ -1388,7 +1466,7 @@ aseline/bHP/monetary_policy/monetary_policyoneconac_djn.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/monetary_policy/monetary_policyoneconac_djn-eps-convert
-ed-to.pdf, id=155, 428.60126pt x 348.30125pt>
+ed-to.pdf, id=161, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/monetary_policy/monetary_policyoneconac_djn-eps-co
 nverted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/monetary_policy/monetary_policyoneconac_djn-eps-con
@@ -1410,7 +1488,7 @@ P/demand/demandonexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/demand/demandonexpectations1y_djn-eps-converted-to.pdf,
- id=156, 428.60126pt x 348.30125pt>
+ id=162, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/demand/demandonexpectations1y_djn-eps-converted-to
 .pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/demand/demandonexpectations1y_djn-eps-converted-to.
@@ -1432,7 +1510,7 @@ P/demand/demandonexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/demand/demandonexpectations3y_djn-eps-converted-to.pdf,
- id=157, 428.60126pt x 348.30125pt>
+ id=163, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/demand/demandonexpectations3y_djn-eps-converted-to
 .pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/demand/demandonexpectations3y_djn-eps-converted-to.
@@ -1454,7 +1532,7 @@ and/demandoninflation_djn.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/demand/demandoninflation_djn-eps-converted-to.pdf, id=1
-58, 428.60126pt x 348.30125pt>
+64, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/demand/demandoninflation_djn-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use output/lp/baseline/bHP/demand/demandoninflation_djn-eps-converted-to.pdf>
@@ -1474,7 +1552,7 @@ HP/demand/demandoneconac_djn-eps-converted-to.pdf output/lp/baseline/bHP/demand
 /demandoneconac_djn.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/bHP/demand/demandoneconac_djn-eps-converted-to.pdf, id=159,
+<output/lp/baseline/bHP/demand/demandoneconac_djn-eps-converted-to.pdf, id=165,
  428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/demand/demandoneconac_djn-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1496,7 +1574,7 @@ HP/demand_shift/demand_shiftonexpectations1y_djn-eps-converted-to.pdf output/lp
 (epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/demand_shift/demand_shiftonexpectations1y_djn-eps-conve
-rted-to.pdf, id=160, 428.60126pt x 348.30125pt>
+rted-to.pdf, id=166, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/demand_shift/demand_shiftonexpectations1y_djn-eps-
 converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/demand_shift/demand_shiftonexpectations1y_djn-eps-c
@@ -1518,7 +1596,7 @@ HP/demand_shift/demand_shiftonexpectations3y_djn-eps-converted-to.pdf output/lp
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/demand_shift/demand_shiftonexpectations3y_djn-eps-conve
-rted-to.pdf, id=161, 428.60126pt x 348.30125pt>
+rted-to.pdf, id=167, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/demand_shift/demand_shiftonexpectations3y_djn-eps-
 converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/demand_shift/demand_shiftonexpectations3y_djn-eps-c
@@ -1540,7 +1618,7 @@ line/bHP/demand_shift/demand_shiftoninflation_djn.eps>
 (epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/demand_shift/demand_shiftoninflation_djn-eps-converted-
-to.pdf, id=162, 428.60126pt x 348.30125pt>
+to.pdf, id=168, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/demand_shift/demand_shiftoninflation_djn-eps-conve
 rted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/demand_shift/demand_shiftoninflation_djn-eps-conver
@@ -1562,7 +1640,7 @@ e/bHP/demand_shift/demand_shiftoneconac_djn.eps>
 (epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/demand_shift/demand_shiftoneconac_djn-eps-converted-to.
-pdf, id=163, 428.60126pt x 348.30125pt>
+pdf, id=169, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/demand_shift/demand_shiftoneconac_djn-eps-converte
 d-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/demand_shift/demand_shiftoneconac_djn-eps-converted
@@ -1605,7 +1683,7 @@ HP/supply_chain/supply_chainonexpectations1y_djn-eps-converted-to.pdf output/lp
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/supply_chain/supply_chainonexpectations1y_djn-eps-conve
-rted-to.pdf, id=282, 428.60126pt x 348.30125pt>
+rted-to.pdf, id=288, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/supply_chain/supply_chainonexpectations1y_djn-eps-
 converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/supply_chain/supply_chainonexpectations1y_djn-eps-c
@@ -1627,7 +1705,7 @@ HP/supply_chain/supply_chainonexpectations3y_djn-eps-converted-to.pdf output/lp
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/supply_chain/supply_chainonexpectations3y_djn-eps-conve
-rted-to.pdf, id=283, 428.60126pt x 348.30125pt>
+rted-to.pdf, id=289, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/supply_chain/supply_chainonexpectations3y_djn-eps-
 converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/supply_chain/supply_chainonexpectations3y_djn-eps-c
@@ -1649,7 +1727,7 @@ line/bHP/supply_chain/supply_chainoninflation_djn.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/supply_chain/supply_chainoninflation_djn-eps-converted-
-to.pdf, id=284, 428.60126pt x 348.30125pt>
+to.pdf, id=290, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/supply_chain/supply_chainoninflation_djn-eps-conve
 rted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/supply_chain/supply_chainoninflation_djn-eps-conver
@@ -1671,7 +1749,7 @@ e/bHP/supply_chain/supply_chainoneconac_djn.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/supply_chain/supply_chainoneconac_djn-eps-converted-to.
-pdf, id=285, 428.60126pt x 348.30125pt>
+pdf, id=291, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/supply_chain/supply_chainoneconac_djn-eps-converte
 d-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/supply_chain/supply_chainoneconac_djn-eps-converted
@@ -1693,7 +1771,7 @@ P/energy/energyonexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/energy/energyonexpectations1y_djn-eps-converted-to.pdf,
- id=286, 428.60126pt x 348.30125pt>
+ id=292, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/energy/energyonexpectations1y_djn-eps-converted-to
 .pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/energy/energyonexpectations1y_djn-eps-converted-to.
@@ -1715,7 +1793,7 @@ P/energy/energyonexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/energy/energyonexpectations3y_djn-eps-converted-to.pdf,
- id=287, 428.60126pt x 348.30125pt>
+ id=293, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/energy/energyonexpectations3y_djn-eps-converted-to
 .pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/energy/energyonexpectations3y_djn-eps-converted-to.
@@ -1737,7 +1815,7 @@ rgy/energyoninflation_djn.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/energy/energyoninflation_djn-eps-converted-to.pdf, id=2
-88, 428.60126pt x 348.30125pt>
+94, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/energy/energyoninflation_djn-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use output/lp/baseline/bHP/energy/energyoninflation_djn-eps-converted-to.pdf>
@@ -1757,7 +1835,7 @@ HP/energy/energyoneconac_djn-eps-converted-to.pdf output/lp/baseline/bHP/energy
 /energyoneconac_djn.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/bHP/energy/energyoneconac_djn-eps-converted-to.pdf, id=289,
+<output/lp/baseline/bHP/energy/energyoneconac_djn-eps-converted-to.pdf, id=295,
  428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/energy/energyoneconac_djn-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1779,7 +1857,7 @@ t/lp/baseline/bHP/labor_shortage/labor_shortageonexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/labor_shortage/labor_shortageonexpectations1y_djn-eps-c
-onverted-to.pdf, id=290, 428.60126pt x 348.30125pt>
+onverted-to.pdf, id=296, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/labor_shortage/labor_shortageonexpectations1y_djn-
 eps-converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/labor_shortage/labor_shortageonexpectations1y_djn-e
@@ -1801,7 +1879,7 @@ t/lp/baseline/bHP/labor_shortage/labor_shortageonexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/labor_shortage/labor_shortageonexpectations3y_djn-eps-c
-onverted-to.pdf, id=291, 428.60126pt x 348.30125pt>
+onverted-to.pdf, id=297, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/labor_shortage/labor_shortageonexpectations3y_djn-
 eps-converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/labor_shortage/labor_shortageonexpectations3y_djn-e
@@ -1823,7 +1901,7 @@ baseline/bHP/labor_shortage/labor_shortageoninflation_djn.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/labor_shortage/labor_shortageoninflation_djn-eps-conver
-ted-to.pdf, id=292, 428.60126pt x 348.30125pt>
+ted-to.pdf, id=298, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/labor_shortage/labor_shortageoninflation_djn-eps-c
 onverted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/labor_shortage/labor_shortageoninflation_djn-eps-co
@@ -1845,7 +1923,7 @@ eline/bHP/labor_shortage/labor_shortageoneconac_djn.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/labor_shortage/labor_shortageoneconac_djn-eps-converted
--to.pdf, id=293, 428.60126pt x 348.30125pt>
+-to.pdf, id=299, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/labor_shortage/labor_shortageoneconac_djn-eps-conv
 erted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/labor_shortage/labor_shortageoneconac_djn-eps-conve
@@ -1867,7 +1945,7 @@ P/supply/supplyonexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/supply/supplyonexpectations1y_djn-eps-converted-to.pdf,
- id=294, 428.60126pt x 348.30125pt>
+ id=300, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/supply/supplyonexpectations1y_djn-eps-converted-to
 .pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/supply/supplyonexpectations1y_djn-eps-converted-to.
@@ -1889,7 +1967,7 @@ P/supply/supplyonexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/supply/supplyonexpectations3y_djn-eps-converted-to.pdf,
- id=295, 428.60126pt x 348.30125pt>
+ id=301, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/supply/supplyonexpectations3y_djn-eps-converted-to
 .pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/supply/supplyonexpectations3y_djn-eps-converted-to.
@@ -1910,8 +1988,8 @@ HP/supply/supplyoninflation_djn-eps-converted-to.pdf output/lp/baseline/bHP/sup
 ply/supplyoninflation_djn.eps>
 (epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/bHP/supply/supplyoninflation_djn-eps-converted-to.pdf, id=2
-96, 428.60126pt x 348.30125pt>
+<output/lp/baseline/bHP/supply/supplyoninflation_djn-eps-converted-to.pdf, id=3
+02, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/supply/supplyoninflation_djn-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use output/lp/baseline/bHP/supply/supplyoninflation_djn-eps-converted-to.pdf>
@@ -1931,7 +2009,7 @@ HP/supply/supplyoneconac_djn-eps-converted-to.pdf output/lp/baseline/bHP/supply
 /supplyoneconac_djn.eps>
 (epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/bHP/supply/supplyoneconac_djn-eps-converted-to.pdf, id=297,
+<output/lp/baseline/bHP/supply/supplyoneconac_djn-eps-converted-to.pdf, id=303,
  428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/supply/supplyoneconac_djn-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1971,7 +2049,7 @@ e/bHP/pandemic/pandemiconexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/pandemic/pandemiconexpectations1y_djn-eps-converted-to.
-pdf, id=415, 428.60126pt x 348.30125pt>
+pdf, id=421, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/pandemic/pandemiconexpectations1y_djn-eps-converte
 d-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/pandemic/pandemiconexpectations1y_djn-eps-converted
@@ -1993,7 +2071,7 @@ e/bHP/pandemic/pandemiconexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/pandemic/pandemiconexpectations3y_djn-eps-converted-to.
-pdf, id=416, 428.60126pt x 348.30125pt>
+pdf, id=422, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/pandemic/pandemiconexpectations3y_djn-eps-converte
 d-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/pandemic/pandemiconexpectations3y_djn-eps-converted
@@ -2015,7 +2093,7 @@ HP/pandemic/pandemiconinflation_djn-eps-converted-to.pdf output/lp/baseline/bHP
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/pandemic/pandemiconinflation_djn-eps-converted-to.pdf, 
-id=417, 428.60126pt x 348.30125pt>
+id=423, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/pandemic/pandemiconinflation_djn-eps-converted-to.
 pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/pandemic/pandemiconinflation_djn-eps-converted-to.p
@@ -2037,7 +2115,7 @@ ndemic/pandemiconeconac_djn.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/pandemic/pandemiconeconac_djn-eps-converted-to.pdf, id=
-418, 428.60126pt x 348.30125pt>
+424, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/pandemic/pandemiconeconac_djn-eps-converted-to.pdf
  Graphic file (type pdf)
 <use output/lp/baseline/bHP/pandemic/pandemiconeconac_djn-eps-converted-to.pdf>
@@ -2059,7 +2137,7 @@ e/bHP/politics/politicsonexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/politics/politicsonexpectations1y_djn-eps-converted-to.
-pdf, id=419, 428.60126pt x 348.30125pt>
+pdf, id=425, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/politics/politicsonexpectations1y_djn-eps-converte
 d-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/politics/politicsonexpectations1y_djn-eps-converted
@@ -2081,7 +2159,7 @@ e/bHP/politics/politicsonexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/politics/politicsonexpectations3y_djn-eps-converted-to.
-pdf, id=420, 428.60126pt x 348.30125pt>
+pdf, id=426, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/politics/politicsonexpectations3y_djn-eps-converte
 d-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/politics/politicsonexpectations3y_djn-eps-converted
@@ -2103,7 +2181,7 @@ HP/politics/politicsoninflation_djn-eps-converted-to.pdf output/lp/baseline/bHP
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/politics/politicsoninflation_djn-eps-converted-to.pdf, 
-id=421, 428.60126pt x 348.30125pt>
+id=427, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/politics/politicsoninflation_djn-eps-converted-to.
 pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/politics/politicsoninflation_djn-eps-converted-to.p
@@ -2125,7 +2203,7 @@ litics/politicsoneconac_djn.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/politics/politicsoneconac_djn-eps-converted-to.pdf, id=
-422, 428.60126pt x 353.32pt>
+428, 428.60126pt x 353.32pt>
 File: output/lp/baseline/bHP/politics/politicsoneconac_djn-eps-converted-to.pdf
  Graphic file (type pdf)
 <use output/lp/baseline/bHP/politics/politicsoneconac_djn-eps-converted-to.pdf>
@@ -2147,7 +2225,7 @@ waronexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/war/waronexpectations1y_djn-eps-converted-to.pdf, id=42
-3, 428.60126pt x 348.30125pt>
+9, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/war/waronexpectations1y_djn-eps-converted-to.pdf G
 raphic file (type pdf)
 <use output/lp/baseline/bHP/war/waronexpectations1y_djn-eps-converted-to.pdf>
@@ -2167,8 +2245,8 @@ HP/war/waronexpectations3y_djn-eps-converted-to.pdf output/lp/baseline/bHP/war/
 waronexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/bHP/war/waronexpectations3y_djn-eps-converted-to.pdf, id=42
-4, 428.60126pt x 348.30125pt>
+<output/lp/baseline/bHP/war/waronexpectations3y_djn-eps-converted-to.pdf, id=43
+0, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/war/waronexpectations3y_djn-eps-converted-to.pdf G
 raphic file (type pdf)
 <use output/lp/baseline/bHP/war/waronexpectations3y_djn-eps-converted-to.pdf>
@@ -2188,7 +2266,7 @@ HP/war/waroninflation_djn-eps-converted-to.pdf output/lp/baseline/bHP/war/waron
 inflation_djn.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/bHP/war/waroninflation_djn-eps-converted-to.pdf, id=425, 42
+<output/lp/baseline/bHP/war/waroninflation_djn-eps-converted-to.pdf, id=431, 42
 8.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/war/waroninflation_djn-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2209,7 +2287,7 @@ HP/war/waroneconac_djn-eps-converted-to.pdf output/lp/baseline/bHP/war/waroneco
 nac_djn.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/bHP/war/waroneconac_djn-eps-converted-to.pdf, id=426, 428.6
+<output/lp/baseline/bHP/war/waroneconac_djn-eps-converted-to.pdf, id=432, 428.6
 0126pt x 348.30125pt>
 File: output/lp/baseline/bHP/war/waroneconac_djn-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2231,7 +2309,7 @@ bt/debtonexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/debt/debtonexpectations1y_djn-eps-converted-to.pdf, id=
-427, 428.60126pt x 348.30125pt>
+433, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/debt/debtonexpectations1y_djn-eps-converted-to.pdf
  Graphic file (type pdf)
 <use output/lp/baseline/bHP/debt/debtonexpectations1y_djn-eps-converted-to.pdf>
@@ -2253,7 +2331,7 @@ bt/debtonexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/debt/debtonexpectations3y_djn-eps-converted-to.pdf, id=
-428, 428.60126pt x 348.30125pt>
+434, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/debt/debtonexpectations3y_djn-eps-converted-to.pdf
  Graphic file (type pdf)
 <use output/lp/baseline/bHP/debt/debtonexpectations3y_djn-eps-converted-to.pdf>
@@ -2274,7 +2352,7 @@ HP/debt/debtoninflation_djn-eps-converted-to.pdf output/lp/baseline/bHP/debt/de
 btoninflation_djn.eps>
 (epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/bHP/debt/debtoninflation_djn-eps-converted-to.pdf, id=429, 
+<output/lp/baseline/bHP/debt/debtoninflation_djn-eps-converted-to.pdf, id=435, 
 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/debt/debtoninflation_djn-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2295,7 +2373,7 @@ HP/debt/debtoneconac_djn-eps-converted-to.pdf output/lp/baseline/bHP/debt/debto
 neconac_djn.eps>
 (epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/bHP/debt/debtoneconac_djn-eps-converted-to.pdf, id=430, 428
+<output/lp/baseline/bHP/debt/debtoneconac_djn-eps-converted-to.pdf, id=436, 428
 .60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/debt/debtoneconac_djn-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2334,7 +2412,7 @@ taxes/taxesonexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/taxes/taxesonexpectations1y_djn-eps-converted-to.pdf, i
-d=548, 428.60126pt x 348.30125pt>
+d=554, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/taxes/taxesonexpectations1y_djn-eps-converted-to.p
 df Graphic file (type pdf)
 <use output/lp/baseline/bHP/taxes/taxesonexpectations1y_djn-eps-converted-to.pd
@@ -2356,7 +2434,7 @@ taxes/taxesonexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/taxes/taxesonexpectations3y_djn-eps-converted-to.pdf, i
-d=549, 428.60126pt x 348.30125pt>
+d=555, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/taxes/taxesonexpectations3y_djn-eps-converted-to.p
 df Graphic file (type pdf)
 <use output/lp/baseline/bHP/taxes/taxesonexpectations3y_djn-eps-converted-to.pd
@@ -2377,7 +2455,7 @@ HP/taxes/taxesoninflation_djn-eps-converted-to.pdf output/lp/baseline/bHP/taxes
 /taxesoninflation_djn.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/bHP/taxes/taxesoninflation_djn-eps-converted-to.pdf, id=550
+<output/lp/baseline/bHP/taxes/taxesoninflation_djn-eps-converted-to.pdf, id=556
 , 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/taxes/taxesoninflation_djn-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -2398,7 +2476,7 @@ HP/taxes/taxesoneconac_djn-eps-converted-to.pdf output/lp/baseline/bHP/taxes/ta
 xesoneconac_djn.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/bHP/taxes/taxesoneconac_djn-eps-converted-to.pdf, id=551, 4
+<output/lp/baseline/bHP/taxes/taxesoneconac_djn-eps-converted-to.pdf, id=557, 4
 28.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/taxes/taxesoneconac_djn-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -2420,7 +2498,7 @@ bHP/profits/profitsonexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/profits/profitsonexpectations1y_djn-eps-converted-to.pd
-f, id=552, 428.60126pt x 348.30125pt>
+f, id=558, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/profits/profitsonexpectations1y_djn-eps-converted-
 to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/profits/profitsonexpectations1y_djn-eps-converted-t
@@ -2442,7 +2520,7 @@ bHP/profits/profitsonexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/profits/profitsonexpectations3y_djn-eps-converted-to.pd
-f, id=553, 428.60126pt x 348.30125pt>
+f, id=559, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/profits/profitsonexpectations3y_djn-eps-converted-
 to.pdf Graphic file (type pdf)
 <use output/lp/baseline/bHP/profits/profitsonexpectations3y_djn-eps-converted-t
@@ -2464,7 +2542,7 @@ rofits/profitsoninflation_djn.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/bHP/profits/profitsoninflation_djn-eps-converted-to.pdf, id
-=554, 428.60126pt x 348.30125pt>
+=560, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/profits/profitsoninflation_djn-eps-converted-to.pd
 f Graphic file (type pdf)
 <use output/lp/baseline/bHP/profits/profitsoninflation_djn-eps-converted-to.pdf
@@ -2485,8 +2563,8 @@ HP/profits/profitsoneconac_djn-eps-converted-to.pdf output/lp/baseline/bHP/prof
 its/profitsoneconac_djn.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/bHP/profits/profitsoneconac_djn-eps-converted-to.pdf, id=55
-5, 428.60126pt x 348.30125pt>
+<output/lp/baseline/bHP/profits/profitsoneconac_djn-eps-converted-to.pdf, id=56
+1, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/bHP/profits/profitsoneconac_djn-eps-converted-to.pdf G
 raphic file (type pdf)
 <use output/lp/baseline/bHP/profits/profitsoneconac_djn-eps-converted-to.pdf>
@@ -2518,7 +2596,7 @@ ations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/level/government_spending/government_spendingonexpectations
-1y_djn-eps-converted-to.pdf, id=617, 428.60126pt x 352.31625pt>
+1y_djn-eps-converted-to.pdf, id=623, 428.60126pt x 352.31625pt>
 File: output/lp/baseline/level/government_spending/government_spendingonexpecta
 tions1y_djn-eps-converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/level/government_spending/government_spendingonexpectat
@@ -2527,27 +2605,27 @@ Package pdftex.def Info: output/lp/baseline/level/government_spending/governmen
 t_spendingonexpectations1y_djn-eps-converted-to.pdf  used on input line 6.
 (pdftex.def)             Requested size: 132.0238pt x 108.5234pt.
 Package epstopdf Info: Source file: <output/lp/baseline/level/monetary_policy/m
-onetary_policyonexpectations3y_djn.eps>
-(epstopdf)                    date: 2024-11-19 15:15:48
-(epstopdf)                    size: 111713 bytes
+onetary_policyonexpectations1y_djn.eps>
+(epstopdf)                    date: 2024-11-19 15:15:46
+(epstopdf)                    size: 111204 bytes
 (epstopdf)             Output file: <output/lp/baseline/level/monetary_policy/m
-onetary_policyonexpectations3y_djn-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-11-19 15:22:37
-(epstopdf)                    size: 127997 bytes
+onetary_policyonexpectations1y_djn-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-11-19 17:16:26
+(epstopdf)                    size: 132017 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=output/lp/baseline/l
-evel/monetary_policy/monetary_policyonexpectations3y_djn-eps-converted-to.pdf o
-utput/lp/baseline/level/monetary_policy/monetary_policyonexpectations3y_djn.eps
+evel/monetary_policy/monetary_policyonexpectations1y_djn-eps-converted-to.pdf o
+utput/lp/baseline/level/monetary_policy/monetary_policyonexpectations1y_djn.eps
 >
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/level/monetary_policy/monetary_policyonexpectations3y_djn-e
-ps-converted-to.pdf, id=618, 428.60126pt x 348.30125pt>
-File: output/lp/baseline/level/monetary_policy/monetary_policyonexpectations3y_
+<output/lp/baseline/level/monetary_policy/monetary_policyonexpectations1y_djn-e
+ps-converted-to.pdf, id=624, 428.60126pt x 348.30125pt>
+File: output/lp/baseline/level/monetary_policy/monetary_policyonexpectations1y_
 djn-eps-converted-to.pdf Graphic file (type pdf)
-<use output/lp/baseline/level/monetary_policy/monetary_policyonexpectations3y_d
+<use output/lp/baseline/level/monetary_policy/monetary_policyonexpectations1y_d
 jn-eps-converted-to.pdf>
 Package pdftex.def Info: output/lp/baseline/level/monetary_policy/monetary_poli
-cyonexpectations3y_djn-eps-converted-to.pdf  used on input line 10.
+cyonexpectations1y_djn-eps-converted-to.pdf  used on input line 10.
 (pdftex.def)             Requested size: 132.0238pt x 107.28668pt.
 Package epstopdf Info: Source file: <output/lp/baseline/level/supply_chain/supp
 ly_chainonexpectations1y_djn.eps>
@@ -2563,7 +2641,7 @@ lp/baseline/level/supply_chain/supply_chainonexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/level/supply_chain/supply_chainonexpectations1y_djn-eps-con
-verted-to.pdf, id=619, 428.60126pt x 348.30125pt>
+verted-to.pdf, id=625, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/level/supply_chain/supply_chainonexpectations1y_djn-ep
 s-converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/level/supply_chain/supply_chainonexpectations1y_djn-eps
@@ -2585,7 +2663,7 @@ ine/level/pandemic/pandemiconexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/level/pandemic/pandemiconexpectations1y_djn-eps-converted-t
-o.pdf, id=620, 428.60126pt x 348.30125pt>
+o.pdf, id=626, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/level/pandemic/pandemiconexpectations1y_djn-eps-conver
 ted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/level/pandemic/pandemiconexpectations1y_djn-eps-convert
@@ -2607,7 +2685,7 @@ ine/level/politics/politicsonexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/level/politics/politicsonexpectations3y_djn-eps-converted-t
-o.pdf, id=621, 428.60126pt x 348.30125pt>
+o.pdf, id=627, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/level/politics/politicsonexpectations3y_djn-eps-conver
 ted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/level/politics/politicsonexpectations3y_djn-eps-convert
@@ -2629,7 +2707,7 @@ war/waronexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/level/war/waronexpectations1y_djn-eps-converted-to.pdf, id=
-622, 428.60126pt x 348.30125pt>
+628, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/level/war/waronexpectations1y_djn-eps-converted-to.pdf
  Graphic file (type pdf)
 <use output/lp/baseline/level/war/waronexpectations1y_djn-eps-converted-to.pdf>
@@ -2651,7 +2729,7 @@ war/waronexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/level/war/waronexpectations3y_djn-eps-converted-to.pdf, id=
-623, 428.60126pt x 348.30125pt>
+629, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/level/war/waronexpectations3y_djn-eps-converted-to.pdf
  Graphic file (type pdf)
 <use output/lp/baseline/level/war/waronexpectations3y_djn-eps-converted-to.pdf>
@@ -2673,7 +2751,7 @@ e/level/profits/profitsonexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/level/profits/profitsonexpectations1y_djn-eps-converted-to.
-pdf, id=624, 428.60126pt x 348.30125pt>
+pdf, id=630, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/level/profits/profitsonexpectations1y_djn-eps-converte
 d-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/level/profits/profitsonexpectations1y_djn-eps-converted
@@ -2695,7 +2773,7 @@ e/level/profits/profitsonexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/level/profits/profitsonexpectations3y_djn-eps-converted-to.
-pdf, id=625, 428.60126pt x 350.30875pt>
+pdf, id=631, 428.60126pt x 350.30875pt>
 File: output/lp/baseline/level/profits/profitsonexpectations3y_djn-eps-converte
 d-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/level/profits/profitsonexpectations3y_djn-eps-converted
@@ -2719,7 +2797,7 @@ ions1y_djn.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/diff/government_spending/government_spendingonexpectations1
-y_djn-eps-converted-to.pdf, id=626, 428.60126pt x 348.30125pt>
+y_djn-eps-converted-to.pdf, id=632, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/diff/government_spending/government_spendingonexpectat
 ions1y_djn-eps-converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/diff/government_spending/government_spendingonexpectati
@@ -2728,26 +2806,26 @@ Package pdftex.def Info: output/lp/baseline/diff/government_spending/government
 _spendingonexpectations1y_djn-eps-converted-to.pdf  used on input line 6.
 (pdftex.def)             Requested size: 132.0238pt x 107.28668pt.
 Package epstopdf Info: Source file: <output/lp/baseline/diff/monetary_policy/mo
-netary_policyonexpectations3y_djn.eps>
-(epstopdf)                    date: 2024-11-19 15:22:48
-(epstopdf)                    size: 142779 bytes
+netary_policyonexpectations1y_djn.eps>
+(epstopdf)                    date: 2024-11-19 15:22:45
+(epstopdf)                    size: 164368 bytes
 (epstopdf)             Output file: <output/lp/baseline/diff/monetary_policy/mo
-netary_policyonexpectations3y_djn-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-11-19 15:22:56
-(epstopdf)                    size: 153417 bytes
+netary_policyonexpectations1y_djn-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-11-19 17:16:28
+(epstopdf)                    size: 171009 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=output/lp/baseline/d
-iff/monetary_policy/monetary_policyonexpectations3y_djn-eps-converted-to.pdf ou
-tput/lp/baseline/diff/monetary_policy/monetary_policyonexpectations3y_djn.eps>
+iff/monetary_policy/monetary_policyonexpectations1y_djn-eps-converted-to.pdf ou
+tput/lp/baseline/diff/monetary_policy/monetary_policyonexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
-<output/lp/baseline/diff/monetary_policy/monetary_policyonexpectations3y_djn-ep
-s-converted-to.pdf, id=627, 428.60126pt x 348.30125pt>
-File: output/lp/baseline/diff/monetary_policy/monetary_policyonexpectations3y_d
+<output/lp/baseline/diff/monetary_policy/monetary_policyonexpectations1y_djn-ep
+s-converted-to.pdf, id=633, 428.60126pt x 348.30125pt>
+File: output/lp/baseline/diff/monetary_policy/monetary_policyonexpectations1y_d
 jn-eps-converted-to.pdf Graphic file (type pdf)
-<use output/lp/baseline/diff/monetary_policy/monetary_policyonexpectations3y_dj
+<use output/lp/baseline/diff/monetary_policy/monetary_policyonexpectations1y_dj
 n-eps-converted-to.pdf>
 Package pdftex.def Info: output/lp/baseline/diff/monetary_policy/monetary_polic
-yonexpectations3y_djn-eps-converted-to.pdf  used on input line 10.
+yonexpectations1y_djn-eps-converted-to.pdf  used on input line 10.
 (pdftex.def)             Requested size: 132.0238pt x 107.28668pt.
 Package epstopdf Info: Source file: <output/lp/baseline/diff/supply_chain/suppl
 y_chainonexpectations1y_djn.eps>
@@ -2763,7 +2841,7 @@ p/baseline/diff/supply_chain/supply_chainonexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/diff/supply_chain/supply_chainonexpectations1y_djn-eps-conv
-erted-to.pdf, id=628, 428.60126pt x 348.30125pt>
+erted-to.pdf, id=634, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/diff/supply_chain/supply_chainonexpectations1y_djn-eps
 -converted-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/diff/supply_chain/supply_chainonexpectations1y_djn-eps-
@@ -2785,7 +2863,7 @@ ne/diff/pandemic/pandemiconexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/diff/pandemic/pandemiconexpectations1y_djn-eps-converted-to
-.pdf, id=629, 428.60126pt x 348.30125pt>
+.pdf, id=635, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/diff/pandemic/pandemiconexpectations1y_djn-eps-convert
 ed-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/diff/pandemic/pandemiconexpectations1y_djn-eps-converte
@@ -2807,7 +2885,7 @@ ne/diff/politics/politicsonexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/diff/politics/politicsonexpectations3y_djn-eps-converted-to
-.pdf, id=630, 428.60126pt x 348.30125pt>
+.pdf, id=636, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/diff/politics/politicsonexpectations3y_djn-eps-convert
 ed-to.pdf Graphic file (type pdf)
 <use output/lp/baseline/diff/politics/politicsonexpectations3y_djn-eps-converte
@@ -2829,7 +2907,7 @@ r/waronexpectations1y_djn.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/diff/war/waronexpectations1y_djn-eps-converted-to.pdf, id=6
-31, 428.60126pt x 348.30125pt>
+37, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/diff/war/waronexpectations1y_djn-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use output/lp/baseline/diff/war/waronexpectations1y_djn-eps-converted-to.pdf>
@@ -2850,7 +2928,7 @@ r/waronexpectations3y_djn.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/diff/war/waronexpectations3y_djn-eps-converted-to.pdf, id=6
-32, 428.60126pt x 348.30125pt>
+38, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/diff/war/waronexpectations3y_djn-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use output/lp/baseline/diff/war/waronexpectations3y_djn-eps-converted-to.pdf>
@@ -2871,7 +2949,7 @@ iff/profits/profitsonexpectations1y_djn-eps-converted-to.pdf output/lp/baseline
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/diff/profits/profitsonexpectations1y_djn-eps-converted-to.p
-df, id=633, 428.60126pt x 348.30125pt>
+df, id=639, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/diff/profits/profitsonexpectations1y_djn-eps-converted
 -to.pdf Graphic file (type pdf)
 <use output/lp/baseline/diff/profits/profitsonexpectations1y_djn-eps-converted-
@@ -2893,7 +2971,7 @@ iff/profits/profitsonexpectations3y_djn-eps-converted-to.pdf output/lp/baseline
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
 <output/lp/baseline/diff/profits/profitsonexpectations3y_djn-eps-converted-to.p
-df, id=634, 428.60126pt x 348.30125pt>
+df, id=640, 428.60126pt x 348.30125pt>
 File: output/lp/baseline/diff/profits/profitsonexpectations3y_djn-eps-converted
 -to.pdf Graphic file (type pdf)
 <use output/lp/baseline/diff/profits/profitsonexpectations3y_djn-eps-converted-
@@ -2903,7 +2981,7 @@ y_djn-eps-converted-to.pdf  used on input line 38.
 (pdftex.def)             Requested size: 132.0238pt x 107.28668pt.
 ) [17 <./output/lp/baseline/level/government_spending/government_spendingonexpe
 ctations1y_djn-eps-converted-to.pdf> <./output/lp/baseline/level/monetary_polic
-y/monetary_policyonexpectations3y_djn-eps-converted-to.pdf> <./output/lp/baseli
+y/monetary_policyonexpectations1y_djn-eps-converted-to.pdf> <./output/lp/baseli
 ne/level/supply_chain/supply_chainonexpectations1y_djn-eps-converted-to.pdf> <.
 /output/lp/baseline/level/pandemic/pandemiconexpectations1y_djn-eps-converted-t
 o.pdf> <./output/lp/baseline/level/politics/politicsonexpectations3y_djn-eps-co
@@ -2913,7 +2991,7 @@ erted-to.pdf> <./output/lp/baseline/level/profits/profitsonexpectations1y_djn-e
 ps-converted-to.pdf> <./output/lp/baseline/level/profits/profitsonexpectations3
 y_djn-eps-converted-to.pdf>] [18 <./output/lp/baseline/diff/government_spending
 /government_spendingonexpectations1y_djn-eps-converted-to.pdf> <./output/lp/bas
-eline/diff/monetary_policy/monetary_policyonexpectations3y_djn-eps-converted-to
+eline/diff/monetary_policy/monetary_policyonexpectations1y_djn-eps-converted-to
 .pdf> <./output/lp/baseline/diff/supply_chain/supply_chainonexpectations1y_djn-
 eps-converted-to.pdf> <./output/lp/baseline/diff/pandemic/pandemiconexpectation
 s1y_djn-eps-converted-to.pdf> <./output/lp/baseline/diff/politics/politicsonexp
@@ -2924,9 +3002,14 @@ xpectations1y_djn-eps-converted-to.pdf> <./output/lp/baseline/diff/profits/prof
 itsonexpectations3y_djn-eps-converted-to.pdf>]) [19]
 \openout3 = `bu.aux'.
 
- (appendix_doc.bbl) [20] (appendix_doc.aux (bu.aux))
+ (appendix_doc.bbl) [20] (appendix_doc.aux (bu.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+))
  ***********
-LaTeX2e <2023-11-01> patch level 1
+LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
  ***********
 
@@ -2937,28 +3020,35 @@ Package rerunfilecheck Info: File `appendix_doc.out' has not changed.
 (rerunfilecheck)             Checksum: E824C8651375AE1D9F440FC5A4D3444C;771.
  ) 
 Here is how much of TeX's memory you used:
- 31025 strings out of 474456
- 633770 string characters out of 5752542
- 1952190 words of memory out of 5000000
- 52644 multiletter control sequences out of 15000+600000
- 593916 words of font info for 111 fonts, out of 8000000 for 9000
+ 31131 strings out of 474587
+ 642674 string characters out of 5745693
+ 1950558 words of memory out of 5000000
+ 52615 multiletter control sequences out of 15000+600000
+ 591013 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,117p,1486b,857s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/bay1977/AppData/Roamin
-g/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/bay1977/AppData/Roaming
-/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/bay1977/AppData/Roaming/MiK
-TeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/bay1977/AppData/Roaming/MiKTeX/
-fonts/type1/public/newtx/ztmri.pfb>
-Output written on appendix_doc.pdf (20 pages, 11768720 bytes).
+ 99i,10n,117p,1486b,856s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{cite.Eshima.2023} has been referenced but does not 
+exist, replaced by a fixed one
+
+<C:/Users/mw001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb><C:/Users/mw001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb><C:/Users/mw001/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb><C:/Users/mw001/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmib10.pfb><C:/Users/mw001/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/mw001/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/mw001/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mw001/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/m
+w001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:
+/Users/mw001/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb
+><C:/Users/mw001/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pf
+b><C:/Users/mw001/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.p
+fb><C:/Users/mw001/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri
+.pfb>
+Output written on appendix_doc.pdf (20 pages, 11792532 bytes).
 PDF statistics:
- 862 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
+ 868 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
  433 words of extra memory for PDF output out of 10000 (max. 10000000)
 
