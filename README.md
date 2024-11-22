@@ -10,7 +10,7 @@ The repository contains the following folders:
 - **01_corpus**: Creates the corpus file from the raw Dow Jones newswire by prefiltering it by subject codes and keywords.
 - **02_spacy_script**: Python code to run lemmatization with spaCy.
 - **03_dfm**: Creates a document-term matrix (dfm) from the lemmatized corpus using quanteda and applies trimming to reduce size.
-- **04_keyATM**: Selects keywords (supported by word embeddings, etc.) and converts the dfm into a keyATM document; estimates the model with 5,000 iterations.
+- **04_keyATM**: Selects keywords (supported by word embeddings, etc.) and converts the dfm into a keyATM document; estimates the model with 5,000 iterations. 
 - **05_analyse_topics**: Conducts descriptive analysis of topic models and robustness checks between the DJN and WSJ corpora.
 - **06_LSS**: Estimates the polarity score using latent semantic scaling (LSS).
 - **07_tone_timeseries**: Multiplies the polarity score and topic proportions at the document level to create tone-adjusted time series.
