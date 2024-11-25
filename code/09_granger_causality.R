@@ -415,9 +415,9 @@ for (i in seq_along(topic_names)) {
 
 
 # Function to generate LaTeX table with custom formatting and caption
-generate_latex_table <- function(data, caption) {
+generate_latex_table <- function(data, caption, ref) {
   categories <- unique(data$Category)
-  latex_table <- paste0("\\begin{table}[ht]\n\\centering\n\\caption{", caption, "}\\label{tab:granger}\n\n\\begin{tabular}{lcc}\n\\toprule\n\\textbf{Narratives} & \\textbf{One-Year Expectations} & \\textbf{Three-Year Expectations} \\\\\n& (Pr($>$F)) & (Pr($>$F)) \\\\\n\\midrule\n")
+  latex_table <- paste0("\\begin{table}[ht]\n\\centering\n\\caption{", caption, "}\\label{",ref,"}\n\n\\begin{tabular}{lcc}\n\\toprule\n\\textbf{Narratives} & \\textbf{One-Year Expectations} & \\textbf{Three-Year Expectations} \\\\\n& (Pr($>$F)) & (Pr($>$F)) \\\\\n\\midrule\n")
   
   for (cat in categories) {
     latex_table <- paste0(latex_table, "\\multicolumn{3}{l}{\\textbf{", cat, "}} \\\\\n\\midrule\n")
@@ -437,7 +437,7 @@ generate_latex_table <- function(data, caption) {
 
 # Example of generating and saving the LaTeX table with a custom caption
 custom_caption <- "Narrative $\\rightarrow$ Expectations Granger causality (boosted HP-Filter)"
-latex_table_bHP <- generate_latex_table(base_bHP, custom_caption)
+latex_table_bHP <- generate_latex_table(base_bHP, custom_caption, "tab:granger_bHP")
 write(latex_table_bHP, file = "./text/output/granger/baseline/bHP/granger_bHP_base.tex")
 
 
@@ -453,6 +453,7 @@ base_bHP_feedback<- tibble(
   "CPI Inflation" = format_p_value(p_value[3]),
   "Economic Activity" = format_p_value(p_value[4])
 )
+
 
 
 # Iterate across topic names
@@ -475,7 +476,7 @@ for (i in seq_along(topic_names)) {
 # 26 warnings regarding "dummy" name
 
 custom_caption <- "Expectations $\\rightarrow$ Narrative Granger causality (boosted HP-Filter)"
-latex_table_bHP_feedback <- generate_latex_table(base_bHP_feedback, custom_caption)
+latex_table_bHP<- generate_latex_table_feedback(base_bHP_feedback, custom_caption, "tab:granger_bHP_feedback")
 write(latex_table_bHP_feedback, file = "./text/output/granger/baseline/bHP/granger_bHP_base_feedback.tex")
 
 
@@ -490,6 +491,7 @@ base_level<- tibble(
   "1-Year Expectations" = character(),
   "3-Year Expectations" = character()
 )
+
 
 
 # Iterate across topics
@@ -509,7 +511,7 @@ for (i in seq_along(topic_names)) {
 # 26 warnings regarding "dummy" name
 
 custom_caption <- "Narrative $\\rightarrow$ Expectations Granger causality (level)"
-latex_table_level <- generate_latex_table(base_level, custom_caption)
+latex_table_level <- generate_latex_table(base_level, custom_caption, "tab:granger_level")
 write(latex_table_level, file = "./text/output/granger/baseline/level/granger_level_base.tex")
 
 
@@ -541,7 +543,7 @@ for (i in seq_along(topic_names)) {
 # 26 warnings regarding "dummy" name
 
 custom_caption <- "Expectations $\\rightarrow$ Narrative Granger causality (level)"
-latex_table_level_feedback <- generate_latex_table(base_level_feedback, custom_caption)
+latex_table_level_feedback <- generate_latex_table(base_level_feedback, custom_caption, "tab:granger_level_feedback")
 write(latex_table_level_feedback, file = "./text/output/granger/baseline/level/granger_level_base_feedback.tex")
 
 
@@ -577,7 +579,7 @@ for (i in seq_along(topic_names)) {
 
 
 custom_caption <- "Narrative $\\rightarrow$ Expectations Granger causality (differences)"
-latex_table_diff <- generate_latex_table(base_diff, custom_caption)
+latex_table_diff <- generate_latex_table(base_diff, custom_caption, "tab:granger_diff")
 write(latex_table_diff, file = "./text/output/granger/baseline/diff/granger_diff_base.tex")
 
 
@@ -595,7 +597,7 @@ write(latex_table_diff, file = "./text/output/granger/baseline/diff/granger_diff
 # Function to generate LaTeX table with custom formatting and caption (income heterogeneity)
 generate_latex_table_income <- function(data, caption) {
   categories <- unique(data$Category)
-  latex_table <- paste0("\\begin{sidewaystable}[H]\n\\centering\n\\footnotesize\n\\caption{", caption, "}\\label{table:granger}\n\n\\begin{tabular}{lcccccc}\n \\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Income} & \\textbf{3-Year Low Income} & \\textbf{1-Year Mid Income} & \\textbf{3-Year Mid Income} & \\textbf{1-Year High Income} & \\textbf{3-Year High Income} \\\\\n\\midrule\n")
+  latex_table <- paste0("\\begin{sidewaystable}[H]\n\\centering\n\\footnotesize\n\\caption{", caption, "}\\label{tab:granger_bHP_income}\n\n\\begin{tabular}{lcccccc}\n \\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Income} & \\textbf{3-Year Low Income} & \\textbf{1-Year Mid Income} & \\textbf{3-Year Mid Income} & \\textbf{1-Year High Income} & \\textbf{3-Year High Income} \\\\\n\\midrule\n")
   
   for (cat in categories) {
     latex_table <- paste0(latex_table, "\\multicolumn{7}{l}{\\textbf{", cat, "}} \\\\\n\\midrule\n")
@@ -674,7 +676,7 @@ write(latex_table_income_bHP, file = "./text/output/granger/income/granger_incom
 # Function to generate LaTeX table with custom formatting and caption (income heterogeneity)
 generate_latex_table_educ <- function(data, caption) {
   categories <- unique(data$Category)
-  latex_table <- paste0("\\begin{sidewaystable}[H]\n\\centering\n\\footnotesize\n\\caption{", caption, "}\\label{table:granger}\n\n\\begin{tabular}{lcccccc}\n\\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Education} & \\textbf{3-Year Low Education} & \\textbf{1-Year Mid Education} & \\textbf{3-Year Mid Education} & \\textbf{1-Year High Education} & \\textbf{3-Year High Education} \\\\\n\\midrule\n")
+  latex_table <- paste0("\\begin{sidewaystable}[H]\n\\centering\n\\footnotesize\n\\caption{", caption, "}\\label{tab:granger_bHP_educ}\n\n\\begin{tabular}{lcccccc}\n\\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Education} & \\textbf{3-Year Low Education} & \\textbf{1-Year Mid Education} & \\textbf{3-Year Mid Education} & \\textbf{1-Year High Education} & \\textbf{3-Year High Education} \\\\\n\\midrule\n")
   
   for (cat in categories) {
     latex_table <- paste0(latex_table, "\\multicolumn{7}{l}{\\textbf{", cat, "}} \\\\\n\\midrule\n")
@@ -744,7 +746,7 @@ write(latex_table_education_bHP, file = "./text/output/granger/education/granger
 # Function to generate LaTeX table with custom formatting and caption (age heterogeneity)
 generate_latex_table_age <- function(data, caption) {
   categories <- unique(data$Category)
-  latex_table <- paste0("\\begin{sidewaystable}[H]\n\\centering\n\\footnotesize\n\\caption{", caption, "}\\label{table:granger}\n\n\\begin{tabular}{lcccccc}\n\\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Age} & \\textbf{3-Year Low Age} & \\textbf{1-Year Mid Age} & \\textbf{3-Year Mid Age} & \\textbf{1-Year High Age} & \\textbf{3-Year High Age} \\\\\n\\midrule\n")
+  latex_table <- paste0("\\begin{sidewaystable}[H]\n\\centering\n\\footnotesize\n\\caption{", caption, "}\\label{tab:granger_bHP_age}\n\n\\begin{tabular}{lcccccc}\n\\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Age} & \\textbf{3-Year Low Age} & \\textbf{1-Year Mid Age} & \\textbf{3-Year Mid Age} & \\textbf{1-Year High Age} & \\textbf{3-Year High Age} \\\\\n\\midrule\n")
   
   for (cat in categories) {
     latex_table <- paste0(latex_table, "\\multicolumn{7}{l}{\\textbf{", cat, "}} \\\\\n\\midrule\n")
@@ -814,7 +816,7 @@ write(latex_table_age_bHP, file = "./text/output/granger/age/granger_age_bHP.tex
 # Function to generate LaTeX table with custom formatting and caption (numeracy heterogeneity)
 generate_latex_table_numeracy <- function(data, caption) {
   categories <- unique(data$Category)
-  latex_table <- paste0("\\begin{sidewaystable}[H]\n\\centering\n\\footnotesize\n\\caption{", caption, "}\\label{table:granger}\n\n\\begin{tabular}{lcccc}\n\\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Numeracy} & \\textbf{3-Year Low Numeracy} & \\textbf{1-Year High Numeracy} & \\textbf{3-Year High Numeracy} \\\\\n\\midrule\n")
+  latex_table <- paste0("\\begin{sidewaystable}[H]\n\\centering\n\\footnotesize\n\\caption{", caption, "}\\label{tab:granger_bHP_num}\n\n\\begin{tabular}{lcccc}\n\\toprule\n\\textbf{Narratives} & \\textbf{1-Year Low Numeracy} & \\textbf{3-Year Low Numeracy} & \\textbf{1-Year High Numeracy} & \\textbf{3-Year High Numeracy} \\\\\n\\midrule\n")
   
   for (cat in categories) {
     latex_table <- paste0(latex_table, "\\multicolumn{5}{l}{\\textbf{", cat, "}} \\\\\n\\midrule\n")
@@ -863,7 +865,7 @@ for (i in seq_along(topic_names)) {
                            "3-Year High Numeracy" = format_p_value(p_value_high[1]))
 }
 
-custom_caption <- "Numeracy: Narrative $\\\rightarrow$ Expectations Granger causality (bHP-Filter)"
+custom_caption <- "Numeracy: Narrative $\\rightarrow$ Expectations Granger causality (bHP-Filter)"
 latex_table_numeracy_bHP<- generate_latex_table_numeracy(numeracy_bHP, custom_caption)
 write(latex_table_numeracy_bHP, file = "./text/output/granger/numeracy/granger_numeracy_bHP.tex")
 
