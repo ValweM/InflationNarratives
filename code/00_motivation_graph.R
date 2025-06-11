@@ -82,7 +82,7 @@ colors <- c("Inflation" = colors[1], "Activity" = colors[2], "Expectation 1y" = 
 
 scale = 3
 
-ggsave("./text/figures/all_data.eps", device = cairo_ps, width = 15, height = 7)
+ggsave("./text/figures/all_data.eps", device = cairo_ps, width = 15, height = 6)
 ggplot(test, aes(x=date,)) +
   geom_line(aes(y=cpi_dlog*100, color = "Inflation"), linewidth =2)+
   geom_line(aes(y=econ_dlog*100/scale, color = "Activity"), linewidth =2)+

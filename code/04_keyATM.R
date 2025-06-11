@@ -44,7 +44,6 @@ supply <- c("supply", "production", "capacity", "inventory", "industry")
 
 
 
-
 ## define list of keywords
 
 keywords <- list(

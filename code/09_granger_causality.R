@@ -13,7 +13,7 @@ gc()
 mypackages <- c("dplyr", "vars", "tseries",
                 "forecast", "lubridate",
                 "ggplot2", "tidyr", "readxl", "car",
-                "sandwich", "dynlm", "bruceR", "xtable")
+                "sandwich", "dynlm", "xtable")
 
 lapply(mypackages, require, character.only = TRUE)
 
@@ -374,11 +374,11 @@ format_p_value <- function(p) {
   if (p < 0.01) {
     return("$<$0.01 ***")
   } else if (p < 0.05) {
-    return(sprintf("%.2f **", p))
+    return(sprintf("%.3f **", p))
   } else if (p < 0.1) {
-    return(sprintf("%.2f *", p))
+    return(sprintf("%.3f *", p))
   } else {
-    return(sprintf("%.2f", p))
+    return(sprintf("%.3f", p))
   }
 }
 
@@ -417,19 +417,21 @@ for (i in seq_along(topic_names)) {
 # Function to generate LaTeX table with custom formatting and caption
 generate_latex_table <- function(data, caption, ref) {
   categories <- unique(data$Category)
-  latex_table <- paste0("\\begin{table}[ht]\n\\centering\n\\caption{", caption, "}\\label{",ref,"}\n\n\\begin{tabular}{lcc}\n\\toprule\n\\textbf{Narratives} & \\textbf{One-Year Expectations} & \\textbf{Three-Year Expectations} \\\\\n& (Pr($>$F)) & (Pr($>$F)) \\\\\n\\midrule\n")
+  latex_table <- paste0("\\begin{table}[ht]\n\\centering\n\\footnotesize\n\\caption{", caption,
+                        "}\\label{",ref,
+                        "}\n\n\\begin{tabular}{lcccc}\n\\toprule\n\\textbf{Narratives} & \\textbf{One-Year Expectations} & \\textbf{Three-Year Expectations} & \\textbf{CPI Inflation} & \\textbf{Economic Activity} \\\\\n& (Pr($>$F)) & (Pr($>$F)) & (Pr($>$F)) & (Pr($>$F)) \\\\\n\\midrule\n")
   
   for (cat in categories) {
-    latex_table <- paste0(latex_table, "\\multicolumn{3}{l}{\\textbf{", cat, "}} \\\\\n\\midrule\n")
+    latex_table <- paste0(latex_table, "\\multicolumn{5}{l}{\\textbf{", cat, "}} \\\\\n\\midrule\n")
     subset <- data[data$Category == cat, ]
     for (i in 1:nrow(subset)) {
-      latex_table <- paste0(latex_table, subset$Narrative[i], " & ", subset$`1-Year Expectations`[i], " & ", subset$`3-Year Expectations`[i], " \\\\\n")
+      latex_table <- paste0(latex_table, subset$Narrative[i], " & ", subset$`1-Year Expectations`[i], " & ", subset$`3-Year Expectations`[i], "&", subset$`CPI Inflation`[i], "&", subset$`Economic Activity`[i], " \\\\\n")
     }
     latex_table <- paste0(latex_table, "\\midrule\n")
   }
   
   latex_table <- sub("\\midrule\n\\midrule\n$", "\\midrule\n", latex_table)  # Remove the last midrule
-  latex_table <- paste0(latex_table, "\\bottomrule\n\\textit{Note:}  & \\multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}")
+  latex_table <- paste0(latex_table, "\\bottomrule\n\\textit{Note:}  & \\multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}")
   
   return(latex_table)
 }
@@ -450,8 +452,8 @@ base_bHP_feedback<- tibble(
   Category = character(),
   "1-Year Expectations" = character(),
   "3-Year Expectations" = character(),
-  "CPI Inflation" = format_p_value(p_value[3]),
-  "Economic Activity" = format_p_value(p_value[4])
+  "CPI Inflation" = character(),
+  "Economic Activity" = character()
 )
 
 
@@ -476,8 +478,9 @@ for (i in seq_along(topic_names)) {
 # 26 warnings regarding "dummy" name
 
 custom_caption <- "Expectations $\\rightarrow$ Narrative Granger causality (boosted HP-Filter)"
-latex_table_bHP<- generate_latex_table_feedback(base_bHP_feedback, custom_caption, "tab:granger_bHP_feedback")
+latex_table_bHP_feedback<- generate_latex_table(base_bHP_feedback, custom_caption, "tab:granger_bHP_feedback")
 write(latex_table_bHP_feedback, file = "./text/output/granger/baseline/bHP/granger_bHP_base_feedback.tex")
+
 
 
 
@@ -489,7 +492,9 @@ base_level<- tibble(
   Narrative = character(),
   Category = character(),
   "1-Year Expectations" = character(),
-  "3-Year Expectations" = character()
+  "3-Year Expectations" = character(),
+  "CPI Inflation" = character(),
+  "Economic Activity" = character()
 )
 
 
@@ -499,11 +504,15 @@ for (i in seq_along(topic_names)) {
   p_value <- granger_cause(topic_names[i], datatype = "level", modeltype = "djn", var = "base")
   
   base_level<- add_row(base_level,
-                    Narrative = topic_table[i],
-                    Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
-                                      ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)"), "Supply", "Miscellaneous")),
-                    "1-Year Expectations" = format_p_value(p_value[2]),
-                    "3-Year Expectations" = format_p_value(p_value[1])
+                       Narrative = topic_table[i],
+                       Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
+                                         ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)"), "Supply", "Miscellaneous")),
+                       "1-Year Expectations" = format_p_value(p_value[2]),
+                       "3-Year Expectations" = format_p_value(p_value[1]),
+                       "CPI Inflation" = format_p_value(p_value[3]),
+                       "Economic Activity" = format_p_value(p_value[4])
+                    
+                    
   )
 }
 
@@ -522,7 +531,9 @@ base_level_feedback<- tibble(
   Narrative = character(),
   Category = character(),
   "1-Year Expectations" = character(),
-  "3-Year Expectations" = character()
+  "3-Year Expectations" = character(),
+  "CPI Inflation" = character(),
+  "Economic Activity" = character()
 )
 
 
@@ -531,11 +542,13 @@ for (i in seq_along(topic_names)) {
   p_value <- granger_cause(topic_names[i], datatype = "level", modeltype = "djn", var = "base", reverse = TRUE)
   
   base_level_feedback <- add_row(base_level_feedback,
-                              Narrative = topic_table[i],
-                              Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
-                                                ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual"), "Supply", "Miscellaneous")),
-                              "1-Year Expectations" = format_p_value(p_value[2]),
-                              "3-Year Expectations" = format_p_value(p_value[1])
+                                 Narrative = topic_table[i],
+                                 Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
+                                                   ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)"), "Supply", "Miscellaneous")),
+                                 "1-Year Expectations" = format_p_value(p_value[2]),
+                                 "3-Year Expectations" = format_p_value(p_value[1]),
+                                 "CPI Inflation" = format_p_value(p_value[3]),
+                                 "Economic Activity" = format_p_value(p_value[4])
   )
 }
 
@@ -555,7 +568,9 @@ base_diff<- tibble(
   Narrative = character(),
   Category = character(),
   "1-Year Expectations" = character(),
-  "3-Year Expectations" = character()
+  "3-Year Expectations" = character(),
+  "CPI Inflation" = character(),
+  "Economic Activity" = character()
 )
 
 
@@ -564,11 +579,13 @@ for (i in seq_along(topic_names)) {
   p_value <- granger_cause(topic_names[i], datatype = "diff", modeltype = "djn", var = "base")
   
   base_diff<- add_row(base_diff,
-                    Narrative = topic_table[i],
-                    Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residuals)"), "Demand",
-                                      ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residuals)"), "Supply", "Miscellaneous")),
-                    "1-Year Expectations" = format_p_value(p_value[2]),
-                    "3-Year Expectations" = format_p_value(p_value[1])
+                      Narrative = topic_table[i],
+                      Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
+                                        ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)"), "Supply", "Miscellaneous")),
+                      "1-Year Expectations" = format_p_value(p_value[2]),
+                      "3-Year Expectations" = format_p_value(p_value[1]),
+                      "CPI Inflation" = format_p_value(p_value[3]),
+                      "Economic Activity" = format_p_value(p_value[4])
   )
 }
 
@@ -582,6 +599,43 @@ custom_caption <- "Narrative $\\rightarrow$ Expectations Granger causality (diff
 latex_table_diff <- generate_latex_table(base_diff, custom_caption, "tab:granger_diff")
 write(latex_table_diff, file = "./text/output/granger/baseline/diff/granger_diff_base.tex")
 
+
+
+
+
+## Estimation Diff Feedback
+
+base_diff_feedback<- tibble(
+  Narrative = character(),
+  Category = character(),
+  "1-Year Expectations" = character(),
+  "3-Year Expectations" = character(),
+  "CPI Inflation" = character(),
+  "Economic Activity" = character()
+)
+
+
+# Iterate across topic names
+for (i in seq_along(topic_names)) {
+  p_value <- granger_cause(topic_names[i], datatype = "diff", modeltype = "djn", var = "base", reverse = TRUE)
+  
+  base_diff_feedback <- add_row(base_diff_feedback,
+                                 Narrative = topic_table[i],
+                                 Category = ifelse(topic_table[i] %in% c("Government Spending", "Monetary Policy", "Demand Shift", "Demand (residual)"), "Demand",
+                                                   ifelse(topic_table[i] %in% c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)"), "Supply", "Miscellaneous")),
+                                 "1-Year Expectations" = format_p_value(p_value[2]),
+                                 "3-Year Expectations" = format_p_value(p_value[1]),
+                                 "CPI Inflation" = format_p_value(p_value[3]),
+                                 "Economic Activity" = format_p_value(p_value[4])
+  )
+}
+
+
+# 26 warnings regarding "dummy" name
+
+custom_caption <- "Expectations $\\rightarrow$ Narrative Granger causality (differences)"
+latex_table_diff_feedback <- generate_latex_table(base_diff_feedback, custom_caption, "tab:granger_level_feedback")
+write(latex_table_level_feedback, file = "./text/output/granger/baseline/diff/granger_diff_base_feedback.tex")
 
 
 

@@ -9,7 +9,7 @@ gc()
 ## load required packages
 
 mypackages <- c("dplyr", "quanteda", "quanteda.corpora", "LSX", "text2vec", "textdata",
-                "stringr", "ggplot2", "ggrepel", "readxl")
+                "stringr", "ggplot2", "ggrepel", "readxl", "lubridate", "kableExtra")
 
 lapply(mypackages, require, character.only = TRUE)
 
@@ -224,9 +224,8 @@ inf_dlog<- ts((1 + diff(log(inf_ts)))^12-1, start = c(2018, 1), frequency = 12)
 
 plot.ts(inf_dlog)
 
-## correlation check
 
-library(lubridate)
+## correlation check
 
 corr_data <- tibble(date = dat$date, sentiment = dat$fit)
 
@@ -234,21 +233,7 @@ corr_data <- corr_data %>%
   group_by(year_month = floor_date(date, "month")) %>%
   dplyr::summarize(sentiment = mean(sentiment)) %>%
   mutate(sentiment = ifelse(is.na(sentiment), 0, sentiment)) %>%
-  mutate(cpi = inf_ts[2:62])
-
-head(corr_data)
-
-ts.plot(inf_ts)
-plot(x=corr_data$year_month, y = corr_data$sentiment, type = "l")
-lines(corr_data$year_month, corr_data$cpi)
-
-
-
-cor(corr_data$sentiment, corr_data$cpi, method = "spearman")
-cor(corr_data$sentiment, corr_data$cpi, method = "pearson")
-
-
-
+  mutate(cpi = inf_dlog)
 
 exp <- read_xlsx("./data/localprojections/infl_exp_1y_3y.xlsx")
 
@@ -262,17 +247,70 @@ exp <- exp %>%
 
 
 # Create Time Series
+
 exp1y_ts <- ts(exp$exp1y, frequency = 12, start = c(2017, 12))
 exp3y_ts <- ts(exp$exp3y, frequency = 12, start = c(2017, 12))
-
-
 
 corr_data <- corr_data %>%
   mutate(exp1y = exp1y_ts[2:62]) %>%
   mutate(exp3y = exp3y_ts[2:62])
 
-cor(corr_data$sentiment, corr_data$exp1y)
-cor(corr_data$sentiment, corr_data$exp3y)
+
+
+## correlation with econ
+
+econ <- read.csv("./data/localprojections/USPHCI.csv")
+head(econ)
+
+econ <- econ %>%
+  mutate(DATE = as.Date(DATE)) %>%
+  filter(DATE <= as.Date("2023-01-01") & DATE >= as.Date("2017-12-01")) %>%
+  dplyr::rename(econ_ac = USPHCI) %>%
+  dplyr::select(econ_ac)
+
+
+# create time series
+
+econ_ts <- ts(econ, frequency = 12, start = c(2017, 12))
+
+
+# seasonally adjusted at annual rates
+
+econ_dlog<- ts((1 + diff(log(econ_ts)))^12-1, start = c(2018, 1), frequency = 12)
+
+corr_data <- corr_data %>%
+  mutate(econ = econ_dlog)
+
+
+
+# Calculate all correlations
+cor_sentiment_cpi     <- cor(corr_data$sentiment, corr_data$cpi, method = "pearson")
+cor_sentiment_exp1y   <- cor(corr_data$sentiment, corr_data$exp1y, method = "pearson")
+cor_sentiment_exp3y   <- cor(corr_data$sentiment, corr_data$exp3y, method = "pearson")
+cor_sentiment_econ    <- cor(corr_data$sentiment, corr_data$econ, method = "pearson")
+
+# Create a data frame for the table
+cor_table <- data.frame(
+  Variable = c("CPI Inflation (YoY, log diff)", 
+               "1-Year Inflation Expectation", 
+               "3-Year Inflation Expectation", 
+               "Economic Activity Index (YoY, log diff)"),
+  `Pearson Correlation` = round(c(
+    cor_sentiment_cpi,
+    cor_sentiment_exp1y,
+    cor_sentiment_exp3y,
+    cor_sentiment_econ
+  ), 3)
+)
+
+# Create LaTeX table using kable
+custom_caption <- "Pearson correlation coefficients between monthly direction score and selected macroeconomic indicators, including CPI inflation, short- and medium-term inflation expectations, and economic activity."
+cor_table_latex <- cor_table %>%
+  kable("latex", booktabs = TRUE, linesep = "", caption = custom_caption) %>%
+  kable_styling(latex_options = c("striped", "hold_position"))
+
+write(cor_table_latex, file = "./text/tables/cor_table.tex")
+
 
 ## save the data
 

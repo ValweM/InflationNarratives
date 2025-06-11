@@ -324,26 +324,24 @@ colors <- custom_palette(num_colors)
 
 # create plot of all topics
 
-postscript("./text/figures/narratives_all.eps", width = 2000, height = 1200)
-
-
-ggplot(djn_data, aes(x = date, y = proportion, fill = topic)) +
+plot_narr <- ggplot(djn_data, aes(x = date, y = proportion, fill = topic)) +
   geom_stream(color = 1, lwd = 0.25, type = "proportional") +
   geom_stream_label(aes(label = names, fontface = "bold"), 
                     type = "proportional",
                     size = 4) +
-                    #hjust = 0.2,  
-                    #vjust = 1) +
   labs(x = "Year",
        y = "Smoothed Proportions",
        fill = "Topics") +
-  scale_fill_manual(values = colors)+
+  scale_fill_manual(values = colors) +
   scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
   theme_minimal() +
-  
   theme(legend.position = "none", text = element_text(size = 15))
 
-dev.off()
+ggsave("./text/figures/narratives_all.eps",
+       plot = plot_narr,
+       device = cairo_ps,   # recommended for EPS
+       width = 15,
+       height = 9)
 
 
 ## Mean Proportions before and after pandemic outbreak #####
@@ -430,5 +428,4 @@ ggplot(vis_data, aes(x = date, y = proportion, color = dataset, group = interact
   theme_bw()
 
 dev.off()
-
 

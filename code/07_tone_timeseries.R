@@ -152,7 +152,7 @@ plot_sdemand <- ggplot(sdjn_demand, aes(x = date, y = 100 * proportion, color = 
 
 
 
-ggsave("./text/figures/plot_sdemand.eps", plot = plot_sdemand, device = cairo_ps, width = 15, height = 7)
+ggsave("./text/figures/plot_sdemand.eps", plot = plot_sdemand, device = cairo_ps, width = 15, height = 6)
 
 
 
@@ -193,7 +193,7 @@ plot_ssupply <- ggplot(sdjn_supply, aes(x = date, y = 100 * proportion, color = 
     labels = c("Supply Chain", "Energy", "Labor Shortage", "Supply (residual)")
   )
 
-ggsave(filename = "./text/figures/plot_ssupply.eps", plot = plot_ssupply, device = cairo_ps, width = 15, height = 7)
+ggsave(filename = "./text/figures/plot_ssupply.eps", plot = plot_ssupply, device = cairo_ps, width = 15, height = 6)
 
 
 
@@ -235,7 +235,7 @@ plot_sothers <- ggplot(sdjn_others, aes(x = date, y = 100 * proportion, color = 
     labels = c("Pandemic", "Politics", "War", "Government Debt", "Taxes", "Profits")
   )
 
-ggsave(filename = "./text/figures/plot_sothers.eps", plot = plot_sothers, device = cairo_ps, width = 15, height = 7)
+ggsave(filename = "./text/figures/plot_sothers.eps", plot = plot_sothers, device = cairo_ps, width = 15, height = 6)
 
 
 
@@ -254,4 +254,5 @@ ggplot(vis_data, aes(x = date, y = proportion, color = dataset, group = interact
   theme_bw()
 
 dev.off()
+
 

@@ -1,37 +1,38 @@
 \begin{table}[ht]
 \centering
+\footnotesize
 \caption{Narrative $\rightarrow$ Expectations Granger causality (level)}\label{tab:granger_level}
 
-\begin{tabular}{lcc}
+\begin{tabular}{lcccc}
 \toprule
-\textbf{Narratives} & \textbf{One-Year Expectations} & \textbf{Three-Year Expectations} \\
-& (Pr($>$F)) & (Pr($>$F)) \\
+\textbf{Narratives} & \textbf{One-Year Expectations} & \textbf{Three-Year Expectations} & \textbf{CPI Inflation} & \textbf{Economic Activity} \\
+& (Pr($>$F)) & (Pr($>$F)) & (Pr($>$F)) & (Pr($>$F)) \\
 \midrule
-\multicolumn{3}{l}{\textbf{Demand}} \\
+\multicolumn{5}{l}{\textbf{Demand}} \\
 \midrule
-Government Spending & 0.23 & 0.38 \\
-Monetary Policy & 0.68 & 0.01 ** \\
-Demand Shift & 0.02 ** & $<$0.01 *** \\
-Demand (residual) & 0.31 & 0.13 \\
+Government Spending & 0.225 & 0.375&0.528&0.600 \\
+Monetary Policy & 0.683 & 0.011 **&0.344&0.202 \\
+Demand Shift & 0.021 ** & $<$0.01 ***&0.619&0.586 \\
+Demand (residual) & 0.311 & 0.132&0.214&0.491 \\
 \midrule
-\multicolumn{3}{l}{\textbf{Supply}} \\
+\multicolumn{5}{l}{\textbf{Supply}} \\
 \midrule
-Supply Chain & $<$0.01 *** & 0.03 ** \\
-Energy & 0.83 & 0.26 \\
-Labor Shortage & 0.15 & 0.12 \\
-Supply (residual) & 0.18 & $<$0.01 *** \\
+Supply Chain & $<$0.01 *** & 0.025 **&0.097 *&0.581 \\
+Energy & 0.833 & 0.262&0.618&0.253 \\
+Labor Shortage & 0.153 & 0.121&0.133&0.643 \\
+Supply (residual) & 0.184 & $<$0.01 ***&0.560&0.073 * \\
 \midrule
-\multicolumn{3}{l}{\textbf{Miscellaneous}} \\
+\multicolumn{5}{l}{\textbf{Miscellaneous}} \\
 \midrule
-Pandemic & 0.76 & 0.94 \\
-Politics & 0.15 & 0.10 * \\
-War & 0.76 & 0.24 \\
-Debt & 0.79 & 0.07 * \\
-Taxes & 0.56 & 0.50 \\
-Profits & $<$0.01 *** & $<$0.01 *** \\
+Pandemic & 0.760 & 0.937&$<$0.01 ***&$<$0.01 *** \\
+Politics & 0.149 & 0.096 *&0.447&0.315 \\
+War & 0.763 & 0.235&0.983&0.327 \\
+Debt & 0.788 & 0.070 *&0.654&0.224 \\
+Taxes & 0.558 & 0.499&0.815&0.254 \\
+Profits & $<$0.01 *** & $<$0.01 ***&0.843&0.203 \\
 \midrule
 \bottomrule
-\textit{Note:}  & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
 \bottomrule
 \end{tabular}
 \end{table}
